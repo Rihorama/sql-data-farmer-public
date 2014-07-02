@@ -1,0 +1,522 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: t_bigint; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_bigint (
+    a1 bigint
+);
+
+
+ALTER TABLE public.t_bigint OWNER TO re;
+
+--
+-- Name: t_bigserial; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_bigserial (
+    a1 bigint NOT NULL
+);
+
+
+ALTER TABLE public.t_bigserial OWNER TO re;
+
+--
+-- Name: t_bigserial_a1_seq; Type: SEQUENCE; Schema: public; Owner: re
+--
+
+CREATE SEQUENCE t_bigserial_a1_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.t_bigserial_a1_seq OWNER TO re;
+
+--
+-- Name: t_bigserial_a1_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: re
+--
+
+ALTER SEQUENCE t_bigserial_a1_seq OWNED BY t_bigserial.a1;
+
+
+--
+-- Name: t_bit; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_bit (
+    a1 bit(4)
+);
+
+
+ALTER TABLE public.t_bit OWNER TO re;
+
+--
+-- Name: t_bit_var; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_bit_var (
+    a1 bit varying(8)
+);
+
+
+ALTER TABLE public.t_bit_var OWNER TO re;
+
+--
+-- Name: t_bool; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_bool (
+    a1 boolean
+);
+
+
+ALTER TABLE public.t_bool OWNER TO re;
+
+--
+-- Name: t_box; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_box (
+    a1 box
+);
+
+
+ALTER TABLE public.t_box OWNER TO re;
+
+--
+-- Name: t_char; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_char (
+    a1 character(5)
+);
+
+
+ALTER TABLE public.t_char OWNER TO re;
+
+--
+-- Name: t_cidr; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_cidr (
+    a1 cidr
+);
+
+
+ALTER TABLE public.t_cidr OWNER TO re;
+
+--
+-- Name: t_circle; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_circle (
+    a1 circle
+);
+
+
+ALTER TABLE public.t_circle OWNER TO re;
+
+--
+-- Name: t_double_prec; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_double_prec (
+    a1 double precision
+);
+
+
+ALTER TABLE public.t_double_prec OWNER TO re;
+
+--
+-- Name: t_inet; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_inet (
+    a1 inet
+);
+
+
+ALTER TABLE public.t_inet OWNER TO re;
+
+--
+-- Name: t_integer; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_integer (
+    a1 integer
+);
+
+
+ALTER TABLE public.t_integer OWNER TO re;
+
+--
+-- Name: t_lseg; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_lseg (
+    a1 lseg
+);
+
+
+ALTER TABLE public.t_lseg OWNER TO re;
+
+--
+-- Name: t_numeric; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_numeric (
+    a1 numeric(5,2)
+);
+
+
+ALTER TABLE public.t_numeric OWNER TO re;
+
+--
+-- Name: t_path; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_path (
+    a1 path
+);
+
+
+ALTER TABLE public.t_path OWNER TO re;
+
+--
+-- Name: t_point; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_point (
+    a1 point
+);
+
+
+ALTER TABLE public.t_point OWNER TO re;
+
+--
+-- Name: t_polygon; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_polygon (
+    a1 polygon
+);
+
+
+ALTER TABLE public.t_polygon OWNER TO re;
+
+--
+-- Name: t_real; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_real (
+    a1 real
+);
+
+
+ALTER TABLE public.t_real OWNER TO re;
+
+--
+-- Name: t_serial; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_serial (
+    a1 integer NOT NULL
+);
+
+
+ALTER TABLE public.t_serial OWNER TO re;
+
+--
+-- Name: t_serial_a1_seq; Type: SEQUENCE; Schema: public; Owner: re
+--
+
+CREATE SEQUENCE t_serial_a1_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.t_serial_a1_seq OWNER TO re;
+
+--
+-- Name: t_serial_a1_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: re
+--
+
+ALTER SEQUENCE t_serial_a1_seq OWNED BY t_serial.a1;
+
+
+--
+-- Name: t_smallint; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_smallint (
+    a1 smallint
+);
+
+
+ALTER TABLE public.t_smallint OWNER TO re;
+
+--
+-- Name: t_text; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_text (
+    a1 text
+);
+
+
+ALTER TABLE public.t_text OWNER TO re;
+
+--
+-- Name: t_varchar; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE t_varchar (
+    a1 character varying(5)
+);
+
+
+ALTER TABLE public.t_varchar OWNER TO re;
+
+--
+-- Name: a1; Type: DEFAULT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY t_bigserial ALTER COLUMN a1 SET DEFAULT nextval('t_bigserial_a1_seq'::regclass);
+
+
+--
+-- Name: a1; Type: DEFAULT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY t_serial ALTER COLUMN a1 SET DEFAULT nextval('t_serial_a1_seq'::regclass);
+
+
+--
+-- Data for Name: t_bigint; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_bigint (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_bigserial; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_bigserial (a1) FROM stdin;
+\.
+
+
+--
+-- Name: t_bigserial_a1_seq; Type: SEQUENCE SET; Schema: public; Owner: re
+--
+
+SELECT pg_catalog.setval('t_bigserial_a1_seq', 1, false);
+
+
+--
+-- Data for Name: t_bit; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_bit (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_bit_var; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_bit_var (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_bool; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_bool (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_box; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_box (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_char; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_char (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_cidr; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_cidr (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_circle; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_circle (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_double_prec; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_double_prec (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_inet; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_inet (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_integer; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_integer (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_lseg; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_lseg (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_numeric; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_numeric (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_path; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_path (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_point; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_point (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_polygon; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_polygon (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_real; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_real (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_serial; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_serial (a1) FROM stdin;
+\.
+
+
+--
+-- Name: t_serial_a1_seq; Type: SEQUENCE SET; Schema: public; Owner: re
+--
+
+SELECT pg_catalog.setval('t_serial_a1_seq', 1, false);
+
+
+--
+-- Data for Name: t_smallint; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_smallint (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_text; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_text (a1) FROM stdin;
+\.
+
+
+--
+-- Data for Name: t_varchar; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY t_varchar (a1) FROM stdin;
+\.
+
+
+--
+-- PostgreSQL database dump complete
+--
+

@@ -1,0 +1,6600 @@
+INSERT INTO t_bigint
+VALUES (60773824284750);
+
+INSERT INTO t_bigint
+VALUES (69);
+
+INSERT INTO t_bigint
+VALUES (0);
+
+INSERT INTO t_bigint
+VALUES (4547288516270);
+
+INSERT INTO t_bigint
+VALUES (5407831833478237176);
+
+INSERT INTO t_bigint
+VALUES (505404640075);
+
+INSERT INTO t_bigint
+VALUES (189594431);
+
+INSERT INTO t_bigint
+VALUES (692476907016);
+
+INSERT INTO t_bigint
+VALUES (83);
+
+INSERT INTO t_bigint
+VALUES (9857529087252);
+
+INSERT INTO t_bigint
+VALUES (24644036516737);
+
+INSERT INTO t_bigint
+VALUES (57);
+
+INSERT INTO t_bigint
+VALUES (756492421695876);
+
+INSERT INTO t_bigint
+VALUES (596012);
+
+INSERT INTO t_bigint
+VALUES (96113);
+
+INSERT INTO t_bigint
+VALUES (9739439);
+
+INSERT INTO t_bigint
+VALUES (5024705195007983201);
+
+INSERT INTO t_bigint
+VALUES (78660);
+
+INSERT INTO t_bigint
+VALUES (5371);
+
+INSERT INTO t_bigint
+VALUES (77176);
+
+INSERT INTO t_bigint
+VALUES (4897170077358745822);
+
+INSERT INTO t_bigint
+VALUES (1300562351849333819);
+
+INSERT INTO t_bigint
+VALUES (2209172708657);
+
+INSERT INTO t_bigint
+VALUES (80231106);
+
+INSERT INTO t_bigint
+VALUES (94059827213);
+
+INSERT INTO t_bigint
+VALUES (52767710668142);
+
+INSERT INTO t_bigint
+VALUES (57594848246069654);
+
+INSERT INTO t_bigint
+VALUES (9338049);
+
+INSERT INTO t_bigint
+VALUES (42604531);
+
+INSERT INTO t_bigint
+VALUES (39520413756);
+
+INSERT INTO t_bigint
+VALUES (3531870756998527396);
+
+INSERT INTO t_bigint
+VALUES (9756368916400);
+
+INSERT INTO t_bigint
+VALUES (183987430966649226);
+
+INSERT INTO t_bigint
+VALUES (63217818166906);
+
+INSERT INTO t_bigint
+VALUES (17964);
+
+INSERT INTO t_bigint
+VALUES (2154883386744780015);
+
+INSERT INTO t_bigint
+VALUES (479507045184634274);
+
+INSERT INTO t_bigint
+VALUES (148552);
+
+INSERT INTO t_bigint
+VALUES (94109601332808);
+
+INSERT INTO t_bigint
+VALUES (4557951);
+
+INSERT INTO t_bigint
+VALUES (6510233238512);
+
+INSERT INTO t_bigint
+VALUES (26619704);
+
+INSERT INTO t_bigint
+VALUES (47960803845);
+
+INSERT INTO t_bigint
+VALUES (1207765669218);
+
+INSERT INTO t_bigint
+VALUES (7597347564586466843);
+
+INSERT INTO t_bigint
+VALUES (1251912622078889);
+
+INSERT INTO t_bigint
+VALUES (40411992817683);
+
+INSERT INTO t_bigint
+VALUES (10506998736);
+
+INSERT INTO t_bigint
+VALUES (2569673147312185);
+
+INSERT INTO t_bigint
+VALUES (8193244473);
+
+INSERT INTO t_bigint
+VALUES (494);
+
+INSERT INTO t_bigint
+VALUES (9116);
+
+INSERT INTO t_bigint
+VALUES (744062380061);
+
+INSERT INTO t_bigint
+VALUES (936873386006089);
+
+INSERT INTO t_bigint
+VALUES (2156599);
+
+INSERT INTO t_bigint
+VALUES (781484);
+
+INSERT INTO t_bigint
+VALUES (5931513003380);
+
+INSERT INTO t_bigint
+VALUES (54177849);
+
+INSERT INTO t_bigint
+VALUES (61795181868);
+
+INSERT INTO t_bigint
+VALUES (174478987286936627);
+
+INSERT INTO t_bigint
+VALUES (5952911333736471953);
+
+INSERT INTO t_bigint
+VALUES (5325546862538);
+
+INSERT INTO t_bigint
+VALUES (6667101461398);
+
+INSERT INTO t_bigint
+VALUES (6337404292);
+
+INSERT INTO t_bigint
+VALUES (2078224559228804842);
+
+INSERT INTO t_bigint
+VALUES (5617495092076175827);
+
+INSERT INTO t_bigint
+VALUES (356467416231);
+
+INSERT INTO t_bigint
+VALUES (69);
+
+INSERT INTO t_bigint
+VALUES (91274641);
+
+INSERT INTO t_bigint
+VALUES (68448990784);
+
+INSERT INTO t_bigint
+VALUES (602014);
+
+INSERT INTO t_bigint
+VALUES (72507682509);
+
+INSERT INTO t_bigint
+VALUES (1);
+
+INSERT INTO t_bigint
+VALUES (2804830);
+
+INSERT INTO t_bigint
+VALUES (522942293657);
+
+INSERT INTO t_bigint
+VALUES (890449901621840632);
+
+INSERT INTO t_bigint
+VALUES (46594);
+
+INSERT INTO t_bigint
+VALUES (6581235969599433873);
+
+INSERT INTO t_bigint
+VALUES (4115269297173816259);
+
+INSERT INTO t_bigint
+VALUES (6086115324);
+
+INSERT INTO t_bigint
+VALUES (596);
+
+INSERT INTO t_bigint
+VALUES (278757);
+
+INSERT INTO t_bigint
+VALUES (7700663765496485521);
+
+INSERT INTO t_bigint
+VALUES (108273);
+
+INSERT INTO t_bigint
+VALUES (5);
+
+INSERT INTO t_bigint
+VALUES (47310174269);
+
+INSERT INTO t_bigint
+VALUES (41043);
+
+INSERT INTO t_bigint
+VALUES (979);
+
+INSERT INTO t_bigint
+VALUES (36350740);
+
+INSERT INTO t_bigint
+VALUES (67703856895795852);
+
+INSERT INTO t_bigint
+VALUES (782);
+
+INSERT INTO t_bigint
+VALUES (91276784134736632);
+
+INSERT INTO t_bigint
+VALUES (9046892711111640538);
+
+INSERT INTO t_bigint
+VALUES (10447949805908036);
+
+INSERT INTO t_bigint
+VALUES (5169625);
+
+INSERT INTO t_bigint
+VALUES (56404255);
+
+INSERT INTO t_bigint
+VALUES (14443);
+
+INSERT INTO t_bigint
+VALUES (2768456);
+
+INSERT INTO t_bigint
+VALUES (5568);
+
+INSERT INTO t_bigint
+VALUES (818067067623601923);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bigserial
+VALUES (DEFAULT);
+
+INSERT INTO t_bit
+VALUES (bit'1100');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'0001');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'0001');
+
+INSERT INTO t_bit
+VALUES (bit'0000');
+
+INSERT INTO t_bit
+VALUES (bit'0000');
+
+INSERT INTO t_bit
+VALUES (bit'0101');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'1101');
+
+INSERT INTO t_bit
+VALUES (bit'0001');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'0111');
+
+INSERT INTO t_bit
+VALUES (bit'1010');
+
+INSERT INTO t_bit
+VALUES (bit'1110');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'0110');
+
+INSERT INTO t_bit
+VALUES (bit'0111');
+
+INSERT INTO t_bit
+VALUES (bit'0010');
+
+INSERT INTO t_bit
+VALUES (bit'1110');
+
+INSERT INTO t_bit
+VALUES (bit'0110');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'0110');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'0001');
+
+INSERT INTO t_bit
+VALUES (bit'1100');
+
+INSERT INTO t_bit
+VALUES (bit'1111');
+
+INSERT INTO t_bit
+VALUES (bit'0110');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'0000');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'0101');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'0000');
+
+INSERT INTO t_bit
+VALUES (bit'1101');
+
+INSERT INTO t_bit
+VALUES (bit'0001');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'1111');
+
+INSERT INTO t_bit
+VALUES (bit'1110');
+
+INSERT INTO t_bit
+VALUES (bit'0110');
+
+INSERT INTO t_bit
+VALUES (bit'1100');
+
+INSERT INTO t_bit
+VALUES (bit'1101');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'0010');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'0101');
+
+INSERT INTO t_bit
+VALUES (bit'0111');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'0100');
+
+INSERT INTO t_bit
+VALUES (bit'0100');
+
+INSERT INTO t_bit
+VALUES (bit'1100');
+
+INSERT INTO t_bit
+VALUES (bit'0000');
+
+INSERT INTO t_bit
+VALUES (bit'0111');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'1101');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'1010');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'0010');
+
+INSERT INTO t_bit
+VALUES (bit'1101');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'0000');
+
+INSERT INTO t_bit
+VALUES (bit'0001');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'0100');
+
+INSERT INTO t_bit
+VALUES (bit'1110');
+
+INSERT INTO t_bit
+VALUES (bit'1100');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'0100');
+
+INSERT INTO t_bit
+VALUES (bit'1110');
+
+INSERT INTO t_bit
+VALUES (bit'1111');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'0010');
+
+INSERT INTO t_bit
+VALUES (bit'0111');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit
+VALUES (bit'0110');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'0000');
+
+INSERT INTO t_bit
+VALUES (bit'1110');
+
+INSERT INTO t_bit
+VALUES (bit'0010');
+
+INSERT INTO t_bit
+VALUES (bit'1110');
+
+INSERT INTO t_bit
+VALUES (bit'0011');
+
+INSERT INTO t_bit
+VALUES (bit'0101');
+
+INSERT INTO t_bit
+VALUES (bit'0001');
+
+INSERT INTO t_bit
+VALUES (bit'0110');
+
+INSERT INTO t_bit
+VALUES (bit'1101');
+
+INSERT INTO t_bit
+VALUES (bit'1111');
+
+INSERT INTO t_bit
+VALUES (bit'1000');
+
+INSERT INTO t_bit
+VALUES (bit'1011');
+
+INSERT INTO t_bit
+VALUES (bit'1001');
+
+INSERT INTO t_bit_var
+VALUES (bit'1100111');
+
+INSERT INTO t_bit_var
+VALUES (bit'111100');
+
+INSERT INTO t_bit_var
+VALUES (bit'00111');
+
+INSERT INTO t_bit_var
+VALUES (bit'0001001');
+
+INSERT INTO t_bit_var
+VALUES (bit'1111110');
+
+INSERT INTO t_bit_var
+VALUES (bit'011001');
+
+INSERT INTO t_bit_var
+VALUES (bit'101010');
+
+INSERT INTO t_bit_var
+VALUES (bit'1111111');
+
+INSERT INTO t_bit_var
+VALUES (bit'0001');
+
+INSERT INTO t_bit_var
+VALUES (bit'010');
+
+INSERT INTO t_bit_var
+VALUES (bit'01');
+
+INSERT INTO t_bit_var
+VALUES (bit'00100');
+
+INSERT INTO t_bit_var
+VALUES (bit'1010');
+
+INSERT INTO t_bit_var
+VALUES (bit'00000');
+
+INSERT INTO t_bit_var
+VALUES (bit'01');
+
+INSERT INTO t_bit_var
+VALUES (bit'1110011');
+
+INSERT INTO t_bit_var
+VALUES (bit'10');
+
+INSERT INTO t_bit_var
+VALUES (bit'1111');
+
+INSERT INTO t_bit_var
+VALUES (bit'011');
+
+INSERT INTO t_bit_var
+VALUES (bit'110101');
+
+INSERT INTO t_bit_var
+VALUES (bit'001');
+
+INSERT INTO t_bit_var
+VALUES (bit'10010');
+
+INSERT INTO t_bit_var
+VALUES (bit'010');
+
+INSERT INTO t_bit_var
+VALUES (bit'1');
+
+INSERT INTO t_bit_var
+VALUES (bit'1');
+
+INSERT INTO t_bit_var
+VALUES (bit'1111110');
+
+INSERT INTO t_bit_var
+VALUES (bit'1110');
+
+INSERT INTO t_bit_var
+VALUES (bit'00110');
+
+INSERT INTO t_bit_var
+VALUES (bit'0');
+
+INSERT INTO t_bit_var
+VALUES (bit'000010');
+
+INSERT INTO t_bit_var
+VALUES (bit'111000');
+
+INSERT INTO t_bit_var
+VALUES (bit'100011');
+
+INSERT INTO t_bit_var
+VALUES (bit'011');
+
+INSERT INTO t_bit_var
+VALUES (bit'1101');
+
+INSERT INTO t_bit_var
+VALUES (bit'0001');
+
+INSERT INTO t_bit_var
+VALUES (bit'01');
+
+INSERT INTO t_bit_var
+VALUES (bit'1010');
+
+INSERT INTO t_bit_var
+VALUES (bit'1100010');
+
+INSERT INTO t_bit_var
+VALUES (bit'0');
+
+INSERT INTO t_bit_var
+VALUES (bit'10000');
+
+INSERT INTO t_bit_var
+VALUES (bit'000');
+
+INSERT INTO t_bit_var
+VALUES (bit'1');
+
+INSERT INTO t_bit_var
+VALUES (bit'111');
+
+INSERT INTO t_bit_var
+VALUES (bit'1111');
+
+INSERT INTO t_bit_var
+VALUES (bit'0110001');
+
+INSERT INTO t_bit_var
+VALUES (bit'0');
+
+INSERT INTO t_bit_var
+VALUES (bit'001');
+
+INSERT INTO t_bit_var
+VALUES (bit'110');
+
+INSERT INTO t_bit_var
+VALUES (bit'110110');
+
+INSERT INTO t_bit_var
+VALUES (bit'11');
+
+INSERT INTO t_bit_var
+VALUES (bit'101001');
+
+INSERT INTO t_bit_var
+VALUES (bit'01');
+
+INSERT INTO t_bit_var
+VALUES (bit'101');
+
+INSERT INTO t_bit_var
+VALUES (bit'0');
+
+INSERT INTO t_bit_var
+VALUES (bit'1100');
+
+INSERT INTO t_bit_var
+VALUES (bit'01');
+
+INSERT INTO t_bit_var
+VALUES (bit'1');
+
+INSERT INTO t_bit_var
+VALUES (bit'100');
+
+INSERT INTO t_bit_var
+VALUES (bit'01000');
+
+INSERT INTO t_bit_var
+VALUES (bit'01001');
+
+INSERT INTO t_bit_var
+VALUES (bit'110');
+
+INSERT INTO t_bit_var
+VALUES (bit'1');
+
+INSERT INTO t_bit_var
+VALUES (bit'100110');
+
+INSERT INTO t_bit_var
+VALUES (bit'0100110');
+
+INSERT INTO t_bit_var
+VALUES (bit'00');
+
+INSERT INTO t_bit_var
+VALUES (bit'1110011');
+
+INSERT INTO t_bit_var
+VALUES (bit'100');
+
+INSERT INTO t_bit_var
+VALUES (bit'001000');
+
+INSERT INTO t_bit_var
+VALUES (bit'1100');
+
+INSERT INTO t_bit_var
+VALUES (bit'111');
+
+INSERT INTO t_bit_var
+VALUES (bit'010');
+
+INSERT INTO t_bit_var
+VALUES (bit'11110');
+
+INSERT INTO t_bit_var
+VALUES (bit'0');
+
+INSERT INTO t_bit_var
+VALUES (bit'1010');
+
+INSERT INTO t_bit_var
+VALUES (bit'10');
+
+INSERT INTO t_bit_var
+VALUES (bit'11');
+
+INSERT INTO t_bit_var
+VALUES (bit'011');
+
+INSERT INTO t_bit_var
+VALUES (bit'1');
+
+INSERT INTO t_bit_var
+VALUES (bit'01100');
+
+INSERT INTO t_bit_var
+VALUES (bit'001000');
+
+INSERT INTO t_bit_var
+VALUES (bit'11');
+
+INSERT INTO t_bit_var
+VALUES (bit'011');
+
+INSERT INTO t_bit_var
+VALUES (bit'1010');
+
+INSERT INTO t_bit_var
+VALUES (bit'00110');
+
+INSERT INTO t_bit_var
+VALUES (bit'110');
+
+INSERT INTO t_bit_var
+VALUES (bit'001111');
+
+INSERT INTO t_bit_var
+VALUES (bit'100010');
+
+INSERT INTO t_bit_var
+VALUES (bit'100111');
+
+INSERT INTO t_bit_var
+VALUES (bit'00');
+
+INSERT INTO t_bit_var
+VALUES (bit'11110');
+
+INSERT INTO t_bit_var
+VALUES (bit'111');
+
+INSERT INTO t_bit_var
+VALUES (bit'0100');
+
+INSERT INTO t_bit_var
+VALUES (bit'01');
+
+INSERT INTO t_bit_var
+VALUES (bit'000111');
+
+INSERT INTO t_bit_var
+VALUES (bit'000000');
+
+INSERT INTO t_bit_var
+VALUES (bit'0');
+
+INSERT INTO t_bit_var
+VALUES (bit'1000');
+
+INSERT INTO t_bit_var
+VALUES (bit'100');
+
+INSERT INTO t_bit_var
+VALUES (bit'11');
+
+INSERT INTO t_bit_var
+VALUES (bit'1010111');
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (True);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_bool
+VALUES (False);
+
+INSERT INTO t_box
+VALUES (box'((-9.11,4.90),(-9.90,-5.86))');
+
+INSERT INTO t_box
+VALUES (box'((-2.42,-8.46),(8.19,-1.77))');
+
+INSERT INTO t_box
+VALUES (box'((-0.69,1.98),(5.64,-5.18))');
+
+INSERT INTO t_box
+VALUES (box'((-2.16,-7.57),(0.70,7.55))');
+
+INSERT INTO t_box
+VALUES (box'((-1.28,8.74),(-9.87,-7.01))');
+
+INSERT INTO t_box
+VALUES (box'((-3.25,7.90),(3.82,-8.91))');
+
+INSERT INTO t_box
+VALUES (box'((-3.74,4.28),(-9.47,8.31))');
+
+INSERT INTO t_box
+VALUES (box'((-5.39,1.36),(-9.31,-3.55))');
+
+INSERT INTO t_box
+VALUES (box'((-5.55,8.94),(9.66,-9.76))');
+
+INSERT INTO t_box
+VALUES (box'((9.48,-4.95),(9.13,4.82))');
+
+INSERT INTO t_box
+VALUES (box'((-7.22,-0.04),(-6.34,0.85))');
+
+INSERT INTO t_box
+VALUES (box'((-6.66,-2.75),(-3.10,9.98))');
+
+INSERT INTO t_box
+VALUES (box'((1.76,3.75),(4.76,-9.29))');
+
+INSERT INTO t_box
+VALUES (box'((-2.95,4.58),(-3.06,3.82))');
+
+INSERT INTO t_box
+VALUES (box'((-1.26,3.08),(-6.77,3.62))');
+
+INSERT INTO t_box
+VALUES (box'((-4.35,-1.90),(4.10,-2.42))');
+
+INSERT INTO t_box
+VALUES (box'((-2.58,-4.97),(7.06,3.85))');
+
+INSERT INTO t_box
+VALUES (box'((3.29,2.47),(-8.85,-9.96))');
+
+INSERT INTO t_box
+VALUES (box'((-4.48,3.12),(1.02,-2.22))');
+
+INSERT INTO t_box
+VALUES (box'((6.56,-3.77),(3.47,-8.04))');
+
+INSERT INTO t_box
+VALUES (box'((-0.90,7.56),(5.04,-6.32))');
+
+INSERT INTO t_box
+VALUES (box'((6.38,-1.21),(-4.20,-8.91))');
+
+INSERT INTO t_box
+VALUES (box'((9.22,7.14),(-2.61,-3.04))');
+
+INSERT INTO t_box
+VALUES (box'((-4.77,-9.13),(8.41,-0.15))');
+
+INSERT INTO t_box
+VALUES (box'((3.85,5.17),(-4.97,-9.71))');
+
+INSERT INTO t_box
+VALUES (box'((-0.75,-8.34),(9.16,0.99))');
+
+INSERT INTO t_box
+VALUES (box'((9.47,-7.78),(-9.37,1.88))');
+
+INSERT INTO t_box
+VALUES (box'((5.86,2.27),(0.07,-4.48))');
+
+INSERT INTO t_box
+VALUES (box'((-2.15,5.71),(-6.95,8.22))');
+
+INSERT INTO t_box
+VALUES (box'((-8.03,-6.50),(-8.06,-9.89))');
+
+INSERT INTO t_box
+VALUES (box'((-5.18,-3.73),(5.63,-4.24))');
+
+INSERT INTO t_box
+VALUES (box'((-0.06,0.61),(7.55,4.63))');
+
+INSERT INTO t_box
+VALUES (box'((9.64,9.10),(3.12,9.06))');
+
+INSERT INTO t_box
+VALUES (box'((1.85,-6.54),(-1.63,-4.44))');
+
+INSERT INTO t_box
+VALUES (box'((8.49,8.03),(6.16,-3.31))');
+
+INSERT INTO t_box
+VALUES (box'((4.65,8.88),(-7.62,-3.16))');
+
+INSERT INTO t_box
+VALUES (box'((-3.51,0.65),(1.12,-4.61))');
+
+INSERT INTO t_box
+VALUES (box'((5.04,6.44),(-5.86,0.15))');
+
+INSERT INTO t_box
+VALUES (box'((6.18,0.69),(-7.96,4.24))');
+
+INSERT INTO t_box
+VALUES (box'((-9.77,-8.27),(-5.70,7.19))');
+
+INSERT INTO t_box
+VALUES (box'((2.22,-0.57),(-5.04,-0.15))');
+
+INSERT INTO t_box
+VALUES (box'((6.36,-7.79),(1.88,-8.08))');
+
+INSERT INTO t_box
+VALUES (box'((0.84,0.97),(9.49,1.83))');
+
+INSERT INTO t_box
+VALUES (box'((5.58,-7.88),(-4.33,-6.33))');
+
+INSERT INTO t_box
+VALUES (box'((3.14,-6.48),(-6.53,-5.00))');
+
+INSERT INTO t_box
+VALUES (box'((3.92,1.70),(1.11,4.01))');
+
+INSERT INTO t_box
+VALUES (box'((9.43,-3.45),(0.48,8.08))');
+
+INSERT INTO t_box
+VALUES (box'((0.61,-1.86),(-8.82,8.73))');
+
+INSERT INTO t_box
+VALUES (box'((5.62,5.16),(-0.08,0.34))');
+
+INSERT INTO t_box
+VALUES (box'((-1.06,0.70),(6.51,5.51))');
+
+INSERT INTO t_box
+VALUES (box'((0.16,-7.75),(-6.61,9.45))');
+
+INSERT INTO t_box
+VALUES (box'((0.27,-4.97),(-9.85,3.22))');
+
+INSERT INTO t_box
+VALUES (box'((-5.75,5.93),(2.26,6.41))');
+
+INSERT INTO t_box
+VALUES (box'((-2.97,7.67),(-5.04,-0.60))');
+
+INSERT INTO t_box
+VALUES (box'((-3.39,-8.64),(-5.23,-0.09))');
+
+INSERT INTO t_box
+VALUES (box'((-2.94,-2.84),(9.45,3.41))');
+
+INSERT INTO t_box
+VALUES (box'((1.54,-1.43),(2.85,0.88))');
+
+INSERT INTO t_box
+VALUES (box'((9.50,2.29),(-3.15,9.87))');
+
+INSERT INTO t_box
+VALUES (box'((-4.88,0.63),(-5.90,-6.22))');
+
+INSERT INTO t_box
+VALUES (box'((-0.68,-1.34),(9.17,-7.03))');
+
+INSERT INTO t_box
+VALUES (box'((9.52,-7.19),(0.10,-1.26))');
+
+INSERT INTO t_box
+VALUES (box'((-4.56,-3.65),(-5.36,-7.82))');
+
+INSERT INTO t_box
+VALUES (box'((-5.16,-1.95),(8.23,6.15))');
+
+INSERT INTO t_box
+VALUES (box'((1.81,0.69),(-5.05,9.61))');
+
+INSERT INTO t_box
+VALUES (box'((-0.52,4.64),(-0.29,8.95))');
+
+INSERT INTO t_box
+VALUES (box'((-0.72,2.11),(0.88,0.81))');
+
+INSERT INTO t_box
+VALUES (box'((-9.13,-6.72),(5.61,6.35))');
+
+INSERT INTO t_box
+VALUES (box'((7.13,-0.71),(8.30,-6.38))');
+
+INSERT INTO t_box
+VALUES (box'((8.77,1.21),(-0.22,5.94))');
+
+INSERT INTO t_box
+VALUES (box'((0.85,3.43),(-5.75,0.25))');
+
+INSERT INTO t_box
+VALUES (box'((-6.13,9.44),(-5.45,6.32))');
+
+INSERT INTO t_box
+VALUES (box'((3.72,9.27),(7.31,-9.57))');
+
+INSERT INTO t_box
+VALUES (box'((-6.25,-8.63),(-3.42,-4.75))');
+
+INSERT INTO t_box
+VALUES (box'((-8.87,3.19),(5.79,-8.94))');
+
+INSERT INTO t_box
+VALUES (box'((0.73,4.21),(-1.73,0.82))');
+
+INSERT INTO t_box
+VALUES (box'((-7.72,1.63),(2.37,-4.63))');
+
+INSERT INTO t_box
+VALUES (box'((-7.51,-8.50),(-7.28,4.37))');
+
+INSERT INTO t_box
+VALUES (box'((-8.46,9.71),(-8.10,-5.93))');
+
+INSERT INTO t_box
+VALUES (box'((-6.85,-3.79),(1.74,6.51))');
+
+INSERT INTO t_box
+VALUES (box'((-6.84,-7.42),(9.86,-0.55))');
+
+INSERT INTO t_box
+VALUES (box'((0.67,9.78),(-3.83,2.38))');
+
+INSERT INTO t_box
+VALUES (box'((4.19,-7.73),(-3.79,-5.48))');
+
+INSERT INTO t_box
+VALUES (box'((-5.09,-5.75),(0.06,-8.14))');
+
+INSERT INTO t_box
+VALUES (box'((8.75,-8.72),(2.29,-7.38))');
+
+INSERT INTO t_box
+VALUES (box'((3.09,9.26),(5.15,1.84))');
+
+INSERT INTO t_box
+VALUES (box'((3.44,0.65),(8.94,3.01))');
+
+INSERT INTO t_box
+VALUES (box'((-1.32,-1.29),(-3.41,-6.23))');
+
+INSERT INTO t_box
+VALUES (box'((3.41,5.19),(1.12,4.48))');
+
+INSERT INTO t_box
+VALUES (box'((-5.06,-9.99),(-8.19,9.62))');
+
+INSERT INTO t_box
+VALUES (box'((1.66,-8.81),(5.84,-1.02))');
+
+INSERT INTO t_box
+VALUES (box'((-3.55,-4.36),(-4.38,-0.87))');
+
+INSERT INTO t_box
+VALUES (box'((9.39,-9.40),(-9.01,1.10))');
+
+INSERT INTO t_box
+VALUES (box'((-8.28,9.17),(9.14,7.48))');
+
+INSERT INTO t_box
+VALUES (box'((2.43,-5.19),(-1.11,3.04))');
+
+INSERT INTO t_box
+VALUES (box'((0.34,9.38),(-3.80,-0.14))');
+
+INSERT INTO t_box
+VALUES (box'((0.48,1.14),(-4.08,7.68))');
+
+INSERT INTO t_box
+VALUES (box'((-2.96,6.88),(-2.35,4.96))');
+
+INSERT INTO t_box
+VALUES (box'((3.49,6.23),(9.36,-9.96))');
+
+INSERT INTO t_box
+VALUES (box'((-3.07,-9.08),(8.92,5.65))');
+
+INSERT INTO t_box
+VALUES (box'((1.43,-8.50),(5.79,-0.73))');
+
+INSERT INTO t_char
+VALUES ('GFiUk');
+
+INSERT INTO t_char
+VALUES ('BSm00');
+
+INSERT INTO t_char
+VALUES ('KB2sp');
+
+INSERT INTO t_char
+VALUES ('Ld3k6');
+
+INSERT INTO t_char
+VALUES ('6h0GD');
+
+INSERT INTO t_char
+VALUES ('GBWPm');
+
+INSERT INTO t_char
+VALUES ('OklU5');
+
+INSERT INTO t_char
+VALUES ('zs3eM');
+
+INSERT INTO t_char
+VALUES ('1AvFz');
+
+INSERT INTO t_char
+VALUES ('ONfje');
+
+INSERT INTO t_char
+VALUES ('N1lsd');
+
+INSERT INTO t_char
+VALUES ('IZbkU');
+
+INSERT INTO t_char
+VALUES ('p_mLp');
+
+INSERT INTO t_char
+VALUES ('wQm1H');
+
+INSERT INTO t_char
+VALUES ('LoyLZ');
+
+INSERT INTO t_char
+VALUES ('lowP1');
+
+INSERT INTO t_char
+VALUES ('gcPtA');
+
+INSERT INTO t_char
+VALUES ('JSJ7_');
+
+INSERT INTO t_char
+VALUES ('KVOS0');
+
+INSERT INTO t_char
+VALUES ('Osrr9');
+
+INSERT INTO t_char
+VALUES ('vjpil');
+
+INSERT INTO t_char
+VALUES ('lJBVl');
+
+INSERT INTO t_char
+VALUES ('h6Zwe');
+
+INSERT INTO t_char
+VALUES ('9A8b4');
+
+INSERT INTO t_char
+VALUES ('HtL7L');
+
+INSERT INTO t_char
+VALUES ('onT2K');
+
+INSERT INTO t_char
+VALUES ('LaaTD');
+
+INSERT INTO t_char
+VALUES ('GuIdn');
+
+INSERT INTO t_char
+VALUES ('aw1gE');
+
+INSERT INTO t_char
+VALUES ('R2pXq');
+
+INSERT INTO t_char
+VALUES ('D0Rmx');
+
+INSERT INTO t_char
+VALUES ('mzB2l');
+
+INSERT INTO t_char
+VALUES ('byujB');
+
+INSERT INTO t_char
+VALUES ('lE8Sy');
+
+INSERT INTO t_char
+VALUES ('RlUws');
+
+INSERT INTO t_char
+VALUES ('tz5Mr');
+
+INSERT INTO t_char
+VALUES ('aPyDg');
+
+INSERT INTO t_char
+VALUES ('RrjOv');
+
+INSERT INTO t_char
+VALUES ('YaLVu');
+
+INSERT INTO t_char
+VALUES ('T8EAU');
+
+INSERT INTO t_char
+VALUES ('sSVXH');
+
+INSERT INTO t_char
+VALUES ('i75s9');
+
+INSERT INTO t_char
+VALUES ('mj6nL');
+
+INSERT INTO t_char
+VALUES ('dSI5P');
+
+INSERT INTO t_char
+VALUES ('LA_Tw');
+
+INSERT INTO t_char
+VALUES ('pqfRn');
+
+INSERT INTO t_char
+VALUES ('5BAAP');
+
+INSERT INTO t_char
+VALUES ('vVmQC');
+
+INSERT INTO t_char
+VALUES ('2okcW');
+
+INSERT INTO t_char
+VALUES ('59Me3');
+
+INSERT INTO t_char
+VALUES ('7gmkU');
+
+INSERT INTO t_char
+VALUES ('lqlAO');
+
+INSERT INTO t_char
+VALUES ('v1kjU');
+
+INSERT INTO t_char
+VALUES ('gjxUo');
+
+INSERT INTO t_char
+VALUES ('6l20A');
+
+INSERT INTO t_char
+VALUES ('2q4AA');
+
+INSERT INTO t_char
+VALUES ('jWVg0');
+
+INSERT INTO t_char
+VALUES ('KAhnB');
+
+INSERT INTO t_char
+VALUES ('N2eKq');
+
+INSERT INTO t_char
+VALUES ('wrmS7');
+
+INSERT INTO t_char
+VALUES ('DrcWx');
+
+INSERT INTO t_char
+VALUES ('qoHul');
+
+INSERT INTO t_char
+VALUES ('rx5mr');
+
+INSERT INTO t_char
+VALUES ('s7a32');
+
+INSERT INTO t_char
+VALUES ('pgH9N');
+
+INSERT INTO t_char
+VALUES ('AzFof');
+
+INSERT INTO t_char
+VALUES ('lwJVU');
+
+INSERT INTO t_char
+VALUES ('OpOPF');
+
+INSERT INTO t_char
+VALUES ('Tr_5I');
+
+INSERT INTO t_char
+VALUES ('uTdf4');
+
+INSERT INTO t_char
+VALUES ('MDd43');
+
+INSERT INTO t_char
+VALUES ('usUQG');
+
+INSERT INTO t_char
+VALUES ('UUXTO');
+
+INSERT INTO t_char
+VALUES ('gNYBH');
+
+INSERT INTO t_char
+VALUES ('1rSzm');
+
+INSERT INTO t_char
+VALUES ('7RUIY');
+
+INSERT INTO t_char
+VALUES ('GEhlF');
+
+INSERT INTO t_char
+VALUES ('5ieMg');
+
+INSERT INTO t_char
+VALUES ('D4KJx');
+
+INSERT INTO t_char
+VALUES ('IjFpA');
+
+INSERT INTO t_char
+VALUES ('C_mkY');
+
+INSERT INTO t_char
+VALUES ('5ucRz');
+
+INSERT INTO t_char
+VALUES ('GRT_L');
+
+INSERT INTO t_char
+VALUES ('YOQw9');
+
+INSERT INTO t_char
+VALUES ('nPl4L');
+
+INSERT INTO t_char
+VALUES ('yb2il');
+
+INSERT INTO t_char
+VALUES ('z2nl4');
+
+INSERT INTO t_char
+VALUES ('wG7qC');
+
+INSERT INTO t_char
+VALUES ('K2Jpq');
+
+INSERT INTO t_char
+VALUES ('ka541');
+
+INSERT INTO t_char
+VALUES ('_nOPn');
+
+INSERT INTO t_char
+VALUES ('Q06a9');
+
+INSERT INTO t_char
+VALUES ('HFIPc');
+
+INSERT INTO t_char
+VALUES ('Gp44U');
+
+INSERT INTO t_char
+VALUES ('zBq5O');
+
+INSERT INTO t_char
+VALUES ('0UScP');
+
+INSERT INTO t_char
+VALUES ('i3fcA');
+
+INSERT INTO t_char
+VALUES ('cXP1P');
+
+INSERT INTO t_char
+VALUES ('rKvFw');
+
+INSERT INTO t_char
+VALUES ('EVGn1');
+
+INSERT INTO t_cidr
+VALUES (cidr'74.104.37.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'204.48.159.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'147.238.215.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'218.14.234.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'179.246.15.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'74.111.49.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'124.170.158.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'80.194.175.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'98.218.237.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'151.111.92.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'5.137.88.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'91.161.3.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'163.21.216.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'132.200.192.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'183.48.105.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'130.187.7.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'136.200.46.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'90.78.225.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'31.129.177.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'221.84.94.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'84.148.212.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'83.154.138.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'131.192.206.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'74.143.116.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'113.12.233.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'99.92.199.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'53.217.22.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'181.8.211.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'106.45.33.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'46.110.47.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'211.183.115.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'78.126.230.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'124.114.239.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'217.191.84.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'44.37.55.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'192.150.1.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'51.157.243.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'116.205.189.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'109.21.24.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'171.1.108.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'209.14.42.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'16.232.135.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'112.195.34.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'124.126.190.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'168.62.135.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'18.173.23.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'245.63.189.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'194.255.160.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'244.108.99.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'132.45.32.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'26.201.38.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'200.169.19.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'136.136.60.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'166.235.172.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'58.123.169.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'57.25.77.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'96.108.44.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'129.240.82.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'158.175.23.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'104.36.224.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'236.117.211.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'51.23.58.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'137.72.137.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'183.105.186.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'22.72.42.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'175.40.219.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'77.169.83.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'209.155.10.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'2.62.157.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'102.36.194.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'122.37.18.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'111.133.67.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'146.253.39.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'91.203.58.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'16.77.220.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'48.178.137.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'126.138.214.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'32.234.63.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'94.205.104.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'187.216.246.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'98.222.196.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'220.217.91.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'229.163.51.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'239.70.228.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'131.227.174.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'72.69.155.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'162.61.180.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'172.149.81.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'69.28.202.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'150.162.217.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'248.101.204.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'178.7.62.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'39.5.215.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'188.80.63.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'186.10.111.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'45.127.72.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'162.218.123.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'232.132.55.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'129.7.45.0/24');
+
+INSERT INTO t_cidr
+VALUES (cidr'30.62.255.0/24');
+
+INSERT INTO t_circle
+VALUES (circle'<(-3.73,7.82),5>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.14,-5.60),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.77,4.69),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(6.26,3.27),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.61,-6.25),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-4.53,-8.43),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(5.89,-4.59),1>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-2.80,3.17),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(1.08,1.92),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-9.33,-7.21),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(4.27,8.58),5>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-9.73,6.86),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-1.35,1.85),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.10,-6.91),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.20,-6.40),8>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-2.41,5.16),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-4.47,3.56),1>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-6.34,-5.74),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-7.50,6.90),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(4.01,-6.47),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-4.00,2.57),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.34,7.15),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.73,7.18),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(3.69,-9.84),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-3.21,-0.12),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-8.55,-6.70),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.71,-8.99),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.53,8.19),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(1.75,-4.97),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-4.02,8.81),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(0.70,-8.18),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(0.91,-7.33),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(7.90,0.21),8>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-7.39,-7.85),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(0.81,-2.91),8>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-4.83,1.30),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-3.80,4.71),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(6.53,-0.37),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.77,-1.24),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-2.04,3.88),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-2.95,3.25),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-2.11,-7.54),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(8.35,3.62),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-3.14,6.98),1>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.43,-9.08),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-9.14,-4.13),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(6.79,-8.67),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.65,9.99),5>');
+
+INSERT INTO t_circle
+VALUES (circle'<(8.42,-1.85),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(2.19,-7.22),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(2.25,6.97),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-9.17,0.08),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-8.54,7.83),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-3.19,-0.88),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-1.41,0.52),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.94,-1.58),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.63,-7.14),1>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-1.00,-6.00),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(1.15,-0.45),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.61,3.15),8>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.55,6.42),1>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-7.36,-4.05),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(1.53,-5.11),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.62,-9.08),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(6.81,7.91),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.80,9.44),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(6.46,5.80),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(1.12,-5.98),8>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-5.66,4.52),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-9.94,-0.70),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-2.21,3.32),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-1.82,0.30),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(4.97,-2.62),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-6.43,4.40),1>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.92,3.94),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(4.76,-7.64),1>');
+
+INSERT INTO t_circle
+VALUES (circle'<(4.81,-9.85),8>');
+
+INSERT INTO t_circle
+VALUES (circle'<(8.77,-0.77),8>');
+
+INSERT INTO t_circle
+VALUES (circle'<(4.70,9.39),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.12,-5.26),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-1.66,2.62),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(8.40,1.34),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(0.38,-4.84),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(7.56,-9.45),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.09,-4.19),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(3.26,9.78),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-7.94,-0.89),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(8.79,2.88),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(0.87,-0.62),6>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-3.46,7.62),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(5.91,-5.45),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-9.09,0.95),9>');
+
+INSERT INTO t_circle
+VALUES (circle'<(7.30,0.59),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(6.16,5.34),2>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-8.97,1.11),5>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-7.85,-8.41),3>');
+
+INSERT INTO t_circle
+VALUES (circle'<(1.96,-0.87),10>');
+
+INSERT INTO t_circle
+VALUES (circle'<(-0.15,1.68),4>');
+
+INSERT INTO t_circle
+VALUES (circle'<(9.33,6.06),7>');
+
+INSERT INTO t_circle
+VALUES (circle'<(4.59,-3.53),7>');
+
+INSERT INTO t_double_prec
+VALUES (7.758e+291);
+
+INSERT INTO t_double_prec
+VALUES (8.297e-148);
+
+INSERT INTO t_double_prec
+VALUES (3.138e+289);
+
+INSERT INTO t_double_prec
+VALUES (6.892e-113);
+
+INSERT INTO t_double_prec
+VALUES (5.899e+65);
+
+INSERT INTO t_double_prec
+VALUES (9.898e+37);
+
+INSERT INTO t_double_prec
+VALUES (6.112e+266);
+
+INSERT INTO t_double_prec
+VALUES (4.095e+156);
+
+INSERT INTO t_double_prec
+VALUES (2.284e-142);
+
+INSERT INTO t_double_prec
+VALUES (7.872e+182);
+
+INSERT INTO t_double_prec
+VALUES (6.572e+66);
+
+INSERT INTO t_double_prec
+VALUES (3.912e-69);
+
+INSERT INTO t_double_prec
+VALUES (6.758e+278);
+
+INSERT INTO t_double_prec
+VALUES (8.447e-25);
+
+INSERT INTO t_double_prec
+VALUES (9.828e-298);
+
+INSERT INTO t_double_prec
+VALUES (2.573e+187);
+
+INSERT INTO t_double_prec
+VALUES (9.169e-259);
+
+INSERT INTO t_double_prec
+VALUES (3.182e-254);
+
+INSERT INTO t_double_prec
+VALUES (8.462e+144);
+
+INSERT INTO t_double_prec
+VALUES (1.252e+26);
+
+INSERT INTO t_double_prec
+VALUES (8.47e-249);
+
+INSERT INTO t_double_prec
+VALUES (7.438e+65);
+
+INSERT INTO t_double_prec
+VALUES (8.235e-25);
+
+INSERT INTO t_double_prec
+VALUES (2.547e-98);
+
+INSERT INTO t_double_prec
+VALUES (6.605e-185);
+
+INSERT INTO t_double_prec
+VALUES (9.039e+283);
+
+INSERT INTO t_double_prec
+VALUES (5.3e-244);
+
+INSERT INTO t_double_prec
+VALUES (4.187e+114);
+
+INSERT INTO t_double_prec
+VALUES (2891000000.0);
+
+INSERT INTO t_double_prec
+VALUES (2.16e+295);
+
+INSERT INTO t_double_prec
+VALUES (4.426e+73);
+
+INSERT INTO t_double_prec
+VALUES (9.382e+189);
+
+INSERT INTO t_double_prec
+VALUES (9.854e-63);
+
+INSERT INTO t_double_prec
+VALUES (1.992e+187);
+
+INSERT INTO t_double_prec
+VALUES (3.019e+239);
+
+INSERT INTO t_double_prec
+VALUES (8.408e-156);
+
+INSERT INTO t_double_prec
+VALUES (5.141e+196);
+
+INSERT INTO t_double_prec
+VALUES (5.861e+264);
+
+INSERT INTO t_double_prec
+VALUES (5.505e+33);
+
+INSERT INTO t_double_prec
+VALUES (5.131e+188);
+
+INSERT INTO t_double_prec
+VALUES (3.924e+116);
+
+INSERT INTO t_double_prec
+VALUES (2.227e+147);
+
+INSERT INTO t_double_prec
+VALUES (1.334e-29);
+
+INSERT INTO t_double_prec
+VALUES (7.422e+44);
+
+INSERT INTO t_double_prec
+VALUES (5.031e-255);
+
+INSERT INTO t_double_prec
+VALUES (1.127e+14);
+
+INSERT INTO t_double_prec
+VALUES (8.057e+93);
+
+INSERT INTO t_double_prec
+VALUES (7.618e-191);
+
+INSERT INTO t_double_prec
+VALUES (5.268e+89);
+
+INSERT INTO t_double_prec
+VALUES (2.12e-208);
+
+INSERT INTO t_double_prec
+VALUES (7.743e-208);
+
+INSERT INTO t_double_prec
+VALUES (9.766e-24);
+
+INSERT INTO t_double_prec
+VALUES (1.563e+182);
+
+INSERT INTO t_double_prec
+VALUES (9.181e+120);
+
+INSERT INTO t_double_prec
+VALUES (5.036e+157);
+
+INSERT INTO t_double_prec
+VALUES (9.361e-176);
+
+INSERT INTO t_double_prec
+VALUES (2.663e-187);
+
+INSERT INTO t_double_prec
+VALUES (3.175e+175);
+
+INSERT INTO t_double_prec
+VALUES (2.548e+229);
+
+INSERT INTO t_double_prec
+VALUES (1.872e+42);
+
+INSERT INTO t_double_prec
+VALUES (7.351e-104);
+
+INSERT INTO t_double_prec
+VALUES (1.091e+67);
+
+INSERT INTO t_double_prec
+VALUES (1.276e-07);
+
+INSERT INTO t_double_prec
+VALUES (7.487e+263);
+
+INSERT INTO t_double_prec
+VALUES (6.148e+239);
+
+INSERT INTO t_double_prec
+VALUES (9.179e-58);
+
+INSERT INTO t_double_prec
+VALUES (2.061e-187);
+
+INSERT INTO t_double_prec
+VALUES (8.102e+132);
+
+INSERT INTO t_double_prec
+VALUES (26830.0);
+
+INSERT INTO t_double_prec
+VALUES (8.397e+133);
+
+INSERT INTO t_double_prec
+VALUES (1.149e+294);
+
+INSERT INTO t_double_prec
+VALUES (2.586e-173);
+
+INSERT INTO t_double_prec
+VALUES (1.553e+174);
+
+INSERT INTO t_double_prec
+VALUES (2.232e+156);
+
+INSERT INTO t_double_prec
+VALUES (5.302e+158);
+
+INSERT INTO t_double_prec
+VALUES (4.819e-216);
+
+INSERT INTO t_double_prec
+VALUES (3.422e-188);
+
+INSERT INTO t_double_prec
+VALUES (8.858e+299);
+
+INSERT INTO t_double_prec
+VALUES (9.172e+235);
+
+INSERT INTO t_double_prec
+VALUES (5.419e+192);
+
+INSERT INTO t_double_prec
+VALUES (2.94e+92);
+
+INSERT INTO t_double_prec
+VALUES (4.992e-45);
+
+INSERT INTO t_double_prec
+VALUES (3.654e-59);
+
+INSERT INTO t_double_prec
+VALUES (2.597e+179);
+
+INSERT INTO t_double_prec
+VALUES (4.348e-194);
+
+INSERT INTO t_double_prec
+VALUES (7.854e+143);
+
+INSERT INTO t_double_prec
+VALUES (2.019e-175);
+
+INSERT INTO t_double_prec
+VALUES (2.261e+294);
+
+INSERT INTO t_double_prec
+VALUES (9.608e-230);
+
+INSERT INTO t_double_prec
+VALUES (2.154e+108);
+
+INSERT INTO t_double_prec
+VALUES (9.814e+102);
+
+INSERT INTO t_double_prec
+VALUES (6.19e-286);
+
+INSERT INTO t_double_prec
+VALUES (7.616e-268);
+
+INSERT INTO t_double_prec
+VALUES (4.178e+101);
+
+INSERT INTO t_double_prec
+VALUES (5.596e-301);
+
+INSERT INTO t_double_prec
+VALUES (1.702e-180);
+
+INSERT INTO t_double_prec
+VALUES (3.889e-142);
+
+INSERT INTO t_double_prec
+VALUES (7.455e-137);
+
+INSERT INTO t_double_prec
+VALUES (7.224e+302);
+
+INSERT INTO t_double_prec
+VALUES (1.697e+14);
+
+INSERT INTO t_inet
+VALUES (inet'65.54.49.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'208.69.192.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'223.77.155.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'13.201.117.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'27.253.221.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'202.216.231.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'231.86.220.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'146.53.104.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'107.135.204.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'201.102.218.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'200.163.112.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'132.25.224.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'137.163.55.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'15.65.203.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'45.255.111.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'102.54.95.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'157.110.152.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'238.164.124.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'11.112.51.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'134.102.13.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'122.15.183.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'197.9.208.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'244.48.147.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'0.163.19.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'239.5.246.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'160.88.148.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'14.86.199.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'153.192.251.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'235.112.87.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'6.187.209.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'193.41.93.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'211.220.59.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'35.122.58.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'44.240.26.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'213.29.191.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'195.114.246.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'10.129.84.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'42.129.116.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'92.48.100.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'244.120.35.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'139.177.105.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'215.133.241.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'250.141.207.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'248.102.201.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'96.123.16.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'74.99.214.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'9.91.87.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'103.121.64.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'180.166.93.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'158.194.138.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'73.142.124.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'241.202.25.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'100.129.118.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'41.135.78.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'18.93.173.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'23.20.182.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'213.91.209.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'148.174.178.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'221.143.174.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'31.99.175.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'71.81.59.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'37.65.94.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'242.171.96.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'92.61.236.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'53.131.210.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'115.156.10.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'87.167.43.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'203.114.126.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'99.226.105.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'107.148.66.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'52.145.230.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'184.146.135.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'245.9.104.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'214.255.8.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'41.140.252.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'69.114.128.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'195.216.244.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'30.157.124.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'249.242.189.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'33.139.254.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'20.119.6.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'254.70.91.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'65.117.83.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'187.159.106.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'59.145.155.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'37.248.208.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'191.171.222.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'152.78.31.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'41.186.61.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'145.68.17.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'92.40.246.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'32.159.207.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'252.121.195.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'226.218.178.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'5.48.62.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'248.6.214.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'243.129.2.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'103.159.35.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'241.47.51.0/24');
+
+INSERT INTO t_inet
+VALUES (inet'168.107.2.0/24');
+
+INSERT INTO t_integer
+VALUES (225090275);
+
+INSERT INTO t_integer
+VALUES (79);
+
+INSERT INTO t_integer
+VALUES (506004181);
+
+INSERT INTO t_integer
+VALUES (747386967);
+
+INSERT INTO t_integer
+VALUES (598373737);
+
+INSERT INTO t_integer
+VALUES (5446260);
+
+INSERT INTO t_integer
+VALUES (96);
+
+INSERT INTO t_integer
+VALUES (763203988);
+
+INSERT INTO t_integer
+VALUES (336601456);
+
+INSERT INTO t_integer
+VALUES (600976177);
+
+INSERT INTO t_integer
+VALUES (857050108);
+
+INSERT INTO t_integer
+VALUES (708792898);
+
+INSERT INTO t_integer
+VALUES (942186520);
+
+INSERT INTO t_integer
+VALUES (1623142946);
+
+INSERT INTO t_integer
+VALUES (966397724);
+
+INSERT INTO t_integer
+VALUES (39890);
+
+INSERT INTO t_integer
+VALUES (12982201);
+
+INSERT INTO t_integer
+VALUES (401552575);
+
+INSERT INTO t_integer
+VALUES (746041975);
+
+INSERT INTO t_integer
+VALUES (6280625);
+
+INSERT INTO t_integer
+VALUES (843617555);
+
+INSERT INTO t_integer
+VALUES (316968410);
+
+INSERT INTO t_integer
+VALUES (648941330);
+
+INSERT INTO t_integer
+VALUES (2164);
+
+INSERT INTO t_integer
+VALUES (480);
+
+INSERT INTO t_integer
+VALUES (865);
+
+INSERT INTO t_integer
+VALUES (46905162);
+
+INSERT INTO t_integer
+VALUES (812975023);
+
+INSERT INTO t_integer
+VALUES (909390552);
+
+INSERT INTO t_integer
+VALUES (362511467);
+
+INSERT INTO t_integer
+VALUES (541037332);
+
+INSERT INTO t_integer
+VALUES (406141098);
+
+INSERT INTO t_integer
+VALUES (921415681);
+
+INSERT INTO t_integer
+VALUES (875734297);
+
+INSERT INTO t_integer
+VALUES (251335331);
+
+INSERT INTO t_integer
+VALUES (4);
+
+INSERT INTO t_integer
+VALUES (810269445);
+
+INSERT INTO t_integer
+VALUES (226588617);
+
+INSERT INTO t_integer
+VALUES (1916739);
+
+INSERT INTO t_integer
+VALUES (529337268);
+
+INSERT INTO t_integer
+VALUES (268317380);
+
+INSERT INTO t_integer
+VALUES (259238860);
+
+INSERT INTO t_integer
+VALUES (988717927);
+
+INSERT INTO t_integer
+VALUES (6700);
+
+INSERT INTO t_integer
+VALUES (9618373);
+
+INSERT INTO t_integer
+VALUES (670123359);
+
+INSERT INTO t_integer
+VALUES (427324535);
+
+INSERT INTO t_integer
+VALUES (472067748);
+
+INSERT INTO t_integer
+VALUES (464);
+
+INSERT INTO t_integer
+VALUES (214962346);
+
+INSERT INTO t_integer
+VALUES (369565285);
+
+INSERT INTO t_integer
+VALUES (858439806);
+
+INSERT INTO t_integer
+VALUES (358735673);
+
+INSERT INTO t_integer
+VALUES (20783);
+
+INSERT INTO t_integer
+VALUES (387928736);
+
+INSERT INTO t_integer
+VALUES (326485634);
+
+INSERT INTO t_integer
+VALUES (92606246);
+
+INSERT INTO t_integer
+VALUES (6722078);
+
+INSERT INTO t_integer
+VALUES (536035793);
+
+INSERT INTO t_integer
+VALUES (610666749);
+
+INSERT INTO t_integer
+VALUES (25);
+
+INSERT INTO t_integer
+VALUES (447277);
+
+INSERT INTO t_integer
+VALUES (607941064);
+
+INSERT INTO t_integer
+VALUES (509819005);
+
+INSERT INTO t_integer
+VALUES (807322968);
+
+INSERT INTO t_integer
+VALUES (7116509);
+
+INSERT INTO t_integer
+VALUES (917204353);
+
+INSERT INTO t_integer
+VALUES (129785000);
+
+INSERT INTO t_integer
+VALUES (838110353);
+
+INSERT INTO t_integer
+VALUES (687582068);
+
+INSERT INTO t_integer
+VALUES (344601830);
+
+INSERT INTO t_integer
+VALUES (545070069);
+
+INSERT INTO t_integer
+VALUES (311449260);
+
+INSERT INTO t_integer
+VALUES (651764310);
+
+INSERT INTO t_integer
+VALUES (857224648);
+
+INSERT INTO t_integer
+VALUES (33);
+
+INSERT INTO t_integer
+VALUES (88);
+
+INSERT INTO t_integer
+VALUES (809362916);
+
+INSERT INTO t_integer
+VALUES (365555561);
+
+INSERT INTO t_integer
+VALUES (780962873);
+
+INSERT INTO t_integer
+VALUES (3999306);
+
+INSERT INTO t_integer
+VALUES (396624210);
+
+INSERT INTO t_integer
+VALUES (9);
+
+INSERT INTO t_integer
+VALUES (683398228);
+
+INSERT INTO t_integer
+VALUES (4199760);
+
+INSERT INTO t_integer
+VALUES (781931705);
+
+INSERT INTO t_integer
+VALUES (735);
+
+INSERT INTO t_integer
+VALUES (481973898);
+
+INSERT INTO t_integer
+VALUES (0);
+
+INSERT INTO t_integer
+VALUES (41669131);
+
+INSERT INTO t_integer
+VALUES (617681615);
+
+INSERT INTO t_integer
+VALUES (4776);
+
+INSERT INTO t_integer
+VALUES (786013301);
+
+INSERT INTO t_integer
+VALUES (821334360);
+
+INSERT INTO t_integer
+VALUES (1822);
+
+INSERT INTO t_integer
+VALUES (48834184);
+
+INSERT INTO t_integer
+VALUES (368605695);
+
+INSERT INTO t_integer
+VALUES (679581831);
+
+INSERT INTO t_integer
+VALUES (135850552);
+
+INSERT INTO t_integer
+VALUES (262685722);
+
+INSERT INTO t_lseg
+VALUES (lseg'((-6.06,9.84),(0.13,-3.39))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((0.03,8.06),(8.43,-0.92))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-1.12,2.47),(-7.48,-9.50))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((2.90,-4.95),(0.49,-1.56))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((0.86,-6.90),(-4.87,-2.82))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.06,-3.79),(-2.25,0.97))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-8.28,7.18),(2.81,-9.32))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.26,3.09),(6.97,-3.62))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.72,-1.67),(5.09,6.47))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.88,-0.76),(0.44,-6.61))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.08,2.78),(6.94,2.07))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((4.10,1.89),(-7.38,1.60))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((7.84,1.77),(2.61,-4.58))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-6.31,7.01),(-2.82,-4.62))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((3.67,-4.25),(5.61,-6.25))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-0.00,3.80),(0.08,-7.41))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-8.66,1.97),(-0.51,-1.17))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.58,-2.25),(3.14,8.45))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-4.71,-5.97),(2.90,2.94))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.69,-3.41),(9.01,-2.97))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-1.11,6.66),(-9.80,-5.86))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((4.12,-2.04),(-6.16,-4.89))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.87,6.66),(1.05,7.39))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-3.22,0.51),(5.29,-5.93))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-4.68,5.33),(1.77,-7.50))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-0.48,8.82),(-8.59,1.29))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((2.34,7.59),(-0.11,-1.80))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.20,-9.69),(-7.86,1.04))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-9.56,2.60),(-8.62,-8.82))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((8.52,-7.14),(4.81,6.25))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((4.64,-3.91),(2.05,0.06))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-3.42,-2.08),(2.37,3.27))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.80,9.57),(4.06,9.15))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((0.59,-8.15),(7.16,-4.66))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((3.30,4.68),(-9.65,-9.91))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.01,-8.17),(0.86,1.21))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.30,7.79),(-9.92,2.43))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-9.59,5.15),(-3.44,-6.68))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((7.05,-8.54),(-5.80,-2.80))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-2.82,-6.07),(-5.49,-7.87))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((7.68,-3.09),(-5.20,-2.22))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((6.21,8.55),(0.85,-2.42))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-0.88,-0.51),(-0.66,-3.96))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-6.50,-6.62),(-1.48,-3.70))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-9.53,-8.95),(9.51,-9.39))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((7.71,-9.49),(7.71,-3.74))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-4.80,-2.98),(5.94,-9.45))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.31,-1.16),(-2.51,-2.58))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.92,8.27),(7.20,-3.91))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-5.68,-7.41),(8.94,-1.79))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((0.84,9.29),(6.92,-4.14))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-1.80,-0.64),(-5.11,-3.74))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((6.76,1.10),(7.70,7.08))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.27,8.98),(-1.38,-6.97))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((6.95,7.24),(-3.57,7.78))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-4.53,-5.20),(-6.24,5.07))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((7.92,4.83),(-2.84,6.17))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.69,1.66),(7.91,2.29))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.73,-1.37),(-2.66,-8.84))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-2.03,8.78),(2.75,0.15))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.85,3.87),(-8.94,-2.71))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.99,2.75),(-1.43,1.02))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((4.97,-5.28),(-6.26,4.21))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-2.09,-8.17),(2.76,9.90))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.72,-1.60),(-7.13,-0.55))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-7.39,-2.34),(7.55,-6.59))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-1.58,7.80),(-9.65,1.22))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-8.58,2.72),(4.20,5.39))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.21,4.55),(8.11,0.47))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((1.04,-5.27),(-1.59,5.54))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-9.32,-6.40),(5.40,-7.92))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-0.21,-7.85),(9.49,-5.73))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-5.38,-2.26),(-8.57,8.50))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-1.10,7.55),(-8.72,5.28))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-6.14,0.10),(-1.59,-2.29))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-0.07,-2.93),(-3.90,-0.87))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-2.05,8.37),(2.63,2.86))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.94,-1.53),(8.85,-0.88))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((8.05,4.44),(-0.13,3.33))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-8.14,4.95),(-6.26,2.12))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.51,-5.40),(-9.00,-6.85))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-2.39,-3.29),(1.78,-4.34))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.45,5.54),(3.46,-2.91))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.50,-3.11),(5.89,-8.76))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((9.36,7.27),(-8.02,-8.57))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-0.87,6.86),(2.03,-5.32))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-8.67,8.76),(3.15,-8.68))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-4.48,5.68),(-2.10,2.79))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-3.50,1.71),(-0.68,8.94))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-5.62,-3.64),(0.48,8.54))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-1.96,-4.91),(4.96,3.86))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((2.52,-1.70),(2.79,3.25))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((0.09,2.46),(3.71,-6.29))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-0.32,-2.11),(3.68,7.33))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((6.36,-8.61),(2.59,-8.53))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((8.67,-5.95),(2.03,9.03))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-6.23,9.70),(1.59,4.85))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((5.33,1.28),(5.99,1.73))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((-9.27,0.77),(4.42,-8.18))');
+
+INSERT INTO t_lseg
+VALUES (lseg'((6.62,7.80),(-8.18,-8.62))');
+
+INSERT INTO t_numeric
+VALUES (8.84);
+
+INSERT INTO t_numeric
+VALUES (243.96);
+
+INSERT INTO t_numeric
+VALUES (8.51);
+
+INSERT INTO t_numeric
+VALUES (0.4);
+
+INSERT INTO t_numeric
+VALUES (6.3);
+
+INSERT INTO t_numeric
+VALUES (0.90);
+
+INSERT INTO t_numeric
+VALUES (807.70);
+
+INSERT INTO t_numeric
+VALUES (04.6);
+
+INSERT INTO t_numeric
+VALUES (889.2);
+
+INSERT INTO t_numeric
+VALUES (4.1);
+
+INSERT INTO t_numeric
+VALUES (1.89);
+
+INSERT INTO t_numeric
+VALUES (29.8);
+
+INSERT INTO t_numeric
+VALUES (3.37);
+
+INSERT INTO t_numeric
+VALUES (52.4);
+
+INSERT INTO t_numeric
+VALUES (883.36);
+
+INSERT INTO t_numeric
+VALUES (158.98);
+
+INSERT INTO t_numeric
+VALUES (72.7);
+
+INSERT INTO t_numeric
+VALUES (55.9);
+
+INSERT INTO t_numeric
+VALUES (193.75);
+
+INSERT INTO t_numeric
+VALUES (807.98);
+
+INSERT INTO t_numeric
+VALUES (0.23);
+
+INSERT INTO t_numeric
+VALUES (032.06);
+
+INSERT INTO t_numeric
+VALUES (107.4);
+
+INSERT INTO t_numeric
+VALUES (2.5);
+
+INSERT INTO t_numeric
+VALUES (4.7);
+
+INSERT INTO t_numeric
+VALUES (592.15);
+
+INSERT INTO t_numeric
+VALUES (7.65);
+
+INSERT INTO t_numeric
+VALUES (09.79);
+
+INSERT INTO t_numeric
+VALUES (74.3);
+
+INSERT INTO t_numeric
+VALUES (6.46);
+
+INSERT INTO t_numeric
+VALUES (03.73);
+
+INSERT INTO t_numeric
+VALUES (189.51);
+
+INSERT INTO t_numeric
+VALUES (0.1);
+
+INSERT INTO t_numeric
+VALUES (5.0);
+
+INSERT INTO t_numeric
+VALUES (1.5);
+
+INSERT INTO t_numeric
+VALUES (047.73);
+
+INSERT INTO t_numeric
+VALUES (14.0);
+
+INSERT INTO t_numeric
+VALUES (52.6);
+
+INSERT INTO t_numeric
+VALUES (010.8);
+
+INSERT INTO t_numeric
+VALUES (760.65);
+
+INSERT INTO t_numeric
+VALUES (3.72);
+
+INSERT INTO t_numeric
+VALUES (9.75);
+
+INSERT INTO t_numeric
+VALUES (94.8);
+
+INSERT INTO t_numeric
+VALUES (18.7);
+
+INSERT INTO t_numeric
+VALUES (03.6);
+
+INSERT INTO t_numeric
+VALUES (42.77);
+
+INSERT INTO t_numeric
+VALUES (59.5);
+
+INSERT INTO t_numeric
+VALUES (5.1);
+
+INSERT INTO t_numeric
+VALUES (4.2);
+
+INSERT INTO t_numeric
+VALUES (264.56);
+
+INSERT INTO t_numeric
+VALUES (612.0);
+
+INSERT INTO t_numeric
+VALUES (6.8);
+
+INSERT INTO t_numeric
+VALUES (63.75);
+
+INSERT INTO t_numeric
+VALUES (15.5);
+
+INSERT INTO t_numeric
+VALUES (294.00);
+
+INSERT INTO t_numeric
+VALUES (1.40);
+
+INSERT INTO t_numeric
+VALUES (432.9);
+
+INSERT INTO t_numeric
+VALUES (690.34);
+
+INSERT INTO t_numeric
+VALUES (38.6);
+
+INSERT INTO t_numeric
+VALUES (8.51);
+
+INSERT INTO t_numeric
+VALUES (331.2);
+
+INSERT INTO t_numeric
+VALUES (713.22);
+
+INSERT INTO t_numeric
+VALUES (32.71);
+
+INSERT INTO t_numeric
+VALUES (5.45);
+
+INSERT INTO t_numeric
+VALUES (2.40);
+
+INSERT INTO t_numeric
+VALUES (32.7);
+
+INSERT INTO t_numeric
+VALUES (0.1);
+
+INSERT INTO t_numeric
+VALUES (264.5);
+
+INSERT INTO t_numeric
+VALUES (34.49);
+
+INSERT INTO t_numeric
+VALUES (879.09);
+
+INSERT INTO t_numeric
+VALUES (05.7);
+
+INSERT INTO t_numeric
+VALUES (4.1);
+
+INSERT INTO t_numeric
+VALUES (552.50);
+
+INSERT INTO t_numeric
+VALUES (537.8);
+
+INSERT INTO t_numeric
+VALUES (57.9);
+
+INSERT INTO t_numeric
+VALUES (975.87);
+
+INSERT INTO t_numeric
+VALUES (69.70);
+
+INSERT INTO t_numeric
+VALUES (42.3);
+
+INSERT INTO t_numeric
+VALUES (155.6);
+
+INSERT INTO t_numeric
+VALUES (8.8);
+
+INSERT INTO t_numeric
+VALUES (662.2);
+
+INSERT INTO t_numeric
+VALUES (3.51);
+
+INSERT INTO t_numeric
+VALUES (44.89);
+
+INSERT INTO t_numeric
+VALUES (40.75);
+
+INSERT INTO t_numeric
+VALUES (8.26);
+
+INSERT INTO t_numeric
+VALUES (0.39);
+
+INSERT INTO t_numeric
+VALUES (33.2);
+
+INSERT INTO t_numeric
+VALUES (43.6);
+
+INSERT INTO t_numeric
+VALUES (127.7);
+
+INSERT INTO t_numeric
+VALUES (559.2);
+
+INSERT INTO t_numeric
+VALUES (563.79);
+
+INSERT INTO t_numeric
+VALUES (758.4);
+
+INSERT INTO t_numeric
+VALUES (085.46);
+
+INSERT INTO t_numeric
+VALUES (71.56);
+
+INSERT INTO t_numeric
+VALUES (99.31);
+
+INSERT INTO t_numeric
+VALUES (1.83);
+
+INSERT INTO t_numeric
+VALUES (47.7);
+
+INSERT INTO t_numeric
+VALUES (7.2);
+
+INSERT INTO t_numeric
+VALUES (99.4);
+
+INSERT INTO t_numeric
+VALUES (2.7);
+
+INSERT INTO t_path
+VALUES (path'[(-3.00,3.77),(-2.51,-8.98),(0.89,6.73),(-9.45,-7.19),(8.93,5.50),(-5.30,-6.95),(-9.03,-9.16),(6.53,-1.68)]');
+
+INSERT INTO t_path
+VALUES (path'[(-0.22,3.40),(6.00,1.51),(-2.65,-5.74),(2.25,-7.75),(-2.68,-8.91),(9.07,3.12),(6.25,0.12),(8.03,3.81)]');
+
+INSERT INTO t_path
+VALUES (path'[(1.97,4.13),(-1.31,-4.76),(8.54,4.98)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.95,-9.38),(-9.27,1.82),(5.28,5.72)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.74,-5.35),(9.52,8.83),(8.51,5.63),(5.48,6.11),(1.05,-7.31),(9.77,-5.48),(-4.35,2.47),(-4.04,-2.42),(-2.82,-5.94)]');
+
+INSERT INTO t_path
+VALUES (path'[(4.03,9.74),(-5.65,-9.10),(4.24,2.48),(-6.47,-2.98),(-0.40,-7.41),(-0.28,-7.58),(7.43,2.26),(-8.42,5.92)]');
+
+INSERT INTO t_path
+VALUES (path'[(3.31,-3.23),(-6.52,-2.00),(-1.25,1.57),(-1.55,-0.55),(2.24,-6.72),(-2.96,-0.20),(3.45,-1.11),(-7.66,-3.47),(0.16,-0.57)]');
+
+INSERT INTO t_path
+VALUES (path'[(5.30,-0.33),(-7.91,-2.53),(-0.73,5.26),(6.32,-9.91),(-0.08,2.33),(-9.55,-3.22)]');
+
+INSERT INTO t_path
+VALUES (path'[(1.15,4.01)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.05,-0.53),(-5.40,2.45),(5.52,5.62),(-5.54,0.32),(6.73,7.66),(8.96,-8.56),(-2.39,-7.46),(-9.92,6.39),(-2.45,6.50)]');
+
+INSERT INTO t_path
+VALUES (path'[(-5.03,4.89),(-1.96,-4.27)]');
+
+INSERT INTO t_path
+VALUES (path'[(8.01,-9.95),(-9.93,-9.74)]');
+
+INSERT INTO t_path
+VALUES (path'[(0.96,2.86),(6.81,-5.88)]');
+
+INSERT INTO t_path
+VALUES (path'[(4.03,-1.25),(0.04,-0.45)]');
+
+INSERT INTO t_path
+VALUES (path'[(1.36,-4.99),(2.16,-6.64),(-9.95,3.23),(1.45,-1.88),(-2.85,-4.95),(-4.56,-3.62),(8.54,5.66),(9.57,-7.21)]');
+
+INSERT INTO t_path
+VALUES (path'[(3.93,-6.31),(-6.64,-1.85),(-8.81,-7.03)]');
+
+INSERT INTO t_path
+VALUES (path'[(9.79,4.54),(-5.81,3.08),(-9.72,-2.77),(9.72,3.46),(6.47,0.16),(0.93,9.24),(8.07,9.56)]');
+
+INSERT INTO t_path
+VALUES (path'[(-8.01,-2.44),(-3.43,-8.57),(-6.07,-3.30),(-5.59,8.26),(6.01,7.40),(1.59,-5.64),(-3.08,1.44),(4.43,-2.70),(4.20,7.01)]');
+
+INSERT INTO t_path
+VALUES (path'[(-9.38,4.58),(2.07,5.35),(7.27,4.65),(8.39,-5.70),(-3.20,7.24),(-3.75,-5.77),(-7.93,-9.17),(-6.50,-7.60)]');
+
+INSERT INTO t_path
+VALUES (path'[(-3.54,8.36),(-9.28,3.44),(-6.33,-1.88),(6.44,-3.51),(-1.63,0.36),(-3.46,-4.97),(2.61,0.40),(-9.44,1.60),(2.90,4.67)]');
+
+INSERT INTO t_path
+VALUES (path'[(-7.89,-4.77),(1.35,7.81),(9.86,1.00)]');
+
+INSERT INTO t_path
+VALUES (path'[(-2.95,-6.79),(-8.27,-1.58),(-6.72,0.94),(-3.69,2.71),(5.34,-9.20),(9.69,6.68)]');
+
+INSERT INTO t_path
+VALUES (path'[(-9.35,-5.81),(2.41,-0.28),(2.92,6.46)]');
+
+INSERT INTO t_path
+VALUES (path'[(5.90,8.85),(-0.95,8.60),(-4.94,-2.96),(-5.88,1.95),(0.48,7.18)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.54,-2.06),(-2.10,-7.91),(-5.59,3.39),(-7.25,2.54)]');
+
+INSERT INTO t_path
+VALUES (path'[(-5.06,-9.31),(4.73,2.15),(7.06,-4.33),(4.57,-5.21),(-4.43,-9.38)]');
+
+INSERT INTO t_path
+VALUES (path'[(0.84,4.75),(3.46,5.76),(5.86,-2.16)]');
+
+INSERT INTO t_path
+VALUES (path'[(2.22,2.61),(5.97,7.53),(4.01,4.50),(-9.60,-5.15)]');
+
+INSERT INTO t_path
+VALUES (path'[(-5.12,0.32),(-2.55,-3.50),(-6.75,2.03),(8.99,7.96),(-4.51,-7.64),(2.63,2.26),(6.16,7.23),(0.96,-2.87),(1.17,-9.19)]');
+
+INSERT INTO t_path
+VALUES (path'[(-7.40,7.28),(-5.14,7.99)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.24,3.43),(-2.27,-5.94)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.72,-8.42),(-1.33,9.96),(3.41,-0.72),(-1.54,-7.19),(-8.29,9.76),(0.45,-9.65),(8.96,-9.05),(4.17,2.31)]');
+
+INSERT INTO t_path
+VALUES (path'[(-0.16,-2.12),(-1.34,7.01)]');
+
+INSERT INTO t_path
+VALUES (path'[(-4.65,0.94),(-6.99,-8.23)]');
+
+INSERT INTO t_path
+VALUES (path'[(-0.02,-3.13),(-0.90,-3.22),(7.37,7.72),(-5.19,2.36)]');
+
+INSERT INTO t_path
+VALUES (path'[(-7.06,-5.59),(0.44,-1.64),(-2.46,6.06),(-1.96,5.36)]');
+
+INSERT INTO t_path
+VALUES (path'[(-7.77,6.89),(2.50,-7.59),(6.39,-0.47),(4.48,2.76),(-0.65,9.65),(5.98,1.73),(6.97,2.17),(-9.02,-7.00),(4.07,4.45)]');
+
+INSERT INTO t_path
+VALUES (path'[(8.70,4.07),(8.16,-1.64),(-0.39,-0.54),(3.71,2.86),(-6.98,-4.75)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.62,6.15),(-0.00,4.25),(8.68,-1.92),(4.58,2.72),(-8.82,2.46)]');
+
+INSERT INTO t_path
+VALUES (path'[(-8.24,9.72),(-1.93,7.77),(-3.83,6.87),(5.85,-0.63),(2.25,5.52)]');
+
+INSERT INTO t_path
+VALUES (path'[(5.10,4.97),(1.95,-0.96),(9.26,5.32)]');
+
+INSERT INTO t_path
+VALUES (path'[(8.94,1.08),(3.96,1.46),(9.97,2.53)]');
+
+INSERT INTO t_path
+VALUES (path'[(6.47,7.02),(9.16,-0.93)]');
+
+INSERT INTO t_path
+VALUES (path'[(9.39,-2.38),(2.49,-7.88),(0.14,-8.72),(-1.30,-9.03),(0.32,0.74),(7.61,8.24),(-4.19,-4.58)]');
+
+INSERT INTO t_path
+VALUES (path'[(3.56,-6.75)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.64,-2.99),(3.15,0.52),(-6.81,6.67),(3.42,3.57),(-6.97,-1.93),(7.92,-7.43),(2.91,-5.35)]');
+
+INSERT INTO t_path
+VALUES (path'[(0.82,1.23),(2.99,7.86),(-2.31,-4.66),(1.46,1.91),(8.01,7.11),(6.11,8.89),(-8.55,9.72)]');
+
+INSERT INTO t_path
+VALUES (path'[(5.07,-0.44),(-3.10,-3.23),(-0.34,-6.66),(-0.63,-0.65)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.60,-9.22),(-8.81,1.18),(2.86,6.63),(-3.12,7.41),(7.62,-4.30),(-1.76,-8.75),(-9.69,3.15),(6.00,8.27)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.41,-6.55),(8.11,8.41),(0.36,3.80),(3.56,2.94)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.48,2.65),(2.28,8.49),(-0.98,5.73),(-2.29,-1.51),(-7.51,-3.19),(-9.02,-3.47),(-3.74,8.95),(-0.22,-9.96),(-4.94,-5.92)]');
+
+INSERT INTO t_path
+VALUES (path'[(-8.89,1.63),(-0.08,-5.08)]');
+
+INSERT INTO t_path
+VALUES (path'[(6.39,7.13),(-1.77,6.85),(8.80,-6.27),(0.63,-2.46)]');
+
+INSERT INTO t_path
+VALUES (path'[(-3.84,0.25),(-2.83,-4.51),(7.38,8.63),(4.46,7.18),(6.38,-1.03),(2.69,-4.50)]');
+
+INSERT INTO t_path
+VALUES (path'[(-6.78,1.58)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.08,-8.27),(8.24,1.95),(7.29,8.83),(-2.79,-8.02),(-6.68,-7.65)]');
+
+INSERT INTO t_path
+VALUES (path'[(-0.56,1.06),(4.47,1.57),(4.19,8.12),(3.55,-3.73)]');
+
+INSERT INTO t_path
+VALUES (path'[(-2.19,-3.74),(-1.71,-7.57),(-1.59,-9.46),(4.68,-8.70),(-4.66,-5.87),(1.94,7.08),(6.32,2.39),(-4.98,5.92),(-2.35,-6.64)]');
+
+INSERT INTO t_path
+VALUES (path'[(5.00,3.81)]');
+
+INSERT INTO t_path
+VALUES (path'[(-4.51,-2.57)]');
+
+INSERT INTO t_path
+VALUES (path'[(0.63,-1.73),(2.68,0.68),(4.62,-1.94),(8.79,-2.97),(-7.63,8.75),(2.92,-6.82),(-3.28,9.28),(7.51,-9.07),(0.20,-1.53)]');
+
+INSERT INTO t_path
+VALUES (path'[(9.63,5.86),(-7.83,-7.05)]');
+
+INSERT INTO t_path
+VALUES (path'[(1.64,3.19),(9.48,2.82)]');
+
+INSERT INTO t_path
+VALUES (path'[(-9.28,3.38),(5.76,-6.19),(-1.98,0.19),(7.51,4.34),(6.29,-0.79),(-6.39,-2.76),(-7.13,-8.29),(-3.31,-1.84),(-0.90,-3.70)]');
+
+INSERT INTO t_path
+VALUES (path'[(-8.25,3.41),(7.02,9.89),(-0.20,3.67),(-9.70,9.04),(6.41,2.44),(2.66,2.14),(-9.84,4.85),(3.25,8.28)]');
+
+INSERT INTO t_path
+VALUES (path'[(-2.86,7.35),(2.59,-2.21),(-6.90,6.38),(1.14,4.19),(-1.24,-5.74),(6.74,-5.31),(-5.94,-3.97),(-2.74,-2.80)]');
+
+INSERT INTO t_path
+VALUES (path'[(-6.51,9.06),(-6.82,-8.87)]');
+
+INSERT INTO t_path
+VALUES (path'[(-5.27,-3.16),(-3.36,-1.94),(8.32,-3.33),(-4.33,-2.66),(8.31,-4.24),(6.79,-6.80),(-2.83,-7.19)]');
+
+INSERT INTO t_path
+VALUES (path'[(-0.43,0.84),(3.92,-2.32),(3.27,6.41),(-9.43,0.19),(5.77,4.04),(-0.31,7.14)]');
+
+INSERT INTO t_path
+VALUES (path'[(0.30,-9.43),(4.42,3.11)]');
+
+INSERT INTO t_path
+VALUES (path'[(1.61,-4.49),(9.39,4.08),(5.63,1.61)]');
+
+INSERT INTO t_path
+VALUES (path'[(-6.79,-8.82)]');
+
+INSERT INTO t_path
+VALUES (path'[(3.29,-4.39),(-2.60,1.03),(-6.50,7.66),(-4.69,-4.86)]');
+
+INSERT INTO t_path
+VALUES (path'[(-6.65,-9.93),(4.56,-8.81),(-7.16,-2.88),(-5.47,8.95),(-7.81,-0.58),(-0.34,-3.76),(-9.60,-7.46)]');
+
+INSERT INTO t_path
+VALUES (path'[(2.96,9.17),(-6.46,4.42),(2.73,6.48),(-6.86,1.77),(-0.02,8.94),(5.54,-9.72),(-5.05,3.28),(-6.10,-8.32)]');
+
+INSERT INTO t_path
+VALUES (path'[(1.26,-4.65),(-7.26,-5.46),(-6.22,6.26),(3.87,-2.21),(8.05,-5.08),(-1.99,-2.68),(0.55,-1.27)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.88,2.35),(4.79,8.55),(-6.73,8.20),(-5.54,-5.72),(2.16,-5.45),(9.27,-3.14)]');
+
+INSERT INTO t_path
+VALUES (path'[(1.26,8.09)]');
+
+INSERT INTO t_path
+VALUES (path'[(-9.37,-4.97),(7.62,7.06),(-6.17,6.15),(-7.59,-9.10),(2.67,-7.36),(0.50,-8.89),(-6.69,7.55),(-6.06,-2.01),(-5.74,4.21)]');
+
+INSERT INTO t_path
+VALUES (path'[(8.64,2.66),(4.04,1.17),(-5.38,1.73),(-3.85,-5.34),(-7.14,-0.52),(-9.10,1.89)]');
+
+INSERT INTO t_path
+VALUES (path'[(-4.64,-9.28),(7.11,9.06),(8.66,2.15)]');
+
+INSERT INTO t_path
+VALUES (path'[(-0.15,-6.27),(7.29,9.69)]');
+
+INSERT INTO t_path
+VALUES (path'[(0.85,-7.20),(-5.35,-4.37),(-0.03,6.56),(-0.50,-3.63),(1.25,0.39),(-5.02,-3.20),(0.69,3.41),(-2.90,8.97),(-9.92,-3.83)]');
+
+INSERT INTO t_path
+VALUES (path'[(-7.62,-6.30),(2.10,1.26),(-4.30,2.76),(8.77,6.98),(-9.80,-0.61)]');
+
+INSERT INTO t_path
+VALUES (path'[(9.75,-1.45),(7.34,3.13),(5.69,-8.88),(-7.08,1.92),(7.33,9.56)]');
+
+INSERT INTO t_path
+VALUES (path'[(-2.83,-5.63),(-7.94,9.59),(-1.05,-5.10),(-9.71,8.50),(4.16,-1.61)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.64,9.56),(1.37,7.97),(0.94,8.92),(0.81,4.41),(2.95,3.12),(-8.12,-5.90)]');
+
+INSERT INTO t_path
+VALUES (path'[(-9.32,1.46),(-9.25,-9.95),(1.76,6.44),(7.15,-2.70)]');
+
+INSERT INTO t_path
+VALUES (path'[(-9.10,9.90),(-4.02,-4.40),(6.05,-9.21),(-6.10,-5.98),(7.07,1.55),(-6.46,-0.23)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.02,-9.53),(9.34,-1.98),(-6.55,7.60),(-9.20,8.12),(2.52,3.51),(-3.48,3.33)]');
+
+INSERT INTO t_path
+VALUES (path'[(7.78,-0.84)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.92,-8.24),(5.32,8.75),(-6.77,-6.33),(0.60,2.51),(-4.80,1.52),(0.70,-2.32),(6.73,-6.28),(-1.33,-2.04),(8.33,6.57)]');
+
+INSERT INTO t_path
+VALUES (path'[(5.94,3.75)]');
+
+INSERT INTO t_path
+VALUES (path'[(-1.46,-7.67)]');
+
+INSERT INTO t_path
+VALUES (path'[(-4.41,4.26),(5.15,2.46),(9.97,-8.66),(-3.71,-6.59),(-6.31,-9.55),(-1.07,-3.68),(-7.82,-7.13)]');
+
+INSERT INTO t_path
+VALUES (path'[(-7.40,4.26),(-4.86,-5.60),(-3.88,1.37),(6.63,7.27),(-3.73,7.90)]');
+
+INSERT INTO t_path
+VALUES (path'[(-4.17,9.90),(-8.14,0.06),(1.29,-7.16),(0.10,-5.68),(0.55,-5.20)]');
+
+INSERT INTO t_path
+VALUES (path'[(0.80,7.79)]');
+
+INSERT INTO t_path
+VALUES (path'[(4.94,-0.83),(8.43,-9.65),(9.51,9.81),(-4.01,-9.89),(-6.09,8.43)]');
+
+INSERT INTO t_path
+VALUES (path'[(-0.72,0.58),(0.84,-3.56),(4.84,0.48)]');
+
+INSERT INTO t_point
+VALUES (point'(4.22,-8.46)');
+
+INSERT INTO t_point
+VALUES (point'(-2.22,1.24)');
+
+INSERT INTO t_point
+VALUES (point'(3.47,2.62)');
+
+INSERT INTO t_point
+VALUES (point'(0.20,-5.45)');
+
+INSERT INTO t_point
+VALUES (point'(5.16,1.93)');
+
+INSERT INTO t_point
+VALUES (point'(-3.83,2.90)');
+
+INSERT INTO t_point
+VALUES (point'(7.71,8.52)');
+
+INSERT INTO t_point
+VALUES (point'(5.89,-8.77)');
+
+INSERT INTO t_point
+VALUES (point'(1.80,3.82)');
+
+INSERT INTO t_point
+VALUES (point'(9.06,-0.66)');
+
+INSERT INTO t_point
+VALUES (point'(-8.18,1.69)');
+
+INSERT INTO t_point
+VALUES (point'(0.53,4.03)');
+
+INSERT INTO t_point
+VALUES (point'(2.26,8.60)');
+
+INSERT INTO t_point
+VALUES (point'(-5.32,-9.79)');
+
+INSERT INTO t_point
+VALUES (point'(1.26,-1.31)');
+
+INSERT INTO t_point
+VALUES (point'(8.29,-6.99)');
+
+INSERT INTO t_point
+VALUES (point'(7.73,5.00)');
+
+INSERT INTO t_point
+VALUES (point'(9.78,-9.78)');
+
+INSERT INTO t_point
+VALUES (point'(3.78,-6.18)');
+
+INSERT INTO t_point
+VALUES (point'(7.65,8.16)');
+
+INSERT INTO t_point
+VALUES (point'(8.05,-6.03)');
+
+INSERT INTO t_point
+VALUES (point'(2.71,-3.15)');
+
+INSERT INTO t_point
+VALUES (point'(-5.98,2.00)');
+
+INSERT INTO t_point
+VALUES (point'(0.22,2.30)');
+
+INSERT INTO t_point
+VALUES (point'(-4.21,-1.70)');
+
+INSERT INTO t_point
+VALUES (point'(-7.49,0.07)');
+
+INSERT INTO t_point
+VALUES (point'(-7.14,6.93)');
+
+INSERT INTO t_point
+VALUES (point'(7.29,-1.23)');
+
+INSERT INTO t_point
+VALUES (point'(-3.03,-8.59)');
+
+INSERT INTO t_point
+VALUES (point'(-6.11,6.94)');
+
+INSERT INTO t_point
+VALUES (point'(1.21,-7.61)');
+
+INSERT INTO t_point
+VALUES (point'(2.36,-1.41)');
+
+INSERT INTO t_point
+VALUES (point'(-7.26,0.82)');
+
+INSERT INTO t_point
+VALUES (point'(-1.88,2.35)');
+
+INSERT INTO t_point
+VALUES (point'(3.28,-8.58)');
+
+INSERT INTO t_point
+VALUES (point'(0.95,-7.07)');
+
+INSERT INTO t_point
+VALUES (point'(-9.83,4.98)');
+
+INSERT INTO t_point
+VALUES (point'(3.63,8.96)');
+
+INSERT INTO t_point
+VALUES (point'(-0.05,-2.60)');
+
+INSERT INTO t_point
+VALUES (point'(-1.57,-3.34)');
+
+INSERT INTO t_point
+VALUES (point'(7.60,3.65)');
+
+INSERT INTO t_point
+VALUES (point'(4.19,6.47)');
+
+INSERT INTO t_point
+VALUES (point'(-1.56,-7.78)');
+
+INSERT INTO t_point
+VALUES (point'(7.22,5.69)');
+
+INSERT INTO t_point
+VALUES (point'(-3.34,6.95)');
+
+INSERT INTO t_point
+VALUES (point'(0.06,-2.44)');
+
+INSERT INTO t_point
+VALUES (point'(-8.96,-9.35)');
+
+INSERT INTO t_point
+VALUES (point'(7.94,6.69)');
+
+INSERT INTO t_point
+VALUES (point'(7.36,-2.53)');
+
+INSERT INTO t_point
+VALUES (point'(0.42,-2.41)');
+
+INSERT INTO t_point
+VALUES (point'(-9.63,-9.75)');
+
+INSERT INTO t_point
+VALUES (point'(8.36,-5.70)');
+
+INSERT INTO t_point
+VALUES (point'(-3.60,-4.94)');
+
+INSERT INTO t_point
+VALUES (point'(7.82,-8.54)');
+
+INSERT INTO t_point
+VALUES (point'(-8.46,-3.98)');
+
+INSERT INTO t_point
+VALUES (point'(6.05,5.20)');
+
+INSERT INTO t_point
+VALUES (point'(-5.85,-1.08)');
+
+INSERT INTO t_point
+VALUES (point'(1.89,-7.97)');
+
+INSERT INTO t_point
+VALUES (point'(0.79,2.04)');
+
+INSERT INTO t_point
+VALUES (point'(0.85,-4.81)');
+
+INSERT INTO t_point
+VALUES (point'(-7.30,5.00)');
+
+INSERT INTO t_point
+VALUES (point'(0.13,8.71)');
+
+INSERT INTO t_point
+VALUES (point'(9.72,-3.01)');
+
+INSERT INTO t_point
+VALUES (point'(0.36,1.20)');
+
+INSERT INTO t_point
+VALUES (point'(-2.17,-2.62)');
+
+INSERT INTO t_point
+VALUES (point'(5.14,-1.71)');
+
+INSERT INTO t_point
+VALUES (point'(-9.56,7.04)');
+
+INSERT INTO t_point
+VALUES (point'(-5.09,6.15)');
+
+INSERT INTO t_point
+VALUES (point'(-5.55,3.03)');
+
+INSERT INTO t_point
+VALUES (point'(7.17,5.54)');
+
+INSERT INTO t_point
+VALUES (point'(0.34,-8.03)');
+
+INSERT INTO t_point
+VALUES (point'(3.10,8.53)');
+
+INSERT INTO t_point
+VALUES (point'(-1.05,-8.38)');
+
+INSERT INTO t_point
+VALUES (point'(-0.89,0.25)');
+
+INSERT INTO t_point
+VALUES (point'(9.56,-7.34)');
+
+INSERT INTO t_point
+VALUES (point'(2.27,3.97)');
+
+INSERT INTO t_point
+VALUES (point'(-5.54,-9.14)');
+
+INSERT INTO t_point
+VALUES (point'(0.36,-8.19)');
+
+INSERT INTO t_point
+VALUES (point'(9.76,7.96)');
+
+INSERT INTO t_point
+VALUES (point'(4.50,4.53)');
+
+INSERT INTO t_point
+VALUES (point'(-3.90,-3.85)');
+
+INSERT INTO t_point
+VALUES (point'(-7.01,-3.27)');
+
+INSERT INTO t_point
+VALUES (point'(-7.80,-0.93)');
+
+INSERT INTO t_point
+VALUES (point'(-4.44,5.08)');
+
+INSERT INTO t_point
+VALUES (point'(7.13,-6.95)');
+
+INSERT INTO t_point
+VALUES (point'(8.99,-5.43)');
+
+INSERT INTO t_point
+VALUES (point'(5.04,8.98)');
+
+INSERT INTO t_point
+VALUES (point'(-9.37,9.39)');
+
+INSERT INTO t_point
+VALUES (point'(8.51,1.64)');
+
+INSERT INTO t_point
+VALUES (point'(2.41,2.16)');
+
+INSERT INTO t_point
+VALUES (point'(-2.42,-3.81)');
+
+INSERT INTO t_point
+VALUES (point'(3.64,-5.20)');
+
+INSERT INTO t_point
+VALUES (point'(-2.69,9.18)');
+
+INSERT INTO t_point
+VALUES (point'(-7.08,-6.90)');
+
+INSERT INTO t_point
+VALUES (point'(5.54,8.46)');
+
+INSERT INTO t_point
+VALUES (point'(-7.94,-5.64)');
+
+INSERT INTO t_point
+VALUES (point'(1.40,0.49)');
+
+INSERT INTO t_point
+VALUES (point'(-7.61,4.04)');
+
+INSERT INTO t_point
+VALUES (point'(-6.78,-3.35)');
+
+INSERT INTO t_point
+VALUES (point'(0.87,6.36)');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.91,-8.78),(9.23,7.24),(1.91,-8.78))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-5.08,-8.80),(9.15,-4.48),(-1.39,-4.73),(-0.30,5.53),(-2.64,4.13),(-5.08,-8.80))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((2.43,7.81),(-2.46,-6.27),(-8.74,-0.60),(7.53,-8.55),(-3.38,1.84),(7.62,7.21),(2.43,7.81))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-3.41,0.57),(-7.54,-4.46),(4.76,-1.86),(7.25,5.62),(6.08,-4.02),(7.66,2.96),(-3.41,0.57))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((8.56,0.68),(-3.96,-6.42),(8.17,-9.46),(8.22,-3.39),(1.30,-1.48),(8.56,0.68))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((9.50,-9.28),(-7.30,7.32),(-3.57,-0.99),(9.50,-9.28))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((9.74,-0.88),(6.35,0.26),(-1.23,-3.00),(-9.47,1.29),(-4.48,5.17),(9.74,-0.88))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-7.43,-9.87),(-0.94,7.25),(-7.43,-9.87))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-7.36,-3.99),(-3.07,-1.76),(-7.33,5.15),(-1.70,-9.14),(4.84,0.26),(9.03,1.23),(-4.80,6.60),(-3.45,-8.17),(-6.20,7.24),(-7.36,-3.99))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-7.59,6.33),(-6.86,-0.99),(0.08,-2.15),(9.46,-8.63),(-7.59,6.33))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((9.95,-4.14),(9.77,8.02),(-0.49,-5.52),(-1.14,5.79),(7.98,-5.97),(-3.78,8.23),(3.26,9.21),(1.72,-0.53),(2.14,-8.18),(9.95,-4.14))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((2.70,2.72),(-3.60,6.94),(5.73,-6.03),(-0.91,-4.84),(1.29,-3.91),(2.70,2.72))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-6.79,-1.55),(-6.11,8.67),(-5.55,6.56),(-3.06,3.04),(-6.79,-1.55))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((8.49,-7.98),(-1.55,-8.19),(1.82,-4.41),(-8.41,-4.18),(8.49,-7.98))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-3.59,9.05),(-3.59,9.05))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.21,4.68),(-3.85,-5.26),(-8.81,2.03),(7.08,-4.53),(-1.33,-5.60),(1.06,2.52),(1.21,4.68))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-0.31,-9.24),(-5.18,-3.89),(-0.31,-9.24))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-9.44,-1.76),(7.54,2.73),(-0.35,0.52),(-5.15,-6.02),(9.52,-7.61),(2.87,9.37),(-9.44,-1.76))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-2.37,9.60),(2.07,-5.24),(-4.97,-5.40),(-7.99,-1.14),(-2.37,9.60))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((0.86,-1.16),(0.86,-1.16))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((8.56,-9.99),(-1.83,-5.11),(-9.18,7.24),(3.91,2.00),(-6.29,-3.73),(8.56,-9.99))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((3.24,-7.10),(0.61,4.92),(-2.75,6.08),(-0.17,-3.02),(-3.12,-2.00),(3.24,-7.10))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-4.07,-7.13),(4.32,-7.30),(-9.96,1.72),(2.84,-7.42),(-4.95,-9.92),(-5.81,-3.99),(0.47,-6.38),(-4.07,-7.13))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((3.18,1.10),(-0.08,-5.75),(-6.48,0.93),(-9.89,-6.33),(3.18,1.10))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-8.31,-5.12),(-8.31,-5.12))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-5.19,7.92),(-8.62,6.53),(3.85,7.91),(5.46,-1.20),(2.04,-7.32),(-7.82,9.38),(-5.19,7.92))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.42,-1.87),(-0.54,-8.74),(1.47,1.89),(4.89,5.20),(-0.56,0.72),(-9.35,7.96),(-4.30,8.43),(-7.08,8.53),(0.11,-4.58),(1.42,-1.87))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-4.15,-8.71),(6.87,0.84),(6.78,2.51),(-6.39,5.56),(5.30,0.15),(9.77,8.08),(-4.15,-8.71))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((2.62,-7.85),(-6.73,-8.93),(3.43,-8.57),(4.79,-4.78),(4.14,-8.97),(7.36,-2.11),(1.94,-1.07),(-3.11,-3.52),(2.62,-7.85))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-6.71,-1.87),(1.79,-7.77),(5.76,0.40),(5.23,-7.40),(9.39,-6.99),(1.35,1.06),(-0.25,2.43),(-1.07,-0.53),(-9.09,7.01),(-6.71,-1.87))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-3.79,-8.22),(-2.75,9.05),(-4.44,2.61),(3.67,-1.09),(-3.79,-8.22))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((9.05,-7.98),(-2.50,2.13),(1.14,-8.74),(-5.94,7.07),(-7.08,3.84),(9.05,-7.98))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-3.28,5.85),(-7.51,-9.83),(-8.36,5.91),(6.74,0.56),(0.09,7.63),(-5.23,6.24),(0.55,-5.36),(2.26,5.16),(-3.28,5.85))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((6.29,-7.13),(1.56,0.82),(8.79,0.00),(8.60,4.73),(4.87,9.04),(-5.42,-1.21),(3.15,-1.88),(6.29,-7.13))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-1.36,-6.92),(4.39,-7.81),(-1.74,2.07),(7.63,-3.00),(-1.36,-6.92))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-4.89,-1.44),(0.33,-7.19),(-4.04,-4.67),(6.62,0.20),(6.53,-9.99),(-5.53,-9.03),(1.34,1.01),(-0.25,-1.92),(-7.86,1.92),(-4.89,-1.44))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((3.71,-6.31),(1.43,-7.40),(-8.08,5.27),(3.71,-6.31))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-4.78,9.41),(4.80,3.78),(5.21,-9.61),(-4.78,9.41))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((5.68,-4.89),(8.23,2.29),(-5.84,0.97),(-3.30,1.78),(5.68,-4.89))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((6.01,5.42),(2.21,-0.42),(4.84,8.66),(8.99,-0.00),(-3.61,4.43),(-3.06,-9.01),(-2.03,8.43),(9.34,3.18),(3.68,-6.45),(6.01,5.42))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-9.44,-4.21),(-9.42,8.05),(-7.91,9.34),(-6.06,2.31),(1.02,5.30),(-4.92,-8.49),(-6.20,-2.22),(-9.44,-4.21))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((8.61,-3.20),(9.86,-2.90),(-6.43,-7.97),(2.32,9.55),(-3.99,7.70),(-8.91,-4.04),(8.61,-3.20))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((0.26,-5.81),(-9.18,-4.19),(8.34,-7.09),(-1.59,9.59),(0.26,-5.81))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((3.77,-6.87),(-4.00,-0.47),(-3.77,-8.37),(3.77,-6.87))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-1.82,-8.44),(5.40,7.63),(-0.99,8.95),(-2.31,4.86),(-7.12,0.88),(-7.23,4.87),(-1.82,-8.44))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((9.34,-7.71),(9.80,6.77),(2.41,-8.12),(8.83,7.79),(9.34,-7.71))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-8.87,0.91),(-6.24,-5.92),(6.52,-5.00),(-7.47,5.03),(6.36,6.84),(-0.44,0.22),(-8.87,0.91))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((8.35,-7.48),(-9.56,-9.55),(2.57,5.55),(-1.41,-5.13),(9.66,-6.61),(8.35,-7.48))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.56,2.35),(1.40,9.52),(2.86,9.26),(1.27,-7.04),(-9.96,-8.35),(6.48,3.27),(-9.03,-7.74),(3.25,-9.80),(1.56,2.35))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-9.34,5.63),(3.16,9.82),(9.39,-5.14),(6.09,-3.15),(8.95,-9.57),(-9.64,-1.18),(-0.11,-4.04),(-1.31,1.46),(-9.34,5.63))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-3.05,-6.73),(-3.05,-6.73))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.39,-0.85),(-2.23,3.32),(-1.39,3.76),(-7.33,1.29),(4.15,-9.09),(1.39,-0.85))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((5.65,2.08),(1.85,-7.69),(-8.02,6.80),(3.64,9.00),(2.03,-9.47),(-3.23,7.67),(5.65,2.08))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((0.48,5.36),(5.28,-2.00),(8.99,8.51),(0.48,5.36))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-2.27,0.75),(2.10,-7.35),(-9.94,-1.00),(4.94,0.23),(1.90,6.58),(-7.70,-4.56),(0.41,5.98),(9.43,-7.76),(-2.27,0.75))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((2.15,-7.75),(3.45,-4.97),(-3.85,0.07),(-3.32,1.75),(9.13,-0.25),(-8.03,9.57),(6.64,7.53),(6.92,9.59),(2.15,-7.75))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-7.09,9.16),(9.44,-2.52),(-5.51,-0.56),(-9.35,-4.09),(-7.93,3.19),(-1.51,-6.63),(-0.71,4.45),(-7.09,9.16))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-5.45,1.64),(6.49,-4.14),(7.74,1.39),(4.66,6.17),(-5.45,1.64))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((0.98,6.41),(7.54,-8.96),(-2.24,9.18),(0.98,6.41))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-5.95,1.68),(-9.18,-5.29),(-5.95,1.68))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-7.91,-0.54),(1.09,-4.73),(-0.82,0.96),(-7.91,-0.54))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((3.63,-1.77),(3.63,-1.77))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((0.70,6.42),(-9.93,-6.93),(-0.53,-9.62),(-2.24,-9.56),(-3.43,1.73),(0.70,6.42))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-2.80,9.39),(-3.81,-3.16),(-7.46,-3.83),(-6.87,5.91),(-6.67,-3.72),(-4.19,2.52),(5.29,3.71),(-3.95,-2.43),(-2.80,9.39))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-7.01,4.55),(-2.34,-2.30),(-8.96,-7.31),(-7.01,4.55))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((5.15,1.08),(8.05,-4.55),(-9.83,4.12),(-9.74,2.40),(8.86,-1.96),(9.51,-7.17),(-9.28,-8.89),(5.15,1.08))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-4.18,-5.18),(-4.18,-5.18))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((7.50,6.46),(4.08,4.88),(-1.60,-7.46),(7.50,6.46))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-9.05,-2.91),(-6.72,-0.03),(-8.40,0.92),(4.98,6.71),(6.10,-6.87),(-2.25,-8.58),(5.64,-3.84),(-9.05,-2.91))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-1.89,-5.85),(5.98,-8.48),(-6.30,9.96),(-1.89,-5.85))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((5.21,-1.04),(-0.90,5.17),(-4.33,4.28),(0.98,3.43),(2.58,-3.88),(4.74,-7.81),(2.91,9.62),(-5.56,-4.20),(4.36,6.65),(5.21,-1.04))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((3.10,-3.76),(0.43,0.23),(-1.88,-9.84),(3.45,-7.15),(-2.38,-0.04),(3.10,-3.76))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((5.24,1.83),(9.60,-1.80),(-8.45,-7.81),(-0.42,-3.73),(-4.18,1.23),(-1.13,-5.96),(5.24,1.83))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((4.13,-7.76),(6.65,-0.72),(4.55,-6.06),(8.89,-7.93),(4.13,-7.76))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-3.62,9.31),(-6.06,-3.78),(-3.62,9.31))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((2.45,-1.68),(5.59,-8.00),(-0.44,-8.99),(2.45,-1.68))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-1.42,-2.18),(-1.68,-7.66),(3.98,0.12),(8.23,1.22),(-5.03,-9.78),(4.14,8.10),(-1.42,-2.18))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((5.54,-4.83),(-0.50,-0.46),(-5.70,1.92),(-4.45,-0.32),(-1.51,-4.48),(1.51,8.03),(4.40,-1.64),(-3.46,0.42),(-8.15,-5.48),(5.54,-4.83))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((2.34,8.67),(-1.84,9.51),(1.87,-4.10),(2.34,8.67))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-3.57,4.24),(-6.20,5.49),(7.36,-7.35),(7.87,-6.43),(1.36,0.84),(-3.57,4.24))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-8.71,-0.12),(7.02,-3.84),(-0.21,0.47),(7.36,7.46),(2.26,-4.71),(-8.71,-0.12))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-9.08,-9.40),(-9.47,6.74),(-2.62,7.16),(-8.87,-6.95),(-4.06,-8.83),(0.61,-5.98),(-9.08,-9.40))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-1.57,6.46),(4.42,-8.69),(-9.56,0.99),(-5.32,5.13),(-6.92,-7.46),(3.02,-8.97),(9.78,-4.32),(-1.57,6.46))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.86,6.30),(-4.28,6.62),(3.76,0.15),(6.35,4.61),(-1.20,4.62),(-4.91,0.95),(1.86,6.30))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((6.81,-2.42),(6.81,-2.42))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((2.15,-9.39),(-4.65,-3.58),(2.09,4.91),(-3.91,-3.90),(2.15,-9.39))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((6.03,-7.41),(-9.85,3.85),(6.61,7.49),(-2.31,6.29),(-6.45,9.80),(-3.25,5.40),(0.56,3.99),(2.21,8.89),(2.03,-8.84),(6.03,-7.41))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((6.99,-0.11),(-6.10,6.00),(-1.74,0.50),(-8.06,2.12),(4.37,-1.44),(-8.73,8.16),(-7.08,9.10),(5.01,2.54),(3.11,9.54),(6.99,-0.11))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-0.94,5.07),(-7.37,-4.49),(-2.57,9.95),(-0.94,5.07))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((6.79,7.90),(-1.23,8.02),(6.79,7.90))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((8.97,-2.08),(9.94,4.88),(4.78,-0.83),(-6.92,3.49),(6.54,1.69),(-3.04,-0.70),(0.23,-2.60),(8.97,-2.08))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.31,-5.46),(-7.56,-7.74),(1.31,-5.46))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-5.23,2.02),(-0.24,-7.44),(4.26,4.33),(-5.56,1.82),(-2.34,6.18),(-3.18,-3.83),(-5.23,2.02))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-9.53,-4.99),(-9.53,-4.99))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((5.91,-1.21),(6.49,-3.59),(-6.53,-8.44),(-4.14,-2.59),(5.19,-7.51),(9.89,2.16),(7.33,-7.21),(5.91,-1.21))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((1.68,-6.38),(1.68,-6.38))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((3.65,-8.37),(-2.58,-6.69),(-9.95,-7.18),(-9.39,2.28),(-5.57,-0.55),(8.50,-2.61),(9.12,-8.81),(5.40,-2.29),(3.65,-8.37))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((8.99,-0.62),(9.72,-7.03),(8.99,-0.62))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((-0.12,-2.84),(-4.61,-0.89),(-4.78,5.49),(-8.90,-8.12),(-0.12,-2.84))');
+
+INSERT INTO t_polygon
+VALUES (polygon'((9.09,8.24),(-6.98,1.54),(-5.27,0.39),(8.87,7.45),(9.09,8.24))');
+
+INSERT INTO t_real
+VALUES (0.03882);
+
+INSERT INTO t_real
+VALUES (1.949e-18);
+
+INSERT INTO t_real
+VALUES (8.207e+17);
+
+INSERT INTO t_real
+VALUES (3.813e+24);
+
+INSERT INTO t_real
+VALUES (5.927e-36);
+
+INSERT INTO t_real
+VALUES (3.941e+25);
+
+INSERT INTO t_real
+VALUES (5.559e+17);
+
+INSERT INTO t_real
+VALUES (9.339e-24);
+
+INSERT INTO t_real
+VALUES (5.774e+14);
+
+INSERT INTO t_real
+VALUES (8.75e-35);
+
+INSERT INTO t_real
+VALUES (8.423e-07);
+
+INSERT INTO t_real
+VALUES (22.53);
+
+INSERT INTO t_real
+VALUES (7.073e+18);
+
+INSERT INTO t_real
+VALUES (4.692e+15);
+
+INSERT INTO t_real
+VALUES (3.448e-14);
+
+INSERT INTO t_real
+VALUES (1378.0);
+
+INSERT INTO t_real
+VALUES (9.909e-34);
+
+INSERT INTO t_real
+VALUES (2.101e+18);
+
+INSERT INTO t_real
+VALUES (6.562e+12);
+
+INSERT INTO t_real
+VALUES (3.781e+33);
+
+INSERT INTO t_real
+VALUES (7.588e-10);
+
+INSERT INTO t_real
+VALUES (6.67e-26);
+
+INSERT INTO t_real
+VALUES (6.197e+25);
+
+INSERT INTO t_real
+VALUES (6.043e-08);
+
+INSERT INTO t_real
+VALUES (8.215e-29);
+
+INSERT INTO t_real
+VALUES (0.002908);
+
+INSERT INTO t_real
+VALUES (8.843e-17);
+
+INSERT INTO t_real
+VALUES (9.139e+11);
+
+INSERT INTO t_real
+VALUES (8.654e+27);
+
+INSERT INTO t_real
+VALUES (993300000.0);
+
+INSERT INTO t_real
+VALUES (9.408e+28);
+
+INSERT INTO t_real
+VALUES (8.869e-06);
+
+INSERT INTO t_real
+VALUES (2.685);
+
+INSERT INTO t_real
+VALUES (0.01193);
+
+INSERT INTO t_real
+VALUES (9327.0);
+
+INSERT INTO t_real
+VALUES (5.325e+35);
+
+INSERT INTO t_real
+VALUES (2.3e+17);
+
+INSERT INTO t_real
+VALUES (1.627e-07);
+
+INSERT INTO t_real
+VALUES (8.834e-15);
+
+INSERT INTO t_real
+VALUES (2.062e+31);
+
+INSERT INTO t_real
+VALUES (6.077e-21);
+
+INSERT INTO t_real
+VALUES (3.855e+23);
+
+INSERT INTO t_real
+VALUES (6.732e+18);
+
+INSERT INTO t_real
+VALUES (3.205e-11);
+
+INSERT INTO t_real
+VALUES (664300000.0);
+
+INSERT INTO t_real
+VALUES (3.138e-11);
+
+INSERT INTO t_real
+VALUES (6.393e-28);
+
+INSERT INTO t_real
+VALUES (0.0002545);
+
+INSERT INTO t_real
+VALUES (3.681e+14);
+
+INSERT INTO t_real
+VALUES (7.48e+22);
+
+INSERT INTO t_real
+VALUES (75440.0);
+
+INSERT INTO t_real
+VALUES (5.537e-06);
+
+INSERT INTO t_real
+VALUES (3.766e+26);
+
+INSERT INTO t_real
+VALUES (5.903e-15);
+
+INSERT INTO t_real
+VALUES (603600000.0);
+
+INSERT INTO t_real
+VALUES (906600.0);
+
+INSERT INTO t_real
+VALUES (8.266e-32);
+
+INSERT INTO t_real
+VALUES (6.928e-22);
+
+INSERT INTO t_real
+VALUES (8.487);
+
+INSERT INTO t_real
+VALUES (8.542e+20);
+
+INSERT INTO t_real
+VALUES (134.9);
+
+INSERT INTO t_real
+VALUES (5.46e+27);
+
+INSERT INTO t_real
+VALUES (4.433);
+
+INSERT INTO t_real
+VALUES (0.0009113);
+
+INSERT INTO t_real
+VALUES (3.278e-11);
+
+INSERT INTO t_real
+VALUES (0.0007972);
+
+INSERT INTO t_real
+VALUES (7778000000.0);
+
+INSERT INTO t_real
+VALUES (0.6891);
+
+INSERT INTO t_real
+VALUES (4.279e-27);
+
+INSERT INTO t_real
+VALUES (4.624e+17);
+
+INSERT INTO t_real
+VALUES (5.353e+28);
+
+INSERT INTO t_real
+VALUES (4.445e-37);
+
+INSERT INTO t_real
+VALUES (6.524e+33);
+
+INSERT INTO t_real
+VALUES (2.606e+35);
+
+INSERT INTO t_real
+VALUES (1.173e-33);
+
+INSERT INTO t_real
+VALUES (2.27e-30);
+
+INSERT INTO t_real
+VALUES (5.991e-17);
+
+INSERT INTO t_real
+VALUES (4.024e+11);
+
+INSERT INTO t_real
+VALUES (2907000000.0);
+
+INSERT INTO t_real
+VALUES (0.06127);
+
+INSERT INTO t_real
+VALUES (8.117e+20);
+
+INSERT INTO t_real
+VALUES (7.164e+23);
+
+INSERT INTO t_real
+VALUES (0.03655);
+
+INSERT INTO t_real
+VALUES (53.66);
+
+INSERT INTO t_real
+VALUES (3.472e-36);
+
+INSERT INTO t_real
+VALUES (8.566e-12);
+
+INSERT INTO t_real
+VALUES (4.908e-09);
+
+INSERT INTO t_real
+VALUES (99.85);
+
+INSERT INTO t_real
+VALUES (8.294e+22);
+
+INSERT INTO t_real
+VALUES (5.163e+15);
+
+INSERT INTO t_real
+VALUES (3.934e-29);
+
+INSERT INTO t_real
+VALUES (5.347);
+
+INSERT INTO t_real
+VALUES (1.88e-24);
+
+INSERT INTO t_real
+VALUES (7.846e-29);
+
+INSERT INTO t_real
+VALUES (7.028e-21);
+
+INSERT INTO t_real
+VALUES (0.5224);
+
+INSERT INTO t_real
+VALUES (0.0007913);
+
+INSERT INTO t_real
+VALUES (1.644e+22);
+
+INSERT INTO t_real
+VALUES (2.106e+33);
+
+INSERT INTO t_real
+VALUES (667500.0);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_serial
+VALUES (DEFAULT);
+
+INSERT INTO t_smallint
+VALUES (2447);
+
+INSERT INTO t_smallint
+VALUES (482);
+
+INSERT INTO t_smallint
+VALUES (7930);
+
+INSERT INTO t_smallint
+VALUES (349);
+
+INSERT INTO t_smallint
+VALUES (29745);
+
+INSERT INTO t_smallint
+VALUES (4189);
+
+INSERT INTO t_smallint
+VALUES (4865);
+
+INSERT INTO t_smallint
+VALUES (5467);
+
+INSERT INTO t_smallint
+VALUES (7016);
+
+INSERT INTO t_smallint
+VALUES (6147);
+
+INSERT INTO t_smallint
+VALUES (5556);
+
+INSERT INTO t_smallint
+VALUES (594);
+
+INSERT INTO t_smallint
+VALUES (0);
+
+INSERT INTO t_smallint
+VALUES (19649);
+
+INSERT INTO t_smallint
+VALUES (10396);
+
+INSERT INTO t_smallint
+VALUES (0);
+
+INSERT INTO t_smallint
+VALUES (6040);
+
+INSERT INTO t_smallint
+VALUES (673);
+
+INSERT INTO t_smallint
+VALUES (9359);
+
+INSERT INTO t_smallint
+VALUES (7468);
+
+INSERT INTO t_smallint
+VALUES (15960);
+
+INSERT INTO t_smallint
+VALUES (3870);
+
+INSERT INTO t_smallint
+VALUES (5652);
+
+INSERT INTO t_smallint
+VALUES (4591);
+
+INSERT INTO t_smallint
+VALUES (3456);
+
+INSERT INTO t_smallint
+VALUES (3355);
+
+INSERT INTO t_smallint
+VALUES (6315);
+
+INSERT INTO t_smallint
+VALUES (23484);
+
+INSERT INTO t_smallint
+VALUES (9968);
+
+INSERT INTO t_smallint
+VALUES (436);
+
+INSERT INTO t_smallint
+VALUES (25821);
+
+INSERT INTO t_smallint
+VALUES (24158);
+
+INSERT INTO t_smallint
+VALUES (9499);
+
+INSERT INTO t_smallint
+VALUES (7434);
+
+INSERT INTO t_smallint
+VALUES (27166);
+
+INSERT INTO t_smallint
+VALUES (9408);
+
+INSERT INTO t_smallint
+VALUES (9383);
+
+INSERT INTO t_smallint
+VALUES (6064);
+
+INSERT INTO t_smallint
+VALUES (26022);
+
+INSERT INTO t_smallint
+VALUES (5181);
+
+INSERT INTO t_smallint
+VALUES (6275);
+
+INSERT INTO t_smallint
+VALUES (6);
+
+INSERT INTO t_smallint
+VALUES (4337);
+
+INSERT INTO t_smallint
+VALUES (14888);
+
+INSERT INTO t_smallint
+VALUES (9);
+
+INSERT INTO t_smallint
+VALUES (6598);
+
+INSERT INTO t_smallint
+VALUES (8044);
+
+INSERT INTO t_smallint
+VALUES (6070);
+
+INSERT INTO t_smallint
+VALUES (349);
+
+INSERT INTO t_smallint
+VALUES (18255);
+
+INSERT INTO t_smallint
+VALUES (591);
+
+INSERT INTO t_smallint
+VALUES (8970);
+
+INSERT INTO t_smallint
+VALUES (6817);
+
+INSERT INTO t_smallint
+VALUES (6932);
+
+INSERT INTO t_smallint
+VALUES (7935);
+
+INSERT INTO t_smallint
+VALUES (5);
+
+INSERT INTO t_smallint
+VALUES (824);
+
+INSERT INTO t_smallint
+VALUES (7157);
+
+INSERT INTO t_smallint
+VALUES (4833);
+
+INSERT INTO t_smallint
+VALUES (14171);
+
+INSERT INTO t_smallint
+VALUES (7369);
+
+INSERT INTO t_smallint
+VALUES (3553);
+
+INSERT INTO t_smallint
+VALUES (70);
+
+INSERT INTO t_smallint
+VALUES (5969);
+
+INSERT INTO t_smallint
+VALUES (4898);
+
+INSERT INTO t_smallint
+VALUES (15447);
+
+INSERT INTO t_smallint
+VALUES (31530);
+
+INSERT INTO t_smallint
+VALUES (8631);
+
+INSERT INTO t_smallint
+VALUES (1);
+
+INSERT INTO t_smallint
+VALUES (9037);
+
+INSERT INTO t_smallint
+VALUES (23336);
+
+INSERT INTO t_smallint
+VALUES (7464);
+
+INSERT INTO t_smallint
+VALUES (9075);
+
+INSERT INTO t_smallint
+VALUES (18509);
+
+INSERT INTO t_smallint
+VALUES (3582);
+
+INSERT INTO t_smallint
+VALUES (4078);
+
+INSERT INTO t_smallint
+VALUES (31059);
+
+INSERT INTO t_smallint
+VALUES (169);
+
+INSERT INTO t_smallint
+VALUES (5096);
+
+INSERT INTO t_smallint
+VALUES (3578);
+
+INSERT INTO t_smallint
+VALUES (8466);
+
+INSERT INTO t_smallint
+VALUES (658);
+
+INSERT INTO t_smallint
+VALUES (8096);
+
+INSERT INTO t_smallint
+VALUES (9418);
+
+INSERT INTO t_smallint
+VALUES (7616);
+
+INSERT INTO t_smallint
+VALUES (1962);
+
+INSERT INTO t_smallint
+VALUES (6783);
+
+INSERT INTO t_smallint
+VALUES (10607);
+
+INSERT INTO t_smallint
+VALUES (3305);
+
+INSERT INTO t_smallint
+VALUES (23512);
+
+INSERT INTO t_smallint
+VALUES (4796);
+
+INSERT INTO t_smallint
+VALUES (19917);
+
+INSERT INTO t_smallint
+VALUES (9302);
+
+INSERT INTO t_smallint
+VALUES (8193);
+
+INSERT INTO t_smallint
+VALUES (25354);
+
+INSERT INTO t_smallint
+VALUES (9641);
+
+INSERT INTO t_smallint
+VALUES (7369);
+
+INSERT INTO t_smallint
+VALUES (9486);
+
+INSERT INTO t_smallint
+VALUES (6343);
+
+INSERT INTO t_smallint
+VALUES (17142);
+
+INSERT INTO t_text
+VALUES ('A combined force Spanish, free blacks and allied Indians defeat a British garrison at the Siege of Fort Mose near St. Augustine during the War of Jenkins'' Ear.');
+
+INSERT INTO t_text
+VALUES ('2nd Eskimo: Alaska');
+
+INSERT INTO t_text
+VALUES ('Everyone in the pub agreed and gave a big cheer.');
+
+INSERT INTO t_text
+VALUES ('Activist Blair Peach suffered fatal head injuries when he was knocked unconscious during an Anti-Nazi League demonstration in Southall, London, against a National Front election meeting in the town hall.');
+
+INSERT INTO t_text
+VALUES ('One night, Mikes'' wife is begins to deliver the baby.');
+
+INSERT INTO t_text
+VALUES ('The Scotsman fished the fly out of his beer, and continued drinking it, as if nothing had happened.');
+
+INSERT INTO t_text
+VALUES ('There are 5 birds in a tree.');
+
+INSERT INTO t_text
+VALUES ('To the amazement of both, they are unscathed, though their cars are both destroyed.');
+
+INSERT INTO t_text
+VALUES ('Again the Doctor cuts in, "Hold the lantern, Mike, Hold the lantern!" Soon the Doctor delivers a third child.');
+
+INSERT INTO t_text
+VALUES ('One day an Englishman, a Scotsman, and an Irishman walked into a pub together.');
+
+INSERT INTO t_text
+VALUES ('It was punched, pushed back under the door, and when it was safe all the Scots came out and took their seats.');
+
+INSERT INTO t_text
+VALUES ('Roman Emperor Elagabalus adopts his cousin Alexander Severus as his heir and receives the title of Caesar.');
+
+INSERT INTO t_text
+VALUES ('Russia founds a colony on Kodiak Island, Alaska.');
+
+INSERT INTO t_text
+VALUES ('Tsarevich Alexei Petrovich of Russia, Peter the Great''s son, mysteriously dies after being sentenced to death by his father for plotting against him.');
+
+INSERT INTO t_text
+VALUES ('From March to December 1944, it fought a counter-insurgency campaign against communist-led Yugoslav Partisan resistance forces.');
+
+INSERT INTO t_text
+VALUES ('Irish forces led by Brian Boru clashed with the Vikings in the Battle of Clontarf.');
+
+INSERT INTO t_text
+VALUES ('After a moment, the man called the waiter and said:');
+
+INSERT INTO t_text
+VALUES ('The woman was in bed with her lover and had just told him how stupid her Irish husband was when the door was thrown open and there stood her husband.');
+
+INSERT INTO t_text
+VALUES ('Warriors of the Miami tribe under Chief Little Turtle defeat United States troops under General Josiah Harmar at the site of present-day Fort Wayne, Indiana, in the Northwest Indian War.');
+
+INSERT INTO t_text
+VALUES ('Tangiwai disaster: In New Zealand''s North Island, at Tangiwai, a railway bridge is damaged by a lahar and collapses beneath a passenger train, killing 151 people.');
+
+INSERT INTO t_text
+VALUES ('Papal inauguration of Pope John Paul II.');
+
+INSERT INTO t_text
+VALUES ('No running water, no electricity, etc.');
+
+INSERT INTO t_text
+VALUES ('The Englishman says, "The pubs in England are the best.');
+
+INSERT INTO t_text
+VALUES ('Everyone in the pub agreed and gave a big cheer.');
+
+INSERT INTO t_text
+VALUES ('There was an Scotsman, an Englishman and Claudia Schiffer sitting together in a carriage in a train going through Wales.');
+
+INSERT INTO t_text
+VALUES ('The Science Museum in London comes into existence as an independent entity.');
+
+INSERT INTO t_text
+VALUES ('Apollo program: Apollo 7 safely splashes down in the Atlantic Ocean after orbiting the Earth 163 times.');
+
+INSERT INTO t_text
+VALUES ('Roman Emperor Julian is killed during the retreat from the Sassanid Empire. General Jovian is proclaimed Emperor by the troops on the battlefield.');
+
+INSERT INTO t_text
+VALUES ('An English man and an Irish man are driving head on , at night, on a twisty, dark road.');
+
+INSERT INTO t_text
+VALUES ('What is the longest word in the English language?');
+
+INSERT INTO t_text
+VALUES ('Vietnam War: In Saigon, Henry Kissinger and South Vietnamese President Nguyen Van Thieu meet to discuss a proposed cease-fire that had been worked out between Americans and North Vietnamese in Paris.');
+
+INSERT INTO t_text
+VALUES ('The doctor holds up the baby for Mike''s inspection.');
+
+INSERT INTO t_text
+VALUES ('Activist Blair Peach suffered fatal head injuries when he was knocked unconscious during an Anti-Nazi League demonstration in Southall, London, against a National Front election meeting in the town hall.');
+
+INSERT INTO t_text
+VALUES ('The United States Federal Labor Relations Authority votes to decertify the Professional Air Traffic Controllers Organization for its strike the previous August.');
+
+INSERT INTO t_text
+VALUES ('Vietnam War: In Saigon, Henry Kissinger and South Vietnamese President Nguyen Van Thieu meet to discuss a proposed cease-fire that had been worked out between Americans and North Vietnamese in Paris.');
+
+INSERT INTO t_text
+VALUES ('The Scotsman replied "Ah but we just grow them for our own mouths!"');
+
+INSERT INTO t_text
+VALUES ('An English man, Irishman and a Scottishman are sitting in a pub full of people.');
+
+INSERT INTO t_text
+VALUES ('Charles was getting annoyed and shouted upstairs to his wife," Hurry up or we''ll be late."');
+
+INSERT INTO t_text
+VALUES ('An English teacher wrote these words on the whiteboard: "woman without her man is nothing". The teacher then asked the students to punctuate the words correctly.');
+
+INSERT INTO t_text
+VALUES ('An English teacher wrote these words on the whiteboard: "woman without her man is nothing". The teacher then asked the students to punctuate the words correctly.');
+
+INSERT INTO t_text
+VALUES ('"Haven''t I been telling you for the last hour that I''ll be ready in a minute?"');
+
+INSERT INTO t_text
+VALUES ('The Irishman, too, picked the fly out of his drink, held it out over the beer, and started yelling, "SPIT IT OUT, SPIT IT OUT YOU BAS**RD!!!!"');
+
+INSERT INTO t_text
+VALUES ('André-Jacques Garnerin makes the first recorded parachute jump from one thousand meters (3,200 feet) above Paris.');
+
+INSERT INTO t_text
+VALUES ('Air France Flight 8969 is hijacked on the ground at Houari Boumedienne Airport, Algiers, Algeria. Over the course of 3 days 3 passengers are killed, as are all 4 terrorists.');
+
+INSERT INTO t_text
+VALUES ('Cyclone Tracy devastates Darwin, Australia.');
+
+INSERT INTO t_text
+VALUES ('2nd Eskimo: Alaska');
+
+INSERT INTO t_text
+VALUES ('And the Scotsman was thinking: ''This is great. The next time the train goes through a tunnel I''ll make that kissing noise and slap that English b**tard again .');
+
+INSERT INTO t_text
+VALUES ('Activist Blair Peach suffered fatal head injuries when he was knocked unconscious during an Anti-Nazi League demonstration in Southall, London, against a National Front election meeting in the town hall.');
+
+INSERT INTO t_text
+VALUES ('GenePeeks'' Matchright software simulates reproduction to determine the likelihood of a child receiving a genetic disorder.');
+
+INSERT INTO t_text
+VALUES ('The other 3 fly away!');
+
+INSERT INTO t_text
+VALUES ('Tropical Storm Alpha forms in the Atlantic Basin, making the 2005 Atlantic Hurricane Season the most active Atlantic hurricane season on record with 22 named storms.');
+
+INSERT INTO t_text
+VALUES ('Dr. Edith Claypole died of typhoid while working on immunizations for WWI troops, even though she had been immunized herself.');
+
+INSERT INTO t_text
+VALUES ('1st Eskimo: Where did your mother come from?');
+
+INSERT INTO t_text
+VALUES ('Henri Moissan isolated elemental Fluorine for the first time.');
+
+INSERT INTO t_text
+VALUES ('NORAD Tracks Santa for the first time in what will become an annual Christmas Eve tradition.');
+
+INSERT INTO t_text
+VALUES ('When the train came out of the tunnel, Claudia Schiffer and the Scotsman were sitting as if nothing had happened and the Englishman had his hand against his face as he had been slapped.');
+
+INSERT INTO t_text
+VALUES ('When the train came out of the tunnel, Claudia Schiffer and the Scotsman were sitting as if nothing had happened and the Englishman had his hand against his face as he had been slapped.');
+
+INSERT INTO t_text
+VALUES ('Air France Flight 8969 is hijacked on the ground at Houari Boumedienne Airport, Algiers, Algeria. Over the course of 3 days 3 passengers are killed, as are all 4 terrorists.');
+
+INSERT INTO t_text
+VALUES ('Abdelaziz Bouteflika is re-elected President of Algeria.');
+
+INSERT INTO t_text
+VALUES ('Irish forces led by Brian Boru clashed with the Vikings in the Battle of Clontarf.');
+
+INSERT INTO t_text
+VALUES ('Chad–Sudan relations: Chad declares a state of war against Sudan following a December 18 attack on Adré, which left about 100 people dead.');
+
+INSERT INTO t_text
+VALUES ('The 13th Waffen Mountain Division of the SS Handschar (1st Croatian) was a German mountain infantry division of the Waffen-SS during World War II.');
+
+INSERT INTO t_text
+VALUES ('The Scottishman says,"..yeah. That''s quite good but in Scotland you can buy one drink and get another 2 for free."');
+
+INSERT INTO t_text
+VALUES ('An Irishman had no idea his wife was having an affair, so he was mad with grief when coming home early one day he surprised her and her lover in the act.');
+
+INSERT INTO t_text
+VALUES ('There are 5 birds in a tree.');
+
+INSERT INTO t_text
+VALUES ('Five Englishmen boarded a train just behind five Scots, who, as a group had only purchased one ticket.');
+
+INSERT INTO t_text
+VALUES ('Rather obviously, he remarked "You''re decorating, I see." to which Angus replied "No. I''m moving house."');
+
+INSERT INTO t_text
+VALUES ('From the back of the hall a voice shouted, "I''ll give £150!"');
+
+INSERT INTO t_text
+VALUES ('NORAD Tracks Santa for the first time in what will become an annual Christmas Eve tradition.');
+
+INSERT INTO t_text
+VALUES ('Libya becomes independent from Italy. Idris I is proclaimed King of Libya.');
+
+INSERT INTO t_text
+VALUES ('The Australian Capital Territory becomes the first Australian jurisdiction to legalize same-sex marriage with the Marriage Equality Legislation Australian Capital Territory, 2013');
+
+INSERT INTO t_text
+VALUES ('A Panama Canal expansion proposal is approved by 77.8% of voters in a National referendum held in Panama.');
+
+INSERT INTO t_text
+VALUES ('A man asked for a meal in a restaurant.');
+
+INSERT INTO t_text
+VALUES ('Two Americans are talking.');
+
+INSERT INTO t_text
+VALUES ('Charles Manson is allowed to defend himself at the Tate-LaBianca murder trial.');
+
+INSERT INTO t_text
+VALUES ('The woman was in bed with her lover and had just told him how stupid her Irish husband was when the door was thrown open and there stood her husband.');
+
+INSERT INTO t_text
+VALUES ('Mark called in to see his friend Angus (a Scotman) to find he was stripping the wallpaper from the walls.');
+
+INSERT INTO t_text
+VALUES ('Mark called in to see his friend Angus (a Scotman) to find he was stripping the wallpaper from the walls.');
+
+INSERT INTO t_text
+VALUES ('The Texas Seven hold up a sports store in Irving, Texas. Police officer Aubrey Hawkins is murdered during the robbery.');
+
+INSERT INTO t_text
+VALUES ('World War II: Soviet planes bomb Kassa, Hungary (now Košice, Slovakia), giving Hungary the impetus to declare war the next day.');
+
+INSERT INTO t_text
+VALUES ('The Cyclone roller coaster opens on Coney Island.');
+
+INSERT INTO t_text
+VALUES ('A man was injected with a deadly poison, but, it did not kill him. Why?He was already dead!');
+
+INSERT INTO t_text
+VALUES ('Chad–Sudan relations: Chad declares a state of war against Sudan following a December 18 attack on Adré, which left about 100 people dead.');
+
+INSERT INTO t_text
+VALUES ('A customer ordered some coffee in a cafe.');
+
+INSERT INTO t_text
+VALUES ('In the midst of the Algerian War, French President Charles de Gaulle delivered a televised speech calling on military personnel and civilians to oppose a coup d''état attempt against him.');
+
+INSERT INTO t_text
+VALUES ('What''s the definition of a pessimist?');
+
+INSERT INTO t_text
+VALUES ('Maurice Papon, an official in the Vichy France government during World War II, is jailed for crimes against humanity.');
+
+INSERT INTO t_text
+VALUES ('A plebiscite ratifies the annexion of Veneto and Mantua to Italy, occurred three days before, on October 19.');
+
+INSERT INTO t_text
+VALUES ('The Irish man then tips the bottle and gulps half of the bottle down.');
+
+INSERT INTO t_text
+VALUES ('Raid on Anuradhapura Air Force Base is carried out by 21 Tamil Tiger commandos. All except one died in this attack. Eight Sri Lankan Air Force planes are destroyed and 10 damaged.');
+
+INSERT INTO t_text
+VALUES ('En no Ozuno, a Japanese mystic and apothecary who will later be regarded as the founder of a folk religion Shugendō, is banished to Izu Ōshima.');
+
+INSERT INTO t_text
+VALUES ('One day an Englishman, a Scotsman, and an Irishman walked into a pub together.');
+
+INSERT INTO t_text
+VALUES ('An avalanche on Mount Everest kills sixteen Nepalese guides.');
+
+INSERT INTO t_text
+VALUES ('He glared at her lover and bellowed, "What are you doing?"');
+
+INSERT INTO t_text
+VALUES ('Lord''s Resistance Army, a Ugandan rebel group, begins a series of attacks on Democratic Republic of the Congo, massacring more than 400.');
+
+INSERT INTO t_text
+VALUES ('Tangiwai disaster: In New Zealand''s North Island, at Tangiwai, a railway bridge is damaged by a lahar and collapses beneath a passenger train, killing 151 people.');
+
+INSERT INTO t_text
+VALUES ('An English teacher wrote these words on the whiteboard: "woman without her man is nothing". The teacher then asked the students to punctuate the words correctly.');
+
+INSERT INTO t_text
+VALUES ('Air France Flight 8969 is hijacked on the ground at Houari Boumedienne Airport, Algiers, Algeria. Over the course of 3 days 3 passengers are killed, as are all 4 terrorists.');
+
+INSERT INTO t_text
+VALUES ('From March to December 1944, it fought a counter-insurgency campaign against communist-led Yugoslav Partisan resistance forces.');
+
+INSERT INTO t_text
+VALUES ('"Mike, you''re the proud father of a fine strapping boy."');
+
+INSERT INTO t_varchar
+VALUES ('Co');
+
+INSERT INTO t_varchar
+VALUES ('Poq');
+
+INSERT INTO t_varchar
+VALUES ('Tej');
+
+INSERT INTO t_varchar
+VALUES ('Fa');
+
+INSERT INTO t_varchar
+VALUES ('Migy');
+
+INSERT INTO t_varchar
+VALUES ('Fyca');
+
+INSERT INTO t_varchar
+VALUES ('Qady');
+
+INSERT INTO t_varchar
+VALUES ('Mi');
+
+INSERT INTO t_varchar
+VALUES ('Vetuz');
+
+INSERT INTO t_varchar
+VALUES ('Vagy');
+
+INSERT INTO t_varchar
+VALUES ('Hysud');
+
+INSERT INTO t_varchar
+VALUES ('Fylil');
+
+INSERT INTO t_varchar
+VALUES ('Toli');
+
+INSERT INTO t_varchar
+VALUES ('Begux');
+
+INSERT INTO t_varchar
+VALUES ('Tuc');
+
+INSERT INTO t_varchar
+VALUES ('Hu');
+
+INSERT INTO t_varchar
+VALUES ('Dal');
+
+INSERT INTO t_varchar
+VALUES ('Qebos');
+
+INSERT INTO t_varchar
+VALUES ('Da');
+
+INSERT INTO t_varchar
+VALUES ('Pyqe');
+
+INSERT INTO t_varchar
+VALUES ('Bisy');
+
+INSERT INTO t_varchar
+VALUES ('Cal');
+
+INSERT INTO t_varchar
+VALUES ('Wesy');
+
+INSERT INTO t_varchar
+VALUES ('Zonuh');
+
+INSERT INTO t_varchar
+VALUES ('Mysid');
+
+INSERT INTO t_varchar
+VALUES ('Byge');
+
+INSERT INTO t_varchar
+VALUES ('Wu');
+
+INSERT INTO t_varchar
+VALUES ('Vuta');
+
+INSERT INTO t_varchar
+VALUES ('Hubic');
+
+INSERT INTO t_varchar
+VALUES ('Babal');
+
+INSERT INTO t_varchar
+VALUES ('Zaq');
+
+INSERT INTO t_varchar
+VALUES ('Leky');
+
+INSERT INTO t_varchar
+VALUES ('Wuf');
+
+INSERT INTO t_varchar
+VALUES ('Kuc');
+
+INSERT INTO t_varchar
+VALUES ('Vo');
+
+INSERT INTO t_varchar
+VALUES ('Cix');
+
+INSERT INTO t_varchar
+VALUES ('Ru');
+
+INSERT INTO t_varchar
+VALUES ('Wizuw');
+
+INSERT INTO t_varchar
+VALUES ('Dudy');
+
+INSERT INTO t_varchar
+VALUES ('Myvy');
+
+INSERT INTO t_varchar
+VALUES ('Ta');
+
+INSERT INTO t_varchar
+VALUES ('Jybi');
+
+INSERT INTO t_varchar
+VALUES ('Lupib');
+
+INSERT INTO t_varchar
+VALUES ('Sa');
+
+INSERT INTO t_varchar
+VALUES ('Py');
+
+INSERT INTO t_varchar
+VALUES ('Na');
+
+INSERT INTO t_varchar
+VALUES ('Wygub');
+
+INSERT INTO t_varchar
+VALUES ('Jysy');
+
+INSERT INTO t_varchar
+VALUES ('Pi');
+
+INSERT INTO t_varchar
+VALUES ('Vy');
+
+INSERT INTO t_varchar
+VALUES ('Dafol');
+
+INSERT INTO t_varchar
+VALUES ('Gomec');
+
+INSERT INTO t_varchar
+VALUES ('Qoty');
+
+INSERT INTO t_varchar
+VALUES ('Hape');
+
+INSERT INTO t_varchar
+VALUES ('Vucyl');
+
+INSERT INTO t_varchar
+VALUES ('Pibo');
+
+INSERT INTO t_varchar
+VALUES ('Dylic');
+
+INSERT INTO t_varchar
+VALUES ('Ty');
+
+INSERT INTO t_varchar
+VALUES ('Kube');
+
+INSERT INTO t_varchar
+VALUES ('Folu');
+
+INSERT INTO t_varchar
+VALUES ('Syso');
+
+INSERT INTO t_varchar
+VALUES ('Xim');
+
+INSERT INTO t_varchar
+VALUES ('Pafi');
+
+INSERT INTO t_varchar
+VALUES ('Nefes');
+
+INSERT INTO t_varchar
+VALUES ('Mywy');
+
+INSERT INTO t_varchar
+VALUES ('Runi');
+
+INSERT INTO t_varchar
+VALUES ('Pasu');
+
+INSERT INTO t_varchar
+VALUES ('Ty');
+
+INSERT INTO t_varchar
+VALUES ('Qizy');
+
+INSERT INTO t_varchar
+VALUES ('Cesyc');
+
+INSERT INTO t_varchar
+VALUES ('Pisoq');
+
+INSERT INTO t_varchar
+VALUES ('Hu');
+
+INSERT INTO t_varchar
+VALUES ('Dymog');
+
+INSERT INTO t_varchar
+VALUES ('Nul');
+
+INSERT INTO t_varchar
+VALUES ('Piqe');
+
+INSERT INTO t_varchar
+VALUES ('Cu');
+
+INSERT INTO t_varchar
+VALUES ('Vos');
+
+INSERT INTO t_varchar
+VALUES ('Be');
+
+INSERT INTO t_varchar
+VALUES ('Fyg');
+
+INSERT INTO t_varchar
+VALUES ('Mynuf');
+
+INSERT INTO t_varchar
+VALUES ('Hyr');
+
+INSERT INTO t_varchar
+VALUES ('Hubas');
+
+INSERT INTO t_varchar
+VALUES ('Xibeh');
+
+INSERT INTO t_varchar
+VALUES ('Sizul');
+
+INSERT INTO t_varchar
+VALUES ('Saq');
+
+INSERT INTO t_varchar
+VALUES ('Rewe');
+
+INSERT INTO t_varchar
+VALUES ('Mukaj');
+
+INSERT INTO t_varchar
+VALUES ('Vi');
+
+INSERT INTO t_varchar
+VALUES ('Kitiq');
+
+INSERT INTO t_varchar
+VALUES ('Fo');
+
+INSERT INTO t_varchar
+VALUES ('Vojo');
+
+INSERT INTO t_varchar
+VALUES ('Jiho');
+
+INSERT INTO t_varchar
+VALUES ('Puju');
+
+INSERT INTO t_varchar
+VALUES ('Pajef');
+
+INSERT INTO t_varchar
+VALUES ('Faq');
+
+INSERT INTO t_varchar
+VALUES ('Re');
+
+INSERT INTO t_varchar
+VALUES ('Te');
+
+INSERT INTO t_varchar
+VALUES ('De');
+
+INSERT INTO t_varchar
+VALUES ('Mynog');
+
+INSERT INTO t_varchar
+VALUES ('Ve');
+

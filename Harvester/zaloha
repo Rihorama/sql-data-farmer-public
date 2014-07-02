@@ -1,0 +1,360 @@
+#!/usr/bin/python
+
+
+import sys
+import ply.lex as lex
+import ply.yacc as yacc
+import class_table as table
+import re
+from printer import debug
+from printer import errprint
+from printer import ERRCODE
+
+
+sys.path.insert(0,"../..")
+
+
+#TODO: Check newlines at the end of every error message
+
+#table variables
+table_list = []
+new_table = None
+
+#attribute variables
+attr_list = []
+new_attribute = None
+
+#error flag
+err = False
+
+##
+#function to see the tokens
+##
+def input_lex(lexer, data):
+  
+    #data = f.read() #reads the file to string
+  
+    lexer.input(data)
+  
+    while True:
+        tok = lexer.token()
+        if not tok: break      # No more input
+        print tok
+
+
+
+
+
+##
+#---------THE PARSER------------
+## takes f - file descriptor
+
+def sql_parser(f):
+    
+    
+    
+    
+
+    #----LEXER PART-------
+
+    #list of reserved words
+    reserved = {
+        'CREATE' : 'CREATE',     
+        'TABLE' : 'TABLE',
+        'ALTER' : 'ALTER',
+        'ONLY' : 'ONLY',
+        'CONSTRAINT' : 'CONSTRAINT',
+        'REFERENCES' : 'REFERENCES',
+        'ADD' : 'ADD',
+        
+        'bigint' : 'DTYPE_SOLO',        #SOLO: this word alone is a data type
+        'bigserial' : 'DTYPE_SOLO',
+        'bit' : 'DTYPE_BOTH_1PARAM',    #BOTH: can be either solo or PART1
+        'varying' : 'DTYPE_PART2',      #PART2: second part of a two-word data type
+        'boolean' : 'DTYPE_SOLO',
+        'box' : 'DTYPE_SOLO',
+        'bytea' : 'DTYPE_SOLO',
+        'character' : 'DTYPE_BOTH_1PARAM', #1PARAM: one mandatory parameter
+        'cidr' : 'DTYPE_SOLO',
+        'circle' : 'DTYPE_SOLO',
+        'date' : 'DTYPE_SOLO',
+        'double' : 'DTYPE_PART1',
+        'precision' : 'DTYPE_PART2',
+        'inet' : 'DTYPE_SOLO',
+        'integer' : 'DTYPE_SOLO',
+        'interval' : 'DTYPE_2PARAM',    #2PARAM: two mandatory parameters
+        'line' : 'DTYPE_SOLO',
+        'lseg' : 'DTYPE_SOLO',
+        'macaddr' : 'DTYPE_SOLO',
+        'money' : 'DTYPE_SOLO',
+        'numeric' : 'DTYPE_SOLO_1PARAM2',    #1PARAM2: One mandatory set of two params
+        'path' : 'DTYPE_SOLO',
+        'point' : 'DTYPE_SOLO',
+        'polygon' : 'DTYPE_SOLO',
+        'real' : 'DTYPE_SOLO',
+        'smallint' : 'DTYPE_SOLO',
+        'serial' : 'DTYPE_SOLO',
+        'text' : 'DTYPE_SOLO',
+        'time' : 'DTYPE_1PARAM',       #NOTE: time and timestamp not allowing "with/without
+        'timestamp' : 'DTYPE_SOLO',    #      time zone" at the moment
+        'tsquery' : 'DTYPE_SOLO',
+        'tsvector' : 'DTYPE_SOLO',
+        'txid_snapshot' : 'DTYPE_SOLO',
+        'uuid' : 'DTYPE_SOLO',
+        'xml' : 'DTYPE_SOLO',
+        
+        'NOT' : 'NOT',
+        'NULL': 'NULL',         #stands for part 2 or solo
+        'PRIMARY' : 'PRIMARY',
+        'FOREIGN' : 'FOREIGN',
+        'KEY' : 'KEY', 
+        
+    }
+
+    # List of token names.   This is always required
+    tokens = [
+        'IDENTIFIER',
+        'NUMBER',
+        'EOL',
+        'LPAREN',
+        'RPAREN',
+        'SEMICOLON',
+        'COMMA',
+    ] + list(reserved.values())
+    
+    # Tokens
+    t_LPAREN  = r'\('
+    t_RPAREN  = r'\)'
+    t_SEMICOLON = r';'
+    t_COMMA = r','
+    
+    
+    # A rule for Identifier tokens
+    def t_IDENTIFIER(t):
+        r'[a-zA-Z][a-zA-Z_0-9]*'
+        t.type = reserved.get(t.value,'IDENTIFIER')    # Check for reserved words
+        return t
+
+    # A regular expression rule for numbers
+    def t_NUMBER(t):
+        r'\d+'
+        t.value = int(t.value)    
+        return t
+
+    # A rule for New Line - to tokenize and count as well
+    def t_EOL(t):
+        r'\n'
+        t.lexer.lineno += len(t.value)
+        return t
+    
+    # A string containing ignored characters (spaces, tabs and newlines)
+    t_ignore  = ' \t\n'
+
+    # Error handling rule
+    def t_error(t):
+        print ("Not supported character '%s' at line '%s'" %(t.value[0], t.lineno))
+        
+        global err
+        err = True    #sets the flag
+
+        t.lexer.skip(1)
+        
+    # Build the lexer
+    lexer = lex.lex()  #will be case insensitive
+
+    
+            
+    #input_lex(lexer, f.read())
+    #f.seek(0)
+    
+    
+    global err
+    if err:
+        exit()
+
+
+
+
+    #------PARSER PART--------
+
+    #Rules
+    
+    def p_root(p):
+        'root : tableBlock moreBlocks moreAlterBlocks'        
+        debug("dsl")
+        
+
+    def p_moreBlocks(p):
+        '''moreBlocks : moreBlocks tableBlock
+                      | empty'''
+                      
+        '''global new_table
+        global attr_list        
+        new_table.attr_list = attr_list   # adds complete list of attributes
+        new_table.count_attributes()      # stores the count of attributes in table.attr_count
+        '''
+        debug("moreBlocks")
+        
+
+    def p_tableBlock(p):
+        'tableBlock : tableHeader attributeBlock moreAttributes SEMICOLON'        
+        
+        '''table_list.append(new_table)'''
+        debug("tableBlock")
+                    
+    def p_moreAttributes(p): 
+        '''moreAttributes : moreAttributes attributeBlock
+                          | empty'''
+        debug("moreAttributes")
+        
+
+    def p_tableHeader(p):
+        'tableHeader : CREATE TABLE IDENTIFIER LPAREN'
+        
+        '''global new_table
+        new_table = table.Table() # creates new table instance
+        new_table.fill_count = p[5]
+        new_table.name = p[3]     # coresponds to the IDENTIFIER token
+        
+        global attr_list
+        attr_list = []            # inicializes empty list for this table'''
+        debug("tableHeader")
+        
+
+    def p_attributeBlock(p):
+        '''attributeBlock : IDENTIFIER dataType COMMA
+                          | IDENTIFIER dataType constraintPart COMMA
+                          | IDENTIFIER dataType RPAREN
+                          | IDENTIFIER dataType constraintPart RPAREN'''
+        
+        '''global new_attribute
+        global attr_list        
+        attr_list.append(new_attribute)       #appends the new attribute
+        new_attribute.constraint_flag = False #nulls the flag'''
+        debug("attributeBlock")       
+
+
+    def p_dataType(p):
+        'dataType : identifier'
+        debug("dataType")
+    
+    
+    def p_dtypes(p):
+        '''dtypes : DTYPE_SOLO
+                  | DTYPE_BOTH_1PARAM
+                  | DTYPE_BOTH_1PARAM DTYPE_PART2
+                  | DTYPE_BOTH_1PARAM DTYPE_PART2 LPAREN parameter RPAREN
+                  | DTYPE_PART1 DTYPE_PART2
+                  | DTYPE_SOLO_1PARAM2 LPAREN parameter COMMA parameter RPAREN'''
+                  #NOTE: not working with 2param now
+                  
+        '''global new_attribute
+        new_attribute.data_type = p[1]
+        new_attribute.parameters = []             #inicializes to no parameters
+        
+        if len(p) == 5:                           #stands for "DTYPE (1_param)"
+            new_attribute.parameters.append(p[3]) #appends the parameter'''
+            
+        debug("dtypes")
+        
+        
+    def p_constraintPart(p):
+        '''constraintPart : NOT NULL
+                          | NULL'''
+        
+        '''global new_attribute
+        
+        if p[2] == "foreign_key":
+            
+            if new_attribute.constraint_type != "foreign_key":      #this means the given fill method doesn't correspond
+                
+                msg = "Semantic Error: Foreign key constraint stated but wrong fill method '" + new_attribute.fill_method \
+                + "' given.\n"
+                errprint(msg, ERRCODE["SEMANTIC"])
+                
+        else:
+            new_attribute.constraint_type = p[2]
+            new_attribute.constraint_flag = True
+            
+            if new_attribute.constraint_type == "primary_key" or new_attribute.constraint_type == "unique":
+                new_attribute.unique = True
+                
+        if len(p) == 7:            
+            new_attribute.constraint_parameters.append(p[4])     #keeping the parameters
+            
+            #TODO: checkovat, ze neni zadana spatna fill metoda '''
+
+
+    def p_parameters(p):
+        '''parameters : parameters parameter
+                      | empty'''
+        debug("parameters")
+                    
+    def p_parameter(p):
+        '''parameter : NUMBER'''
+        
+        '''p[0] = p[1]'''                 #returns the value in p[0]
+        debug("parameter")
+        
+        '''if len(p) == 4:      #IDENTIFIER COLON IDENTIFIER variant
+            p[0] = p[1] + ":" + p[3]   #concatenates so it can be passed together'''
+    
+    
+    
+    
+    def p_moreAlterBlocks(p):
+        '''moreAlterBlocks : moreAlterBlocks alterBlock
+                           | empty'''
+
+        debug("moreAlterBlocks")
+        
+
+    def p_alterBlock(p):
+        'alterBlock : alterHeader alterBody SEMICOLON'        
+
+        debug("alterBlock")
+        
+        
+    def p_alterHeader(p):
+        'alterHeader : ALTER TABLE ONLY IDENTIFIER'        
+
+        debug("alterHeader")
+        
+    def p_alterBody(p):
+        '''alterBody : ADD CONSTRAINT IDENTIFIER PRIMARY KEY LPAREN IDENTIFIER RPAREN
+                     | ADD CONSTRAINT IDENTIFIER FOREIGN KEY LPAREN IDENTIFIER RPAREN REFERECES IDENTIFIER LPAREN IDENTIFIER RPAREN'''        
+
+        debug("alterBody")
+    
+    
+    
+        
+    def p_empty(p):
+        'empty :'
+        pass
+        
+        
+    def p_error(p): 
+        print("Syntax error. Trouble with " + repr(str(p.value)) + " on line " + str(p.lineno))
+        
+        global err
+        err = True     #sets the flag
+        #print "Bad function call at line", p.lineno(1)
+
+    #build parser
+    yacc.yacc()
+    
+    #parse the given file
+    #yacc.parse(f.read())
+    
+    if err:
+        exit()
+        
+    
+    #return table_list  #returns the tables we've recognized
+    
+    
+    
+    
+
+

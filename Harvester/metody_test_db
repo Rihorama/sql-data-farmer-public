@@ -1,0 +1,5 @@
+CREATE TABLE method_test(
+name varchar(20),
+email text,
+phone_no varchar(16)
+);

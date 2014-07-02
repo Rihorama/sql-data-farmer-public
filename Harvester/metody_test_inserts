@@ -1,0 +1,30 @@
+INSERT INTO method_test
+VALUES ('Pavel', 'tilixi@qizo.ei', '+420 105 567 416');
+
+INSERT INTO method_test
+VALUES ('Jana', 'konopo@tuma.nq', '+420 036 002 860');
+
+INSERT INTO method_test
+VALUES ('Jana', 'movyha@kimi.cb', '+420 147 430 011');
+
+INSERT INTO method_test
+VALUES ('Gabriela', 'kalimo@weja.ob', '+420 786 726 172');
+
+INSERT INTO method_test
+VALUES ('Andrea', 'wuzihu@quca.um', '+420 432 946 636');
+
+INSERT INTO method_test
+VALUES ('Alena', 'xyvyvi@pore.ki', '+420 183 304 446');
+
+INSERT INTO method_test
+VALUES ('Tomáš', 'tejave@riza.lo', '+420 668 447 932');
+
+INSERT INTO method_test
+VALUES ('Petra', 'kabeti@pini.px', '+420 699 622 557');
+
+INSERT INTO method_test
+VALUES ('Hana', 'qodimi@jahu.li', '+420 806 559 848');
+
+INSERT INTO method_test
+VALUES ('Jitka', 'mexeja@vuqo.hd', '+420 077 387 263');
+

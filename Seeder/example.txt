@@ -1,0 +1,60 @@
+INSERT INTO employee
+VALUES ('Kliment', 'Dobrovsky', 34, False);
+
+INSERT INTO employee
+VALUES ('Jonas', 'Dolezal', 62, False);
+
+INSERT INTO employee
+VALUES ('Vaclav', 'Kolousek', 43, True);
+
+INSERT INTO employee
+VALUES ('Alice', 'Vybiral', 32, False);
+
+INSERT INTO employee
+VALUES ('Jiri', 'Janousek', 66, False);
+
+INSERT INTO employee
+VALUES ('Jiri', 'Novak', 40, False);
+
+INSERT INTO employee
+VALUES ('Alice', 'Dobrovsky', 52, True);
+
+INSERT INTO employee
+VALUES ('Alice', 'Novak', 39, False);
+
+INSERT INTO employee
+VALUES ('Alice', 'Vybiral', 49, True);
+
+INSERT INTO employee
+VALUES ('Vaclav', 'Marny', 24, True);
+
+INSERT INTO device
+VALUES ('Kk6434_h', 174891558750085175);
+
+INSERT INTO device
+VALUES ('iVNOUs6c', 59746868478);
+
+INSERT INTO device
+VALUES ('prOVT2dd', -44127);
+
+INSERT INTO device
+VALUES ('iZ3sOrjX', 976715156529);
+
+INSERT INTO device
+VALUES ('P9ngmHa2', -123458322);
+
+INSERT INTO device
+VALUES ('ZMEgicen', 38);
+
+INSERT INTO device
+VALUES ('HxlkJjdY', 82);
+
+INSERT INTO device
+VALUES ('KiFGW3_R', 5960803543);
+
+INSERT INTO device
+VALUES ('wUjBevsd', -92889);
+
+INSERT INTO device
+VALUES ('o54ETUlp', -6098037891786191);
+

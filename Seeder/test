@@ -1,0 +1,27 @@
+TABLE:employee(9)
+    ::name
+        TYPE VARCHAR(10)
+        FILL fm_textbank(./first_names.txt)   
+    ::surname
+        TYPE VARCHAR(15)
+        FILL fm_reference(device:code_name)  
+        CONSTRAINT foreign_key
+    ::age
+        TYPE INT
+        FILL fm_regex(r'[0-9]')
+        CONSTRAINT unique
+    ::requalification
+        TYPE BOOL
+        FILL fm_basic()
+TABLE:device(10)
+    ::code_name
+        TYPE VARCHAR(8)
+        FILL fm_basic()
+        CONSTRAINT unique
+    ::random_int
+        TYPE INT
+        FILL fm_basic()
+        CONSTRAINT null(30)
+    ::textik
+        TYPE TEXT
+        FILL fm_basic()

@@ -1,0 +1,236 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: grp; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE grp (
+    number integer NOT NULL
+);
+
+
+ALTER TABLE public.grp OWNER TO re;
+
+--
+-- Name: grp_number_seq; Type: SEQUENCE; Schema: public; Owner: re
+--
+
+CREATE SEQUENCE grp_number_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.grp_number_seq OWNER TO re;
+
+--
+-- Name: grp_number_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: re
+--
+
+ALTER SEQUENCE grp_number_seq OWNED BY grp.number;
+
+
+--
+-- Name: hah; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE hah (
+    xd character(1) NOT NULL
+);
+
+
+ALTER TABLE public.hah OWNER TO re;
+
+--
+-- Name: mah; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE mah (
+    xd character(1)
+);
+
+
+ALTER TABLE public.mah OWNER TO re;
+
+--
+-- Name: student; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE student (
+    id integer NOT NULL,
+    name character varying(64) DEFAULT ''::character varying NOT NULL,
+    specification character(3) NOT NULL,
+    year integer NOT NULL,
+    login character(8) DEFAULT ''::bpchar NOT NULL,
+    grp integer NOT NULL
+);
+
+
+ALTER TABLE public.student OWNER TO re;
+
+--
+-- Name: student_id_seq; Type: SEQUENCE; Schema: public; Owner: re
+--
+
+CREATE SEQUENCE student_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.student_id_seq OWNER TO re;
+
+--
+-- Name: student_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: re
+--
+
+ALTER SEQUENCE student_id_seq OWNED BY student.id;
+
+
+--
+-- Name: wah; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE wah (
+    xd character varying
+);
+
+
+ALTER TABLE public.wah OWNER TO re;
+
+--
+-- Name: number; Type: DEFAULT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY grp ALTER COLUMN number SET DEFAULT nextval('grp_number_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY student ALTER COLUMN id SET DEFAULT nextval('student_id_seq'::regclass);
+
+
+--
+-- Data for Name: grp; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY grp (number) FROM stdin;
+\.
+
+
+--
+-- Name: grp_number_seq; Type: SEQUENCE SET; Schema: public; Owner: re
+--
+
+SELECT pg_catalog.setval('grp_number_seq', 1, false);
+
+
+--
+-- Data for Name: hah; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY hah (xd) FROM stdin;
+\.
+
+
+--
+-- Data for Name: mah; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY mah (xd) FROM stdin;
+\.
+
+
+--
+-- Data for Name: student; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY student (id, name, specification, year, login, grp) FROM stdin;
+\.
+
+
+--
+-- Name: student_id_seq; Type: SEQUENCE SET; Schema: public; Owner: re
+--
+
+SELECT pg_catalog.setval('student_id_seq', 1, false);
+
+
+--
+-- Data for Name: wah; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY wah (xd) FROM stdin;
+\.
+
+
+--
+-- Name: grp_number_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY grp
+    ADD CONSTRAINT grp_number_key UNIQUE (number);
+
+
+--
+-- Name: hah_pkey; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY hah
+    ADD CONSTRAINT hah_pkey PRIMARY KEY (xd);
+
+
+--
+-- Name: student_pkey; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY student
+    ADD CONSTRAINT student_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: student_grp_fkey; Type: FK CONSTRAINT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY student
+    ADD CONSTRAINT student_grp_fkey FOREIGN KEY (grp) REFERENCES grp(number);
+
+
+--
+-- PostgreSQL database dump complete
+--
+

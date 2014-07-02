@@ -1,0 +1,73 @@
+TABLE:users(10)
+        ::uid
+                TYPE BIGINT
+                FILL fm_basic()
+                CONSTRAINT primary_key(0) default(0) 
+        ::name
+                TYPE VARCHAR(60)
+                FILL fm_basic()
+                CONSTRAINT unique(0) default('') 
+        ::pass
+                TYPE VARCHAR(128)
+                FILL fm_basic()
+                CONSTRAINT default('') 
+        ::mail
+                TYPE VARCHAR(254)
+                FILL fm_regex('([bcdfghjklmnpqrstvwxz][aeiouy]){3}@([bcdfghjklmnpqrstvwxz][aeiouy]){2}\.[a-z]{2}')
+                CONSTRAINT default('') 
+        ::theme
+                TYPE VARCHAR(255)
+                FILL fm_basic()
+                CONSTRAINT default('') 
+        ::signature
+                TYPE VARCHAR(255)
+                FILL fm_basic()
+                CONSTRAINT default('') 
+        ::signature_format
+                TYPE VARCHAR(255)
+                FILL fm_basic()
+
+        ::created
+                TYPE INT
+                FILL fm_regex('1[2][0-9]{8}')
+                CONSTRAINT default(0) 
+        ::access
+                TYPE INT
+                FILL fm_regex('1[3][0-9]{8}')
+                CONSTRAINT default(0) 
+        ::login
+                TYPE INT
+                FILL fm_regex('1[3][0-9]{8}')
+                CONSTRAINT default(0) 
+        ::status
+                TYPE SMALLINT
+                FILL fm_regex('[01]')
+                CONSTRAINT default(0) 
+        ::timezone
+                TYPE VARCHAR(32)
+                FILL fm_regex('(Europe/Berlin)|(Europe/London)')
+
+        ::language
+                TYPE VARCHAR(12)
+                FILL fm_basic()
+                CONSTRAINT default('') 
+        ::picture
+                TYPE INT
+                FILL fm_regex('0')
+                CONSTRAINT default(0) 
+        ::init
+                TYPE VARCHAR(254)
+                FILL fm_regex('([bcdfghjklmnpqrstvwxz][aeiouy]){3}@([bcdfghjklmnpqrstvwxz][aeiouy]){2}\.[a-z]{2}')
+                CONSTRAINT default('') 
+
+
+TABLE:users_roles(10)
+        ::uid
+                TYPE BIGINT
+                FILL fm_reference(users:uid)
+                CONSTRAINT primary_key(25) default(0) 
+        ::rid
+                TYPE BIGINT
+                FILL fm_regex('1')
+                CONSTRAINT primary_key(25) default(0) 
+                

@@ -1,0 +1,903 @@
+Created by PLY version 3.4 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    QUOTE
+    BACKSLASH
+
+Grammar
+
+Rule 0     S' -> dsl
+Rule 1     dsl -> tableBlock moreBlocks
+Rule 2     moreBlocks -> moreBlocks tableBlock
+Rule 3     moreBlocks -> empty
+Rule 4     tableBlock -> tableHeader attributeBlock moreAttributes
+Rule 5     moreAttributes -> moreAttributes attributeBlock
+Rule 6     moreAttributes -> empty
+Rule 7     tableHeader -> TABLE COLON IDENTIFIER LPAREN NUMBER RPAREN endline
+Rule 8     tableHeader -> TABLE COLON IDENTIFIER LPAREN FILLED RPAREN endline
+Rule 9     attributeBlock -> attributeName dataType fillMethod
+Rule 10    attributeBlock -> attributeName dataType fillMethod constraintPart
+Rule 11    attributeName -> DOUBLE_COLON IDENTIFIER endline
+Rule 12    dataType -> TYPE dtypes moreDimensions endline
+Rule 13    dtypes -> TYPE_NOPARAM
+Rule 14    dtypes -> TYPE_1PARAM LPAREN NUMBER RPAREN
+Rule 15    dtypes -> TYPE_2PARAM LPAREN NUMBER COMMA NUMBER RPAREN
+Rule 16    dtypes -> TYPE_2PARAM_TIME LPAREN NUMBER COMMA TIMEZONE_PARAM RPAREN
+Rule 17    moreDimensions -> moreDimensions oneDimension
+Rule 18    moreDimensions -> empty
+Rule 19    oneDimension -> LBRACKET NUMBER RBRACKET
+Rule 20    fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN RPAREN endline
+Rule 21    fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN endline
+Rule 22    constraintPart -> CONSTRAINT constr moreConstr endline
+Rule 23    moreConstr -> constr moreConstr
+Rule 24    moreConstr -> empty
+Rule 25    constr -> CONSTR_NOPARAM
+Rule 26    constr -> CONSTR_1PARAM LPAREN NUMBER RPAREN
+Rule 27    parameters -> parameters parameter
+Rule 28    parameters -> empty
+Rule 29    parameter -> PATH
+Rule 30    parameter -> REGEX
+Rule 31    parameter -> NUMBER
+Rule 32    parameter -> IDENTIFIER
+Rule 33    parameter -> IDENTIFIER COLON IDENTIFIER
+Rule 34    endline -> EOL extraEndline
+Rule 35    extraEndline -> EOL extraEndline
+Rule 36    extraEndline -> empty
+Rule 37    empty -> <empty>
+
+Terminals, with rules where they appear
+
+BACKSLASH            : 
+COLON                : 7 8 33
+COMMA                : 15 16
+CONSTRAINT           : 22
+CONSTR_1PARAM        : 26
+CONSTR_NOPARAM       : 25
+DOUBLE_COLON         : 11
+EOL                  : 34 35
+FILL                 : 20 21
+FILLED               : 8
+FILL_METHOD_1PARAM   : 21
+FILL_METHOD_NOPARAM  : 20
+IDENTIFIER           : 7 8 11 32 33 33
+LBRACKET             : 19
+LPAREN               : 7 8 14 15 16 20 21 26
+NUMBER               : 7 14 15 15 16 19 26 31
+PATH                 : 29
+QUOTE                : 
+RBRACKET             : 19
+REGEX                : 30
+RPAREN               : 7 8 14 15 16 20 21 26
+TABLE                : 7 8
+TIMEZONE_PARAM       : 16
+TYPE                 : 12
+TYPE_1PARAM          : 14
+TYPE_2PARAM          : 15
+TYPE_2PARAM_TIME     : 16
+TYPE_NOPARAM         : 13
+error                : 
+
+Nonterminals, with rules where they appear
+
+attributeBlock       : 4 5
+attributeName        : 9 10
+constr               : 22 23
+constraintPart       : 10
+dataType             : 9 10
+dsl                  : 0
+dtypes               : 12
+empty                : 3 6 18 24 28 36
+endline              : 7 8 11 12 20 21 22
+extraEndline         : 34 35
+fillMethod           : 9 10
+moreAttributes       : 4 5
+moreBlocks           : 1 2
+moreConstr           : 22 23
+moreDimensions       : 12 17
+oneDimension         : 17
+parameter            : 21 27
+parameters           : 27
+tableBlock           : 1 2
+tableHeader          : 4
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . dsl
+    (1) dsl -> . tableBlock moreBlocks
+    (4) tableBlock -> . tableHeader attributeBlock moreAttributes
+    (7) tableHeader -> . TABLE COLON IDENTIFIER LPAREN NUMBER RPAREN endline
+    (8) tableHeader -> . TABLE COLON IDENTIFIER LPAREN FILLED RPAREN endline
+
+    TABLE           shift and go to state 4
+
+    tableHeader                    shift and go to state 1
+    tableBlock                     shift and go to state 2
+    dsl                            shift and go to state 3
+
+state 1
+
+    (4) tableBlock -> tableHeader . attributeBlock moreAttributes
+    (9) attributeBlock -> . attributeName dataType fillMethod
+    (10) attributeBlock -> . attributeName dataType fillMethod constraintPart
+    (11) attributeName -> . DOUBLE_COLON IDENTIFIER endline
+
+    DOUBLE_COLON    shift and go to state 6
+
+    attributeName                  shift and go to state 5
+    attributeBlock                 shift and go to state 7
+
+state 2
+
+    (1) dsl -> tableBlock . moreBlocks
+    (2) moreBlocks -> . moreBlocks tableBlock
+    (3) moreBlocks -> . empty
+    (37) empty -> .
+
+    TABLE           reduce using rule 37 (empty -> .)
+    $end            reduce using rule 37 (empty -> .)
+
+    empty                          shift and go to state 8
+    moreBlocks                     shift and go to state 9
+
+state 3
+
+    (0) S' -> dsl .
+
+
+
+state 4
+
+    (7) tableHeader -> TABLE . COLON IDENTIFIER LPAREN NUMBER RPAREN endline
+    (8) tableHeader -> TABLE . COLON IDENTIFIER LPAREN FILLED RPAREN endline
+
+    COLON           shift and go to state 10
+
+
+state 5
+
+    (9) attributeBlock -> attributeName . dataType fillMethod
+    (10) attributeBlock -> attributeName . dataType fillMethod constraintPart
+    (12) dataType -> . TYPE dtypes moreDimensions endline
+
+    TYPE            shift and go to state 12
+
+    dataType                       shift and go to state 11
+
+state 6
+
+    (11) attributeName -> DOUBLE_COLON . IDENTIFIER endline
+
+    IDENTIFIER      shift and go to state 13
+
+
+state 7
+
+    (4) tableBlock -> tableHeader attributeBlock . moreAttributes
+    (5) moreAttributes -> . moreAttributes attributeBlock
+    (6) moreAttributes -> . empty
+    (37) empty -> .
+
+    DOUBLE_COLON    reduce using rule 37 (empty -> .)
+    TABLE           reduce using rule 37 (empty -> .)
+    $end            reduce using rule 37 (empty -> .)
+
+    empty                          shift and go to state 14
+    moreAttributes                 shift and go to state 15
+
+state 8
+
+    (3) moreBlocks -> empty .
+
+    TABLE           reduce using rule 3 (moreBlocks -> empty .)
+    $end            reduce using rule 3 (moreBlocks -> empty .)
+
+
+state 9
+
+    (1) dsl -> tableBlock moreBlocks .
+    (2) moreBlocks -> moreBlocks . tableBlock
+    (4) tableBlock -> . tableHeader attributeBlock moreAttributes
+    (7) tableHeader -> . TABLE COLON IDENTIFIER LPAREN NUMBER RPAREN endline
+    (8) tableHeader -> . TABLE COLON IDENTIFIER LPAREN FILLED RPAREN endline
+
+    $end            reduce using rule 1 (dsl -> tableBlock moreBlocks .)
+    TABLE           shift and go to state 4
+
+    tableHeader                    shift and go to state 1
+    tableBlock                     shift and go to state 16
+
+state 10
+
+    (7) tableHeader -> TABLE COLON . IDENTIFIER LPAREN NUMBER RPAREN endline
+    (8) tableHeader -> TABLE COLON . IDENTIFIER LPAREN FILLED RPAREN endline
+
+    IDENTIFIER      shift and go to state 17
+
+
+state 11
+
+    (9) attributeBlock -> attributeName dataType . fillMethod
+    (10) attributeBlock -> attributeName dataType . fillMethod constraintPart
+    (20) fillMethod -> . FILL FILL_METHOD_NOPARAM LPAREN RPAREN endline
+    (21) fillMethod -> . FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN endline
+
+    FILL            shift and go to state 19
+
+    fillMethod                     shift and go to state 18
+
+state 12
+
+    (12) dataType -> TYPE . dtypes moreDimensions endline
+    (13) dtypes -> . TYPE_NOPARAM
+    (14) dtypes -> . TYPE_1PARAM LPAREN NUMBER RPAREN
+    (15) dtypes -> . TYPE_2PARAM LPAREN NUMBER COMMA NUMBER RPAREN
+    (16) dtypes -> . TYPE_2PARAM_TIME LPAREN NUMBER COMMA TIMEZONE_PARAM RPAREN
+
+    TYPE_NOPARAM    shift and go to state 24
+    TYPE_1PARAM     shift and go to state 21
+    TYPE_2PARAM     shift and go to state 22
+    TYPE_2PARAM_TIME shift and go to state 20
+
+    dtypes                         shift and go to state 23
+
+state 13
+
+    (11) attributeName -> DOUBLE_COLON IDENTIFIER . endline
+    (34) endline -> . EOL extraEndline
+
+    EOL             shift and go to state 26
+
+    endline                        shift and go to state 25
+
+state 14
+
+    (6) moreAttributes -> empty .
+
+    DOUBLE_COLON    reduce using rule 6 (moreAttributes -> empty .)
+    TABLE           reduce using rule 6 (moreAttributes -> empty .)
+    $end            reduce using rule 6 (moreAttributes -> empty .)
+
+
+state 15
+
+    (4) tableBlock -> tableHeader attributeBlock moreAttributes .
+    (5) moreAttributes -> moreAttributes . attributeBlock
+    (9) attributeBlock -> . attributeName dataType fillMethod
+    (10) attributeBlock -> . attributeName dataType fillMethod constraintPart
+    (11) attributeName -> . DOUBLE_COLON IDENTIFIER endline
+
+    TABLE           reduce using rule 4 (tableBlock -> tableHeader attributeBlock moreAttributes .)
+    $end            reduce using rule 4 (tableBlock -> tableHeader attributeBlock moreAttributes .)
+    DOUBLE_COLON    shift and go to state 6
+
+    attributeName                  shift and go to state 5
+    attributeBlock                 shift and go to state 27
+
+state 16
+
+    (2) moreBlocks -> moreBlocks tableBlock .
+
+    TABLE           reduce using rule 2 (moreBlocks -> moreBlocks tableBlock .)
+    $end            reduce using rule 2 (moreBlocks -> moreBlocks tableBlock .)
+
+
+state 17
+
+    (7) tableHeader -> TABLE COLON IDENTIFIER . LPAREN NUMBER RPAREN endline
+    (8) tableHeader -> TABLE COLON IDENTIFIER . LPAREN FILLED RPAREN endline
+
+    LPAREN          shift and go to state 28
+
+
+state 18
+
+    (9) attributeBlock -> attributeName dataType fillMethod .
+    (10) attributeBlock -> attributeName dataType fillMethod . constraintPart
+    (22) constraintPart -> . CONSTRAINT constr moreConstr endline
+
+    DOUBLE_COLON    reduce using rule 9 (attributeBlock -> attributeName dataType fillMethod .)
+    TABLE           reduce using rule 9 (attributeBlock -> attributeName dataType fillMethod .)
+    $end            reduce using rule 9 (attributeBlock -> attributeName dataType fillMethod .)
+    CONSTRAINT      shift and go to state 30
+
+    constraintPart                 shift and go to state 29
+
+state 19
+
+    (20) fillMethod -> FILL . FILL_METHOD_NOPARAM LPAREN RPAREN endline
+    (21) fillMethod -> FILL . FILL_METHOD_1PARAM LPAREN parameter RPAREN endline
+
+    FILL_METHOD_NOPARAM shift and go to state 32
+    FILL_METHOD_1PARAM shift and go to state 31
+
+
+state 20
+
+    (16) dtypes -> TYPE_2PARAM_TIME . LPAREN NUMBER COMMA TIMEZONE_PARAM RPAREN
+
+    LPAREN          shift and go to state 33
+
+
+state 21
+
+    (14) dtypes -> TYPE_1PARAM . LPAREN NUMBER RPAREN
+
+    LPAREN          shift and go to state 34
+
+
+state 22
+
+    (15) dtypes -> TYPE_2PARAM . LPAREN NUMBER COMMA NUMBER RPAREN
+
+    LPAREN          shift and go to state 35
+
+
+state 23
+
+    (12) dataType -> TYPE dtypes . moreDimensions endline
+    (17) moreDimensions -> . moreDimensions oneDimension
+    (18) moreDimensions -> . empty
+    (37) empty -> .
+
+    EOL             reduce using rule 37 (empty -> .)
+    LBRACKET        reduce using rule 37 (empty -> .)
+
+    moreDimensions                 shift and go to state 36
+    empty                          shift and go to state 37
+
+state 24
+
+    (13) dtypes -> TYPE_NOPARAM .
+
+    EOL             reduce using rule 13 (dtypes -> TYPE_NOPARAM .)
+    LBRACKET        reduce using rule 13 (dtypes -> TYPE_NOPARAM .)
+
+
+state 25
+
+    (11) attributeName -> DOUBLE_COLON IDENTIFIER endline .
+
+    TYPE            reduce using rule 11 (attributeName -> DOUBLE_COLON IDENTIFIER endline .)
+
+
+state 26
+
+    (34) endline -> EOL . extraEndline
+    (35) extraEndline -> . EOL extraEndline
+    (36) extraEndline -> . empty
+    (37) empty -> .
+
+    EOL             shift and go to state 40
+    TYPE            reduce using rule 37 (empty -> .)
+    FILL            reduce using rule 37 (empty -> .)
+    DOUBLE_COLON    reduce using rule 37 (empty -> .)
+    TABLE           reduce using rule 37 (empty -> .)
+    $end            reduce using rule 37 (empty -> .)
+    CONSTRAINT      reduce using rule 37 (empty -> .)
+
+    empty                          shift and go to state 39
+    extraEndline                   shift and go to state 38
+
+state 27
+
+    (5) moreAttributes -> moreAttributes attributeBlock .
+
+    DOUBLE_COLON    reduce using rule 5 (moreAttributes -> moreAttributes attributeBlock .)
+    TABLE           reduce using rule 5 (moreAttributes -> moreAttributes attributeBlock .)
+    $end            reduce using rule 5 (moreAttributes -> moreAttributes attributeBlock .)
+
+
+state 28
+
+    (7) tableHeader -> TABLE COLON IDENTIFIER LPAREN . NUMBER RPAREN endline
+    (8) tableHeader -> TABLE COLON IDENTIFIER LPAREN . FILLED RPAREN endline
+
+    NUMBER          shift and go to state 41
+    FILLED          shift and go to state 42
+
+
+state 29
+
+    (10) attributeBlock -> attributeName dataType fillMethod constraintPart .
+
+    DOUBLE_COLON    reduce using rule 10 (attributeBlock -> attributeName dataType fillMethod constraintPart .)
+    TABLE           reduce using rule 10 (attributeBlock -> attributeName dataType fillMethod constraintPart .)
+    $end            reduce using rule 10 (attributeBlock -> attributeName dataType fillMethod constraintPart .)
+
+
+state 30
+
+    (22) constraintPart -> CONSTRAINT . constr moreConstr endline
+    (25) constr -> . CONSTR_NOPARAM
+    (26) constr -> . CONSTR_1PARAM LPAREN NUMBER RPAREN
+
+    CONSTR_NOPARAM  shift and go to state 45
+    CONSTR_1PARAM   shift and go to state 43
+
+    constr                         shift and go to state 44
+
+state 31
+
+    (21) fillMethod -> FILL FILL_METHOD_1PARAM . LPAREN parameter RPAREN endline
+
+    LPAREN          shift and go to state 46
+
+
+state 32
+
+    (20) fillMethod -> FILL FILL_METHOD_NOPARAM . LPAREN RPAREN endline
+
+    LPAREN          shift and go to state 47
+
+
+state 33
+
+    (16) dtypes -> TYPE_2PARAM_TIME LPAREN . NUMBER COMMA TIMEZONE_PARAM RPAREN
+
+    NUMBER          shift and go to state 48
+
+
+state 34
+
+    (14) dtypes -> TYPE_1PARAM LPAREN . NUMBER RPAREN
+
+    NUMBER          shift and go to state 49
+
+
+state 35
+
+    (15) dtypes -> TYPE_2PARAM LPAREN . NUMBER COMMA NUMBER RPAREN
+
+    NUMBER          shift and go to state 50
+
+
+state 36
+
+    (12) dataType -> TYPE dtypes moreDimensions . endline
+    (17) moreDimensions -> moreDimensions . oneDimension
+    (34) endline -> . EOL extraEndline
+    (19) oneDimension -> . LBRACKET NUMBER RBRACKET
+
+    EOL             shift and go to state 26
+    LBRACKET        shift and go to state 52
+
+    oneDimension                   shift and go to state 51
+    endline                        shift and go to state 53
+
+state 37
+
+    (18) moreDimensions -> empty .
+
+    EOL             reduce using rule 18 (moreDimensions -> empty .)
+    LBRACKET        reduce using rule 18 (moreDimensions -> empty .)
+
+
+state 38
+
+    (34) endline -> EOL extraEndline .
+
+    DOUBLE_COLON    reduce using rule 34 (endline -> EOL extraEndline .)
+    TABLE           reduce using rule 34 (endline -> EOL extraEndline .)
+    $end            reduce using rule 34 (endline -> EOL extraEndline .)
+    CONSTRAINT      reduce using rule 34 (endline -> EOL extraEndline .)
+    TYPE            reduce using rule 34 (endline -> EOL extraEndline .)
+    FILL            reduce using rule 34 (endline -> EOL extraEndline .)
+
+
+state 39
+
+    (36) extraEndline -> empty .
+
+    TYPE            reduce using rule 36 (extraEndline -> empty .)
+    FILL            reduce using rule 36 (extraEndline -> empty .)
+    DOUBLE_COLON    reduce using rule 36 (extraEndline -> empty .)
+    TABLE           reduce using rule 36 (extraEndline -> empty .)
+    $end            reduce using rule 36 (extraEndline -> empty .)
+    CONSTRAINT      reduce using rule 36 (extraEndline -> empty .)
+
+
+state 40
+
+    (35) extraEndline -> EOL . extraEndline
+    (35) extraEndline -> . EOL extraEndline
+    (36) extraEndline -> . empty
+    (37) empty -> .
+
+    EOL             shift and go to state 40
+    TYPE            reduce using rule 37 (empty -> .)
+    FILL            reduce using rule 37 (empty -> .)
+    DOUBLE_COLON    reduce using rule 37 (empty -> .)
+    TABLE           reduce using rule 37 (empty -> .)
+    $end            reduce using rule 37 (empty -> .)
+    CONSTRAINT      reduce using rule 37 (empty -> .)
+
+    empty                          shift and go to state 39
+    extraEndline                   shift and go to state 54
+
+state 41
+
+    (7) tableHeader -> TABLE COLON IDENTIFIER LPAREN NUMBER . RPAREN endline
+
+    RPAREN          shift and go to state 55
+
+
+state 42
+
+    (8) tableHeader -> TABLE COLON IDENTIFIER LPAREN FILLED . RPAREN endline
+
+    RPAREN          shift and go to state 56
+
+
+state 43
+
+    (26) constr -> CONSTR_1PARAM . LPAREN NUMBER RPAREN
+
+    LPAREN          shift and go to state 57
+
+
+state 44
+
+    (22) constraintPart -> CONSTRAINT constr . moreConstr endline
+    (23) moreConstr -> . constr moreConstr
+    (24) moreConstr -> . empty
+    (25) constr -> . CONSTR_NOPARAM
+    (26) constr -> . CONSTR_1PARAM LPAREN NUMBER RPAREN
+    (37) empty -> .
+
+    CONSTR_NOPARAM  shift and go to state 45
+    CONSTR_1PARAM   shift and go to state 43
+    EOL             reduce using rule 37 (empty -> .)
+
+    moreConstr                     shift and go to state 60
+    empty                          shift and go to state 58
+    constr                         shift and go to state 59
+
+state 45
+
+    (25) constr -> CONSTR_NOPARAM .
+
+    CONSTR_NOPARAM  reduce using rule 25 (constr -> CONSTR_NOPARAM .)
+    CONSTR_1PARAM   reduce using rule 25 (constr -> CONSTR_NOPARAM .)
+    EOL             reduce using rule 25 (constr -> CONSTR_NOPARAM .)
+
+
+state 46
+
+    (21) fillMethod -> FILL FILL_METHOD_1PARAM LPAREN . parameter RPAREN endline
+    (29) parameter -> . PATH
+    (30) parameter -> . REGEX
+    (31) parameter -> . NUMBER
+    (32) parameter -> . IDENTIFIER
+    (33) parameter -> . IDENTIFIER COLON IDENTIFIER
+
+    PATH            shift and go to state 63
+    REGEX           shift and go to state 61
+    NUMBER          shift and go to state 62
+    IDENTIFIER      shift and go to state 64
+
+    parameter                      shift and go to state 65
+
+state 47
+
+    (20) fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN . RPAREN endline
+
+    RPAREN          shift and go to state 66
+
+
+state 48
+
+    (16) dtypes -> TYPE_2PARAM_TIME LPAREN NUMBER . COMMA TIMEZONE_PARAM RPAREN
+
+    COMMA           shift and go to state 67
+
+
+state 49
+
+    (14) dtypes -> TYPE_1PARAM LPAREN NUMBER . RPAREN
+
+    RPAREN          shift and go to state 68
+
+
+state 50
+
+    (15) dtypes -> TYPE_2PARAM LPAREN NUMBER . COMMA NUMBER RPAREN
+
+    COMMA           shift and go to state 69
+
+
+state 51
+
+    (17) moreDimensions -> moreDimensions oneDimension .
+
+    EOL             reduce using rule 17 (moreDimensions -> moreDimensions oneDimension .)
+    LBRACKET        reduce using rule 17 (moreDimensions -> moreDimensions oneDimension .)
+
+
+state 52
+
+    (19) oneDimension -> LBRACKET . NUMBER RBRACKET
+
+    NUMBER          shift and go to state 70
+
+
+state 53
+
+    (12) dataType -> TYPE dtypes moreDimensions endline .
+
+    FILL            reduce using rule 12 (dataType -> TYPE dtypes moreDimensions endline .)
+
+
+state 54
+
+    (35) extraEndline -> EOL extraEndline .
+
+    TYPE            reduce using rule 35 (extraEndline -> EOL extraEndline .)
+    FILL            reduce using rule 35 (extraEndline -> EOL extraEndline .)
+    DOUBLE_COLON    reduce using rule 35 (extraEndline -> EOL extraEndline .)
+    TABLE           reduce using rule 35 (extraEndline -> EOL extraEndline .)
+    $end            reduce using rule 35 (extraEndline -> EOL extraEndline .)
+    CONSTRAINT      reduce using rule 35 (extraEndline -> EOL extraEndline .)
+
+
+state 55
+
+    (7) tableHeader -> TABLE COLON IDENTIFIER LPAREN NUMBER RPAREN . endline
+    (34) endline -> . EOL extraEndline
+
+    EOL             shift and go to state 26
+
+    endline                        shift and go to state 71
+
+state 56
+
+    (8) tableHeader -> TABLE COLON IDENTIFIER LPAREN FILLED RPAREN . endline
+    (34) endline -> . EOL extraEndline
+
+    EOL             shift and go to state 26
+
+    endline                        shift and go to state 72
+
+state 57
+
+    (26) constr -> CONSTR_1PARAM LPAREN . NUMBER RPAREN
+
+    NUMBER          shift and go to state 73
+
+
+state 58
+
+    (24) moreConstr -> empty .
+
+    EOL             reduce using rule 24 (moreConstr -> empty .)
+
+
+state 59
+
+    (23) moreConstr -> constr . moreConstr
+    (23) moreConstr -> . constr moreConstr
+    (24) moreConstr -> . empty
+    (25) constr -> . CONSTR_NOPARAM
+    (26) constr -> . CONSTR_1PARAM LPAREN NUMBER RPAREN
+    (37) empty -> .
+
+    CONSTR_NOPARAM  shift and go to state 45
+    CONSTR_1PARAM   shift and go to state 43
+    EOL             reduce using rule 37 (empty -> .)
+
+    moreConstr                     shift and go to state 74
+    empty                          shift and go to state 58
+    constr                         shift and go to state 59
+
+state 60
+
+    (22) constraintPart -> CONSTRAINT constr moreConstr . endline
+    (34) endline -> . EOL extraEndline
+
+    EOL             shift and go to state 26
+
+    endline                        shift and go to state 75
+
+state 61
+
+    (30) parameter -> REGEX .
+
+    RPAREN          reduce using rule 30 (parameter -> REGEX .)
+
+
+state 62
+
+    (31) parameter -> NUMBER .
+
+    RPAREN          reduce using rule 31 (parameter -> NUMBER .)
+
+
+state 63
+
+    (29) parameter -> PATH .
+
+    RPAREN          reduce using rule 29 (parameter -> PATH .)
+
+
+state 64
+
+    (32) parameter -> IDENTIFIER .
+    (33) parameter -> IDENTIFIER . COLON IDENTIFIER
+
+    RPAREN          reduce using rule 32 (parameter -> IDENTIFIER .)
+    COLON           shift and go to state 76
+
+
+state 65
+
+    (21) fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter . RPAREN endline
+
+    RPAREN          shift and go to state 77
+
+
+state 66
+
+    (20) fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN RPAREN . endline
+    (34) endline -> . EOL extraEndline
+
+    EOL             shift and go to state 26
+
+    endline                        shift and go to state 78
+
+state 67
+
+    (16) dtypes -> TYPE_2PARAM_TIME LPAREN NUMBER COMMA . TIMEZONE_PARAM RPAREN
+
+    TIMEZONE_PARAM  shift and go to state 79
+
+
+state 68
+
+    (14) dtypes -> TYPE_1PARAM LPAREN NUMBER RPAREN .
+
+    EOL             reduce using rule 14 (dtypes -> TYPE_1PARAM LPAREN NUMBER RPAREN .)
+    LBRACKET        reduce using rule 14 (dtypes -> TYPE_1PARAM LPAREN NUMBER RPAREN .)
+
+
+state 69
+
+    (15) dtypes -> TYPE_2PARAM LPAREN NUMBER COMMA . NUMBER RPAREN
+
+    NUMBER          shift and go to state 80
+
+
+state 70
+
+    (19) oneDimension -> LBRACKET NUMBER . RBRACKET
+
+    RBRACKET        shift and go to state 81
+
+
+state 71
+
+    (7) tableHeader -> TABLE COLON IDENTIFIER LPAREN NUMBER RPAREN endline .
+
+    DOUBLE_COLON    reduce using rule 7 (tableHeader -> TABLE COLON IDENTIFIER LPAREN NUMBER RPAREN endline .)
+
+
+state 72
+
+    (8) tableHeader -> TABLE COLON IDENTIFIER LPAREN FILLED RPAREN endline .
+
+    DOUBLE_COLON    reduce using rule 8 (tableHeader -> TABLE COLON IDENTIFIER LPAREN FILLED RPAREN endline .)
+
+
+state 73
+
+    (26) constr -> CONSTR_1PARAM LPAREN NUMBER . RPAREN
+
+    RPAREN          shift and go to state 82
+
+
+state 74
+
+    (23) moreConstr -> constr moreConstr .
+
+    EOL             reduce using rule 23 (moreConstr -> constr moreConstr .)
+
+
+state 75
+
+    (22) constraintPart -> CONSTRAINT constr moreConstr endline .
+
+    DOUBLE_COLON    reduce using rule 22 (constraintPart -> CONSTRAINT constr moreConstr endline .)
+    TABLE           reduce using rule 22 (constraintPart -> CONSTRAINT constr moreConstr endline .)
+    $end            reduce using rule 22 (constraintPart -> CONSTRAINT constr moreConstr endline .)
+
+
+state 76
+
+    (33) parameter -> IDENTIFIER COLON . IDENTIFIER
+
+    IDENTIFIER      shift and go to state 83
+
+
+state 77
+
+    (21) fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN . endline
+    (34) endline -> . EOL extraEndline
+
+    EOL             shift and go to state 26
+
+    endline                        shift and go to state 84
+
+state 78
+
+    (20) fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN RPAREN endline .
+
+    CONSTRAINT      reduce using rule 20 (fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN RPAREN endline .)
+    DOUBLE_COLON    reduce using rule 20 (fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN RPAREN endline .)
+    TABLE           reduce using rule 20 (fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN RPAREN endline .)
+    $end            reduce using rule 20 (fillMethod -> FILL FILL_METHOD_NOPARAM LPAREN RPAREN endline .)
+
+
+state 79
+
+    (16) dtypes -> TYPE_2PARAM_TIME LPAREN NUMBER COMMA TIMEZONE_PARAM . RPAREN
+
+    RPAREN          shift and go to state 85
+
+
+state 80
+
+    (15) dtypes -> TYPE_2PARAM LPAREN NUMBER COMMA NUMBER . RPAREN
+
+    RPAREN          shift and go to state 86
+
+
+state 81
+
+    (19) oneDimension -> LBRACKET NUMBER RBRACKET .
+
+    EOL             reduce using rule 19 (oneDimension -> LBRACKET NUMBER RBRACKET .)
+    LBRACKET        reduce using rule 19 (oneDimension -> LBRACKET NUMBER RBRACKET .)
+
+
+state 82
+
+    (26) constr -> CONSTR_1PARAM LPAREN NUMBER RPAREN .
+
+    CONSTR_NOPARAM  reduce using rule 26 (constr -> CONSTR_1PARAM LPAREN NUMBER RPAREN .)
+    CONSTR_1PARAM   reduce using rule 26 (constr -> CONSTR_1PARAM LPAREN NUMBER RPAREN .)
+    EOL             reduce using rule 26 (constr -> CONSTR_1PARAM LPAREN NUMBER RPAREN .)
+
+
+state 83
+
+    (33) parameter -> IDENTIFIER COLON IDENTIFIER .
+
+    RPAREN          reduce using rule 33 (parameter -> IDENTIFIER COLON IDENTIFIER .)
+
+
+state 84
+
+    (21) fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN endline .
+
+    CONSTRAINT      reduce using rule 21 (fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN endline .)
+    DOUBLE_COLON    reduce using rule 21 (fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN endline .)
+    TABLE           reduce using rule 21 (fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN endline .)
+    $end            reduce using rule 21 (fillMethod -> FILL FILL_METHOD_1PARAM LPAREN parameter RPAREN endline .)
+
+
+state 85
+
+    (16) dtypes -> TYPE_2PARAM_TIME LPAREN NUMBER COMMA TIMEZONE_PARAM RPAREN .
+
+    EOL             reduce using rule 16 (dtypes -> TYPE_2PARAM_TIME LPAREN NUMBER COMMA TIMEZONE_PARAM RPAREN .)
+    LBRACKET        reduce using rule 16 (dtypes -> TYPE_2PARAM_TIME LPAREN NUMBER COMMA TIMEZONE_PARAM RPAREN .)
+
+
+state 86
+
+    (15) dtypes -> TYPE_2PARAM LPAREN NUMBER COMMA NUMBER RPAREN .
+
+    EOL             reduce using rule 15 (dtypes -> TYPE_2PARAM LPAREN NUMBER COMMA NUMBER RPAREN .)
+    LBRACKET        reduce using rule 15 (dtypes -> TYPE_2PARAM LPAREN NUMBER COMMA NUMBER RPAREN .)
+

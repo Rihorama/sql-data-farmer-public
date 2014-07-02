@@ -1,0 +1,60 @@
+INSERT INTO users
+VALUES (1297, 'Worodetu', 'HB$%jc9FF@', 'kagako@tyfo.mg', DEFAULT, DEFAULT, 'filtered_html', 1312008942, 1321690531, 1328617923, 1, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1299, 'Cej', DEFAULT, 'qejyqy@byfa.bf', DEFAULT, DEFAULT, 'filtered_html', 1312891726, 1323062380, 1328910086, DEFAULT, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1208, 'Rynyz', 'r8g#Zu0rBI', 'qawyzo@bema.df', DEFAULT, DEFAULT, 'filtered_html', 1310312550, 1322701079, 1322687299, DEFAULT, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1237, 'Ryboxali', '%lnNl6ip##', 'mocunu@lafe.qv', DEFAULT, DEFAULT, 'filtered_html', 1313926158, 1326398947, 1320918357, DEFAULT, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1274, 'Cudep', 'eGlqHo#GbM', 'hagyki@wowa.nu', DEFAULT, DEFAULT, 'filtered_html', 1312965678, 1321671784, 1327723269, 1, 'Europe/Berlin', DEFAULT, DEFAULT, 'Rerelo', NULL);
+
+INSERT INTO users
+VALUES (1204, 'Xekihin', 'Nde%8$Q4Ry', 'sucalo@xawo.zy', DEFAULT, DEFAULT, 'filtered_html', 1315246797, 1325155774, 1323072513, 1, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1245, 'Qukebob', 'eiEGIg_NRQ', 'bawequ@xoly.re', DEFAULT, DEFAULT, 'filtered_html', 1313487040, 1324686197, 1324954552, 1, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1238, 'Quhof', 'U#23yGmCWZ', 'sytuzo@numo.zu', DEFAULT, DEFAULT, 'filtered_html', 1317308463, 1325922169, 1324253163, 1, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1225, 'Po', 'TQiW_kKf6c', 'sakyto@cako.jy', DEFAULT, DEFAULT, 'filtered_html', 1315886622, 1329108625, 1320054477, 1, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users
+VALUES (1226, 'Bowy', 'maqiQk_Y_q', 'rawupu@fiby.dq', DEFAULT, DEFAULT, 'filtered_html', 1312959167, 1320940025, 1324198684, DEFAULT, 'Europe/Berlin', DEFAULT, DEFAULT, DEFAULT, NULL);
+
+INSERT INTO users_roles
+VALUES (1225, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1204, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1245, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1208, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1237, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1274, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1238, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1226, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1297, (select rid from role offset random() * (select count(*) from role) limit 1));
+
+INSERT INTO users_roles
+VALUES (1299, (select rid from role offset random() * (select count(*) from role) limit 1));
+

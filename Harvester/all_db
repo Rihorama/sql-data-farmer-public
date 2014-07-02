@@ -1,0 +1,66 @@
+CREATE TABLE t_bigint (
+    a1 bigint
+);
+CREATE TABLE t_bigserial (
+    a1 bigserial NOT NULL
+);
+CREATE TABLE t_bit (
+    a1 bit(4)
+);
+CREATE TABLE t_bit_var (
+    a1 bit varying(8)
+);
+CREATE TABLE t_bool (
+    a1 boolean
+);
+CREATE TABLE t_box (
+    a1 box
+);
+CREATE TABLE t_char (
+    a1 character(5)
+);
+CREATE TABLE t_cidr (
+    a1 cidr
+);
+CREATE TABLE t_circle (
+    a1 circle
+);
+CREATE TABLE t_double_prec (
+    a1 double precision
+);
+CREATE TABLE t_inet (
+    a1 inet
+);
+CREATE TABLE t_integer (
+    a1 integer
+);
+CREATE TABLE t_lseg (
+    a1 lseg
+);
+CREATE TABLE t_numeric (
+    a1 numeric(5,2)
+);
+CREATE TABLE t_path (
+    a1 path
+);
+CREATE TABLE t_point (
+    a1 point
+);
+CREATE TABLE t_polygon (
+    a1 polygon
+);
+CREATE TABLE t_real (
+    a1 real
+);
+CREATE TABLE t_serial (
+    a1 serial NOT NULL
+);
+CREATE TABLE t_smallint (
+    a1 smallint
+);
+CREATE TABLE t_text (
+    a1 text
+);
+CREATE TABLE t_varchar (
+    a1 character varying(5)
+);

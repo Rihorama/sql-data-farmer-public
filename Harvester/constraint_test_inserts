@@ -1,0 +1,90 @@
+INSERT INTO default_test
+VALUES (95, 584479340, DEFAULT, DEFAULT);
+
+INSERT INTO default_test
+VALUES (255272979, 357641527, 'Nojuweda', 'American occupying forces leave the Dominican Republic.');
+
+INSERT INTO default_test
+VALUES (381343900, 2819592, 'Copunat', DEFAULT);
+
+INSERT INTO default_test
+VALUES (873490043, 502550, 'Feqemovy', 'The United States Federal Labor Relations Authority votes to decertify the Professional Air Traffic Controllers Organization for its strike the previous August.');
+
+INSERT INTO default_test
+VALUES (49490236, 899027, 'Xubu', DEFAULT);
+
+INSERT INTO null_test
+VALUES (8283, NULL);
+
+INSERT INTO null_test
+VALUES (1641425627, NULL);
+
+INSERT INTO null_test
+VALUES (NULL, 3.029e-306);
+
+INSERT INTO null_test
+VALUES (949428967, 9.803e-83);
+
+INSERT INTO null_test
+VALUES (NULL, 6.885e-15);
+
+INSERT INTO primary_key_group
+VALUES (8, 9);
+
+INSERT INTO primary_key_group
+VALUES (1, 4);
+
+INSERT INTO primary_key_group
+VALUES (3, 8);
+
+INSERT INTO primary_key_group
+VALUES (5, 2);
+
+INSERT INTO primary_key_group
+VALUES (2, 2);
+
+INSERT INTO primary_key_single
+VALUES ('XL');
+
+INSERT INTO primary_key_single
+VALUES ('Dc');
+
+INSERT INTO primary_key_single
+VALUES ('gp');
+
+INSERT INTO primary_key_single
+VALUES ('q3');
+
+INSERT INTO primary_key_single
+VALUES ('k5');
+
+INSERT INTO unique_group
+VALUES (5, 5);
+
+INSERT INTO unique_group
+VALUES (1, 6);
+
+INSERT INTO unique_group
+VALUES (0, 3);
+
+INSERT INTO unique_group
+VALUES (8, 4);
+
+INSERT INTO unique_group
+VALUES (5, 4);
+
+INSERT INTO foreign_key_test
+VALUES ('gp', 381343900);
+
+INSERT INTO foreign_key_test
+VALUES ('XL', 873490043);
+
+INSERT INTO foreign_key_test
+VALUES ('Dc', 381343900);
+
+INSERT INTO foreign_key_test
+VALUES ('q3', 873490043);
+
+INSERT INTO foreign_key_test
+VALUES ('Dc', 49490236);
+

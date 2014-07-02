@@ -1,0 +1,203 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: default_test; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE default_test (
+    defpk integer NOT NULL,
+    def1 integer DEFAULT 1,
+    def2 character varying DEFAULT 'testing'::character varying,
+    def3 text DEFAULT ''::text
+);
+
+
+ALTER TABLE public.default_test OWNER TO re;
+
+--
+-- Name: foreign_key_test; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE foreign_key_test (
+    fk1 character(2),
+    fk2 integer
+);
+
+
+ALTER TABLE public.foreign_key_test OWNER TO re;
+
+--
+-- Name: null_test; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE null_test (
+    n1 integer,
+    n2 double precision DEFAULT 0.0
+);
+
+
+ALTER TABLE public.null_test OWNER TO re;
+
+--
+-- Name: primary_key_group; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE primary_key_group (
+    pk_group1 numeric(1,0) NOT NULL,
+    pk_group2 numeric(1,0) NOT NULL
+);
+
+
+ALTER TABLE public.primary_key_group OWNER TO re;
+
+--
+-- Name: primary_key_single; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE primary_key_single (
+    pk character(2) NOT NULL
+);
+
+
+ALTER TABLE public.primary_key_single OWNER TO re;
+
+--
+-- Name: unique_group; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE unique_group (
+    uq_group1 numeric(1,0),
+    uq_group2 numeric(1,0)
+);
+
+
+ALTER TABLE public.unique_group OWNER TO re;
+
+--
+-- Data for Name: default_test; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY default_test (defpk, def1, def2, def3) FROM stdin;
+\.
+
+
+--
+-- Data for Name: foreign_key_test; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY foreign_key_test (fk1, fk2) FROM stdin;
+\.
+
+
+--
+-- Data for Name: null_test; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY null_test (n1, n2) FROM stdin;
+\.
+
+
+--
+-- Data for Name: primary_key_group; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY primary_key_group (pk_group1, pk_group2) FROM stdin;
+\.
+
+
+--
+-- Data for Name: primary_key_single; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY primary_key_single (pk) FROM stdin;
+\.
+
+
+--
+-- Data for Name: unique_group; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY unique_group (uq_group1, uq_group2) FROM stdin;
+\.
+
+
+--
+-- Name: default_test_pkey; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY default_test
+    ADD CONSTRAINT default_test_pkey PRIMARY KEY (defpk);
+
+
+--
+-- Name: primary_key_single_pkey; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY primary_key_single
+    ADD CONSTRAINT primary_key_single_pkey PRIMARY KEY (pk);
+
+
+--
+-- Name: test_pk; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY primary_key_group
+    ADD CONSTRAINT test_pk PRIMARY KEY (pk_group1, pk_group2);
+
+
+--
+-- Name: test_uq; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY unique_group
+    ADD CONSTRAINT test_uq UNIQUE (uq_group1, uq_group2);
+
+
+--
+-- Name: foreign_key_test_fk1_fkey; Type: FK CONSTRAINT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY foreign_key_test
+    ADD CONSTRAINT foreign_key_test_fk1_fkey FOREIGN KEY (fk1) REFERENCES primary_key_single(pk);
+
+
+--
+-- Name: foreign_key_test_fk2_fkey; Type: FK CONSTRAINT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY foreign_key_test
+    ADD CONSTRAINT foreign_key_test_fk2_fkey FOREIGN KEY (fk2) REFERENCES default_test(defpk);
+
+
+--
+-- PostgreSQL database dump complete
+--
+

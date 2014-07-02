@@ -1,0 +1,57 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: param_test; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE param_test (
+    char_param character(1),
+    xyz point,
+    pth path,
+    plgn polygon,
+    crcl circle
+);
+
+
+ALTER TABLE public.param_test OWNER TO re;
+
+--
+-- Data for Name: param_test; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY param_test (char_param, xyz, pth, plgn, crcl) FROM stdin;
+\.
+
+
+--
+-- PostgreSQL database dump complete
+--
+

@@ -1,0 +1,450 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: departments; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE departments (
+    id integer NOT NULL,
+    code character varying(4) NOT NULL,
+    capital character varying(10) NOT NULL,
+    region character varying(4) NOT NULL,
+    name text NOT NULL
+);
+
+
+ALTER TABLE public.departments OWNER TO re;
+
+--
+-- Name: departments_id_seq; Type: SEQUENCE; Schema: public; Owner: re
+--
+
+CREATE SEQUENCE departments_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.departments_id_seq OWNER TO re;
+
+--
+-- Name: departments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: re
+--
+
+ALTER SEQUENCE departments_id_seq OWNED BY departments.id;
+
+
+--
+-- Name: pony; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE pony (
+    name character varying(15) NOT NULL
+);
+
+
+ALTER TABLE public.pony OWNER TO re;
+
+--
+-- Name: regions; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE regions (
+    id integer NOT NULL,
+    code character varying(4) NOT NULL,
+    capital character varying(10) NOT NULL,
+    name text NOT NULL
+);
+
+
+ALTER TABLE public.regions OWNER TO re;
+
+--
+-- Name: regions_id_seq; Type: SEQUENCE; Schema: public; Owner: re
+--
+
+CREATE SEQUENCE regions_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.regions_id_seq OWNER TO re;
+
+--
+-- Name: regions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: re
+--
+
+ALTER SEQUENCE regions_id_seq OWNED BY regions.id;
+
+
+--
+-- Name: testy; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE testy (
+    bigint_ukazka bigint NOT NULL,
+    smallint_ukazka smallint NOT NULL
+);
+
+
+ALTER TABLE public.testy OWNER TO re;
+
+--
+-- Name: town; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE town (
+    name character varying(15) NOT NULL,
+    population integer NOT NULL,
+    leader character varying(15)
+);
+
+
+ALTER TABLE public.town OWNER TO re;
+
+--
+-- Name: towns; Type: TABLE; Schema: public; Owner: re; Tablespace: 
+--
+
+CREATE TABLE towns (
+    id integer NOT NULL,
+    code character varying(10) NOT NULL,
+    article text,
+    name text NOT NULL,
+    department character varying(4) NOT NULL
+);
+
+
+ALTER TABLE public.towns OWNER TO re;
+
+--
+-- Name: towns_id_seq; Type: SEQUENCE; Schema: public; Owner: re
+--
+
+CREATE SEQUENCE towns_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.towns_id_seq OWNER TO re;
+
+--
+-- Name: towns_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: re
+--
+
+ALTER SEQUENCE towns_id_seq OWNED BY towns.id;
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY departments ALTER COLUMN id SET DEFAULT nextval('departments_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY regions ALTER COLUMN id SET DEFAULT nextval('regions_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY towns ALTER COLUMN id SET DEFAULT nextval('towns_id_seq'::regclass);
+
+
+--
+-- Data for Name: departments; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY departments (id, code, capital, region, name) FROM stdin;
+822	Vyd	Muq	Ban	Francisco Pizarro is assassinated in Lima by the son of his former companion and later antagonist, Diego Almagro the younger. Almagro is later caught and executed.
+-302134762	Ra	Tikevo v	Fad	The Spanish police thwart an attempt by ETA to detonate 50 kg of explosives at 3:55 p.m. inside Madrid's busy Chamartín Station.
+-517865685	Li	Ryvify 	Re	The Cyclone roller coaster opens on Coney Island.
+-71499016	Jup	We	Wake	A Canadair CL-44 chartered by the United States military crashes into a small village in South Vietnam, killing 129.
+805962136	Ziv	Rape v	Noky	Fifty-eight people are killed in an attack on a United Nations base in Bor, South Sudan, during an ongoing conflict.
+-455367965	Lyca	Wesu gal	Jami	Construction of the Ladoga Canal is completed.
+585890750	Nyq	Guj	Jami	NASA ends the LADEE mission by intentionally crashing the spacecraft into the Moon.
+1231449519	Kac	Kym	Vale	A BAC One-Eleven prototype airliner crashes in UK with the loss of all on board.
+909908364	Soqe	Cysi kow	Ly	Wild populations of the black rock scorpion are depleted due to collecting by the pet trade.
+6721	Ju	Baqa	Ban	From March to December 1944, it fought a counter-insurgency campaign against communist-led Yugoslav Partisan resistance forces.
+\.
+
+
+--
+-- Name: departments_id_seq; Type: SEQUENCE SET; Schema: public; Owner: re
+--
+
+SELECT pg_catalog.setval('departments_id_seq', 1, false);
+
+
+--
+-- Data for Name: pony; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY pony (name) FROM stdin;
+Celestia
+Twilight
+Zorima xi
+Tati mivuhyly
+Myriga rux
+Beba nat
+Tetuh
+Zeny fygexoloh
+Gyli
+Zuporo liwy
+Vuku qototyz
+Wibewi
+\.
+
+
+--
+-- Data for Name: regions; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY regions (id, code, capital, name) FROM stdin;
+-759241972	Re	Doz	The Cyclone roller coaster opens on Coney Island.
+-893196393	Fyhe	Hyse	Vietnam War: Viet Cong operatives bomb the Brinks Hotel in Saigon, South Vietnam to demonstrate they can strike an American installation in the heavily guarded capital.
+-4850678	Fad	Hif	Spain declares war on Morocco.
+-162	Ban	Xemoko m	Foundation of Aguascalientes.
+1343074334	Xoq	Lejo j	The 1907 Tiflis bank robbery took place in Yerevan Square, now Freedom Square, Tbilisi.
+-902949202	Jami	Ryge nip	Why did the bald man paint rabbits on his head?Because from a distance they looked like hares!
+377420532	Wake	Naqu hyko	A BAC One-Eleven prototype airliner crashes in UK with the loss of all on board.
+531402907	Ly	Pavyre kug	Jim was speeding along the road one fine day when the local policeman, a friend of his, pulled him over. "What's wrong, Eric?" Jim asked. "Well didn't you know, Jim, that your wife fell out of the car about five miles back?" said Eric. "Ah, praise God!" he replied with relief. "I thought I'd gone deaf!"
+60	Vale	Ravino zom	The Science Museum in London comes into existence as an independent entity.
+-649791927	Noky	Wila doc	Apollo program: The crew of Apollo 8 enters into orbit around the Moon, becoming the first humans to do so. They performed 10 lunar orbits and broadcast live TV pictures that became the famous Christmas Eve Broadcast, one of the most watched programs in history.
+\.
+
+
+--
+-- Name: regions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: re
+--
+
+SELECT pg_catalog.setval('regions_id_seq', 1, false);
+
+
+--
+-- Data for Name: testy; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY testy (bigint_ukazka, smallint_ukazka) FROM stdin;
+\.
+
+
+--
+-- Data for Name: town; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY town (name, population, leader) FROM stdin;
+Canterlot	500	Celestia
+Fe	-994	Zuporo liwy
+Dyse nyfuxiriso	-743	Wibewi
+Hemu hifu	63	Myriga rux
+Xibypu tuqit	2	Zorima xi
+Biku 	-44	Zorima xi
+Kupexy vifuqelu	-24168483	Tati mivuhyly
+Gi	-452053	Vuku qototyz
+Ris	261	Wibewi
+Vor	-405088439	Zeny fygexoloh
+Ceza	580436	Tetuh
+\.
+
+
+--
+-- Data for Name: towns; Type: TABLE DATA; Schema: public; Owner: re
+--
+
+COPY towns (id, code, article, name, department) FROM stdin;
+-654337523	Lafixo li	At the Boston Marathon, American Meb Keflezighi wins the men's race and Kenyan Rita Jeptoo (pictured) wins the women's race.	Why did the bald man paint rabbits on his head?Because from a distance they looked like hares!	Ziv
+-989214171	Tole zito	An Irishman had no idea his wife was having an affair, so he was mad with grief when coming home early one day he surprised her and her lover in the act.He grabbed a pistol and pointed it at his head, which made his wife burst out laughing. "What do you think you're laughing at," he cried, "you're next."	Apollo program: The crew of Apollo 8 enters into orbit around the Moon, becoming the first humans to do so. They performed 10 lunar orbits and broadcast live TV pictures that became the famous Christmas Eve Broadcast, one of the most watched programs in history.	Ju
+1545834661	Zi	The Great Anticipation: Millerites, followers of William Miller, anticipate the end of the world in conjunction with the Second Advent of Christ. The following day became known as the Great Disappointment.	Why do cows have horns? Because their horns don't work!	Lyca
+-478346740	Byb	The Council of Chalcedon adopts the Chalcedonian Creed regarding the divine and human nature of Jesus Christ.	Charles was getting annoyed and shouted upstairs to his wife," Hurry up or we'll be late." "Oh, be quiet," replied his wife. "Haven't I been telling you for the last hour that I'll be ready in a minute?"	Soqe
+654056	Coruva na	The Council of Chalcedon adopts the Chalcedonian Creed regarding the divine and human nature of Jesus Christ.	Maurice Papon, an official in the Vichy France government during World War II, is jailed for crimes against humanity.	Nyq
+327246035	Typu	Tropical Storm Alpha forms in the Atlantic Basin, making the 2005 Atlantic Hurricane Season the most active Atlantic hurricane season on record with 22 named storms.	A Scots boy came home from school and told his mother he had been given a part in the school play. "Wonderful," says the mother, "What part is it?" The boy says "I play the part of the Scottish husband!" The mother scowls and says: "Go back and tell your teacher you want a speaking part."	Kac
+941803704	Doneke 	End of the June Days Uprising in Paris.	A customer ordered some coffee in a cafe. The waitress arrived with the coffee and placed it on the table. After a few moments, the customer called for the waitress "Waitress," he said, "there's dirt in my coffee!". "That's not surprising, sir, replied the waitress, "It was ground only half an hour ago."	Ziv
+-1929675001	Patah	Fifty-eight people are killed in an attack on a United Nations base in Bor, South Sudan, during an ongoing conflict.	An Englishman, roused by a Scot's scorn of his race, protested that he was born an Englishman and hoped to die an Englishman. "Man," scoffed the Scot, "hiv ye nae ambeetion (Have you no ambition)?"	Vyd
+-425267389	Himege no	Scilly naval disaster: four British Royal Navy ships run aground near the Isles of Scilly because of faulty navigation. Admiral Sir Cloudesley Shovell and thousands of sailors drown.	From March to December 1944, it fought a counter-insurgency campaign against communist-led Yugoslav Partisan resistance forces.	Nyq
+573866420	Zica xi	An English teacher wrote these words on the whiteboard: "woman without her man is nothing". The teacher then asked the students to punctuate the words correctly.The men wrote: "Woman, without her man, is nothing."The women wrote: "Woman! Without her, man is nothing."	An Englishman, roused by a Scot's scorn of his race, protested that he was born an Englishman and hoped to die an Englishman. "Man," scoffed the Scot, "hiv ye nae ambeetion (Have you no ambition)?"	Ju
+\.
+
+
+--
+-- Name: towns_id_seq; Type: SEQUENCE SET; Schema: public; Owner: re
+--
+
+SELECT pg_catalog.setval('towns_id_seq', 1, false);
+
+
+--
+-- Name: departments_capital_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY departments
+    ADD CONSTRAINT departments_capital_key UNIQUE (capital);
+
+
+--
+-- Name: departments_code_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY departments
+    ADD CONSTRAINT departments_code_key UNIQUE (code);
+
+
+--
+-- Name: departments_id_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY departments
+    ADD CONSTRAINT departments_id_key UNIQUE (id);
+
+
+--
+-- Name: departments_name_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY departments
+    ADD CONSTRAINT departments_name_key UNIQUE (name);
+
+
+--
+-- Name: pony_pkey; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY pony
+    ADD CONSTRAINT pony_pkey PRIMARY KEY (name);
+
+
+--
+-- Name: regions_code_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY regions
+    ADD CONSTRAINT regions_code_key UNIQUE (code);
+
+
+--
+-- Name: regions_id_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY regions
+    ADD CONSTRAINT regions_id_key UNIQUE (id);
+
+
+--
+-- Name: regions_name_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY regions
+    ADD CONSTRAINT regions_name_key UNIQUE (name);
+
+
+--
+-- Name: testy_pkey; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY testy
+    ADD CONSTRAINT testy_pkey PRIMARY KEY (bigint_ukazka);
+
+
+--
+-- Name: town_pkey; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY town
+    ADD CONSTRAINT town_pkey PRIMARY KEY (name);
+
+
+--
+-- Name: towns_code_department_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY towns
+    ADD CONSTRAINT towns_code_department_key UNIQUE (code, department);
+
+
+--
+-- Name: towns_id_key; Type: CONSTRAINT; Schema: public; Owner: re; Tablespace: 
+--
+
+ALTER TABLE ONLY towns
+    ADD CONSTRAINT towns_id_key UNIQUE (id);
+
+
+--
+-- Name: departments_region_fkey; Type: FK CONSTRAINT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY departments
+    ADD CONSTRAINT departments_region_fkey FOREIGN KEY (region) REFERENCES regions(code);
+
+
+--
+-- Name: town_leader_fkey; Type: FK CONSTRAINT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY town
+    ADD CONSTRAINT town_leader_fkey FOREIGN KEY (leader) REFERENCES pony(name);
+
+
+--
+-- Name: towns_department_fkey; Type: FK CONSTRAINT; Schema: public; Owner: re
+--
+
+ALTER TABLE ONLY towns
+    ADD CONSTRAINT towns_department_fkey FOREIGN KEY (department) REFERENCES departments(code);
+
+
+--
+-- Name: public; Type: ACL; Schema: -; Owner: postgres
+--
+
+REVOKE ALL ON SCHEMA public FROM PUBLIC;
+REVOKE ALL ON SCHEMA public FROM postgres;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+
+--
+-- PostgreSQL database dump complete
+--
+

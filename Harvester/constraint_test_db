@@ -1,0 +1,36 @@
+CREATE TABLE primary_key_single(
+pk char(2) PRIMARY KEY
+);
+
+CREATE TABLE default_test(
+defpk integer PRIMARY KEY,
+def1 integer DEFAULT(1),
+def2 varchar DEFAULT'testing',
+def3 text    DEFAULT''
+);
+
+CREATE TABLE primary_key_group(
+pk_group1 numeric(1,0),
+pk_group2 numeric(1,0)
+);
+
+ALTER TABLE ONLY primary_key_group
+    ADD CONSTRAINT test_pk PRIMARY KEY (pk_group1, pk_group2);
+
+CREATE TABLE unique_group(
+uq_group1 numeric(1,0),
+uq_group2 numeric(1,0)
+);
+
+ALTER TABLE ONLY unique_group
+    ADD CONSTRAINT test_uq UNIQUE (uq_group1, uq_group2);
+
+CREATE TABLE foreign_key_test(
+fk1 char(2) references primary_key_single(pk),
+fk2 integer references default_test(defpk)
+);
+
+CREATE TABLE null_test(
+n1 integer NULL,
+n2 double precision NULL default(0.0)
+);
